@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Nov 1 16:35:40 CST 2018
+ro.bootimage.build.date.utc=1541061340
+ro.bootimage.build.fingerprint=LEAGOO/M11/M11:8.1.0/O11019/1539057076:user/release-keys
+persist.sys.usb.config=none

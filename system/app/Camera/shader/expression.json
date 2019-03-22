@@ -1,0 +1,14 @@
+{
+    "param":{
+        "enabletestpt":1,
+        "enablesendevent":1,
+        "look_up_angle":20.0,
+        "look_down_angle":20.0,
+        "look_left_angle":15.0,
+        "look_right_angle":15.0,
+        "open_mouse_adjust":4.0,
+        "open_eye_adjust":4.0,
+        "pout_adjust":0.8,
+        "lips_adjust":7.0
+    }
+}

@@ -1,0 +1,8 @@
+service capi-2-0 /vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
+    user system
+    group system
+    disabled
+    oneshot
+
+on property:soter.teei.init=INIT_OK
+    start capi-2-0

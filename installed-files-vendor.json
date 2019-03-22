@@ -1,0 +1,4812 @@
+[
+  {
+    "SHA256": "3b01fbada45d631dfe0ac7ef618df6890095d42a209aa9534270cf40167f69cd",
+    "Name": "/vendor/lib/libstfaceunlock.so",
+    "Size": 21693080
+  },
+  {
+    "SHA256": "704f655c222db11ba6b1ae9d3791d776b6f65928186e4b1240de7741774b1aee",
+    "Name": "/vendor/lib/libPVROCL.so",
+    "Size": 19859580
+  },
+  {
+    "SHA256": "d5e64ddaed6c6f35d080ffc584ab99fbc4fc43b30f9425ac924bb5ebd9076062",
+    "Name": "/vendor/etc/mddb/MDDB_InfoCustomAppSrcP_MT6739_S00_C767_39_O1_LWTG_V0_1_4_S181029_1_ulwtg_n.EDB",
+    "Size": 14540254
+  },
+  {
+    "SHA256": "262ad677a77bb3f9bb68fdb23ab12c9b7e6caf273efdd74e63a01688c23f98bc",
+    "Name": "/vendor/overlay/framework-res__auto_generated_rro.apk",
+    "Size": 13196311
+  },
+  {
+    "SHA256": "ab7d28c6f68cdea91fa8cffa07182d22da8e861327f8df3548c0e653fb48acd2",
+    "Name": "/vendor/operator/app/InfoHub/InfoHub.apk",
+    "Size": 13119156
+  },
+  {
+    "SHA256": "70b5f6ca2f3a22de06b3094e9ddcaf66c15e2aaca4ff755f3721f918f4a9c19c",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/Model4.bin",
+    "Size": 11588340
+  },
+  {
+    "SHA256": "2c290a7443c03c24f26986ed81b712664c923a2b84626db399fc5b39d9cce52c",
+    "Name": "/vendor/etc/mddb/mdm_layout_desc_1_ulwtg_n.dat",
+    "Size": 7260348
+  },
+  {
+    "SHA256": "4c3ab5d814e731eb8d6571bd56d79215d21567ec06fddafdd3f5f7e4279bbdda",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/Model1.bin",
+    "Size": 6564680
+  },
+  {
+    "SHA256": "c829738928912798c7768a39feba8190bb9ed68fe3624bdf674246b323a9a562",
+    "Name": "/vendor/lib/libcamalgo.so",
+    "Size": 5486376
+  },
+  {
+    "SHA256": "01ddbf8f32481092e121dc5e0222afb067fffe04f432275ea4d9b6e18d07ca3e",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/ubmModel4.bin",
+    "Size": 4841720
+  },
+  {
+    "SHA256": "80dcbd793b654c55e3fff2c1c606a6c5d7e06cc1b07a1ce05facdac7bb46448f",
+    "Name": "/vendor/lib/libcameracustom.so",
+    "Size": 4702876
+  },
+  {
+    "SHA256": "bc36f2513fa7ef7d8480b6b6ed4006472798b320af351fc03b0ec602f1769a5d",
+    "Name": "/vendor/lib/libufwriter.so",
+    "Size": 4040800
+  },
+  {
+    "SHA256": "bdcce533215673c7006f152bcf22a994b906434eb620f70344737c9c75c17eca",
+    "Name": "/vendor/res/images/lcd_test_01.png",
+    "Size": 4026827
+  },
+  {
+    "SHA256": "2aec98dd5e89efa0215b2fbf270e7675d44e2b145f3c60ff5b0efcf304e3df67",
+    "Name": "/vendor/etc/mddb/DbgInfo_LR12A.R2.MP_C767_39_O1_C767_39_O1_LWTG_V0_1_4_S181029_2018_10_29_19_04_1_ulwtg_n",
+    "Size": 3078494
+  },
+  {
+    "SHA256": "3d9b1530d63e2a48cd5237da91d8ba9061dfe6d887decdd5bafc928f36960d73",
+    "Name": "/vendor/bin/spir2cl",
+    "Size": 3022556
+  },
+  {
+    "SHA256": "901cb699ff94baf1292f0607bfd50635ad9702d5770f17488624ef223938355a",
+    "Name": "/vendor/lib/libmnl.so",
+    "Size": 2936596
+  },
+  {
+    "SHA256": "7f90d4db074c4df9825fe9fda4b45fb741c66b71777a54a80953f3dcab0caf00",
+    "Name": "/vendor/lib/libRSDriver_mtk.so",
+    "Size": 2640020
+  },
+  {
+    "SHA256": "b0c0f3e43ccfbe656e9088fbb2766b13806b5315ee58778b6b450d9df223b8a6",
+    "Name": "/vendor/res/images/lcd_test_00.png",
+    "Size": 2101381
+  },
+  {
+    "SHA256": "f88303053dafd5814d2a659f187b5ec5fb49ac2cacd5dfe6c5524547d60117e2",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so",
+    "Size": 2078084
+  },
+  {
+    "SHA256": "45d0fa2bc5c8eeb3170af32d27e8d0b22d1f45a2fbece46e1c7b34956156238c",
+    "Name": "/vendor/lib/hw/audio.primary.mt6739.so",
+    "Size": 2046040
+  },
+  {
+    "SHA256": "9c6583fef487df1133823330719a24483ba319fc5171435587473a0d91c10064",
+    "Name": "/vendor/lib/libwvhidl.so",
+    "Size": 1954764
+  },
+  {
+    "SHA256": "e3899ba939a12fb80a9c15ec3284619bf877b3ca6b96d19e4a2b69fab4e67e37",
+    "Name": "/vendor/res/sound/ringtone.wav",
+    "Size": 1920044
+  },
+  {
+    "SHA256": "9628033ea589a5dfffe31eb6a407cb7ae3d6406b0c020125f555f47551a8d071",
+    "Name": "/vendor/lib/mediadrm/libwvdrmengine.so",
+    "Size": 1916976
+  },
+  {
+    "SHA256": "28cf9d47c442ea5e5b1bb8d0008a0009fd1f868e754c850e15e01e161a39f26e",
+    "Name": "/vendor/lib/libmtk-ril.so",
+    "Size": 1905964
+  },
+  {
+    "SHA256": "2a17ffa21c07b03dd067ebcb47f7f084728c9778db7f97362247e75e2856fb7c",
+    "Name": "/vendor/res/images/lcd_test_02.png",
+    "Size": 1846101
+  },
+  {
+    "SHA256": "3a352e1a7666531209fbe95348e8ef79a4b9918a4f6a47bce4bb8888e766c108",
+    "Name": "/vendor/app/UtClientApiService/UtClientApiService.apk",
+    "Size": 1819464
+  },
+  {
+    "SHA256": "7b1c5fc3048a2c3c955ffb8426a5d3a205668c2f8cb6d9bb24aa285084093089",
+    "Name": "/vendor/bin/hw/wpa_supplicant",
+    "Size": 1485784
+  },
+  {
+    "SHA256": "e1e23a680b2165dfc656f41b19caf9ae39d8cb746810df3857f2d1e702b9e7ca",
+    "Name": "/vendor/bin/mtk_agpsd",
+    "Size": 1475716
+  },
+  {
+    "SHA256": "a4414e558b77ea580bdf8ecc700600a06123ffbce4a92da91252b8efd1aae45a",
+    "Name": "/vendor/app/UtTAManager/UtTAManager.apk",
+    "Size": 1422764
+  },
+  {
+    "SHA256": "6ed9fd5f5fda4c61e38908ac29963b952f5d736c350bd5573c56d9d8c5255813",
+    "Name": "/vendor/lib/libsrv_um.so",
+    "Size": 1406616
+  },
+  {
+    "SHA256": "c8821c1f8e00e92437f8ad74b85652c35ebb6af1a8367f43e15da565b1c00a60",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.4_vendor.so",
+    "Size": 1405748
+  },
+  {
+    "SHA256": "13a66834c3308d6f8d7eaa58a169e753ca1bb8db1db91336bdec711e82a45924",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.5_vendor.so",
+    "Size": 1353820
+  },
+  {
+    "SHA256": "5069f64645ef148753392c8f0fb5da5c56bfe72f7a34539e38454da351d9bc73",
+    "Name": "/vendor/lib/libusc.so",
+    "Size": 1341024
+  },
+  {
+    "SHA256": "939d7afcc330203028ec6e5c9778ba00ba0bb282e28528f4dbe92cdd52614412",
+    "Name": "/vendor/lib/hw/gralloc.mt6739.so",
+    "Size": 1322704
+  },
+  {
+    "SHA256": "0126ad41938b9816b72db9a0618cad3cee8b60acd2558c0a723a0e87eaa3a403",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.6_vendor.so",
+    "Size": 1314140
+  },
+  {
+    "SHA256": "888e0ca01a2895d0d4712c22b860d892ebb72942e17b66dafc12b3bbea86c8be",
+    "Name": "/vendor/bin/volte_ua",
+    "Size": 1283876
+  },
+  {
+    "SHA256": "554d56c2998fba44be7e437d79a8c943c592c5fcaceeb14bb63f6d4d7eb8407e",
+    "Name": "/vendor/firmware/rgx.fw.signed",
+    "Size": 1265664
+  },
+  {
+    "SHA256": "12a20674e4e8cb4603b183b4e25967975fcbca9b57caae029f9448581a1ecb26",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.3_vendor.so",
+    "Size": 1248008
+  },
+  {
+    "SHA256": "cdac00ac5ea1cff7df3589f32581a7f200c6dcd13005504f39d1d74d8b51ff06",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.2_vendor.so",
+    "Size": 1223064
+  },
+  {
+    "SHA256": "12d31f546980040655bc45051a8032d2fed3e329801798fb11ec666b279125d5",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio@2.1_vendor.so",
+    "Size": 1206528
+  },
+  {
+    "SHA256": "69f070fadf4e00dc8c5ace0194d19066cb93158ae83f1d6f213187c03ae9ed8f",
+    "Name": "/vendor/lib/modules/wlan_drv_gen2.ko",
+    "Size": 1201728
+  },
+  {
+    "SHA256": "35742cd345e433071da8e32431a81526815f3d7d88242506aeba78ac489dd588",
+    "Name": "/vendor/lib/egl/libGLESv2_mtk.so",
+    "Size": 1181884
+  },
+  {
+    "SHA256": "33f3adc718887c02275d623a66bcc48cb90b1b2d03198e5445e88bcabd44d077",
+    "Name": "/vendor/lib/libcrypto-ss.so",
+    "Size": 1150976
+  },
+  {
+    "SHA256": "79b960b35774a997a005aaf472f22e0f11c80693fe8ca801b23b5f6ecdf57aba",
+    "Name": "/vendor/lib/libBlurModoule.so",
+    "Size": 1087196
+  },
+  {
+    "SHA256": "da17d26f095765cf6f1769d736c63016a26568abd1a9b4ce3654fafcd3f7c6cb",
+    "Name": "/vendor/etc/selinux/nonplat_sepolicy.cil",
+    "Size": 1071060
+  },
+  {
+    "SHA256": "e531cdf9bc3c9d39af11f30256f7056ef3eebb62fedfb708e31b6efe2301497a",
+    "Name": "/vendor/lib/libfeatureio.so",
+    "Size": 1034148
+  },
+  {
+    "SHA256": "fa748c6bf85c4757857ae5d6f3585bd551ac9a34a15783241be0ede441129861",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/4.pcm",
+    "Size": 960000
+  },
+  {
+    "SHA256": "99de631dd75ff36d592c9cbc0a342a5e3e4f181241a771df993ee88d09f78d98",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/3.pcm",
+    "Size": 960000
+  },
+  {
+    "SHA256": "ed15fe43cd05a89f7b5ae62d798a541be1a4f5a0013d613166362317562e69af",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/2.pcm",
+    "Size": 960000
+  },
+  {
+    "SHA256": "d75eb211372c56856e9929007615c00b29b5b322d9315c7cb887094d397942fd",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/1.pcm",
+    "Size": 960000
+  },
+  {
+    "SHA256": "5d6131bdb97e7de3cd40d3bd0a7b652345bb3d4032dffeb224506c06fdd7a676",
+    "Name": "/vendor/lib/libutinterface_md.so",
+    "Size": 878132
+  },
+  {
+    "SHA256": "e505e39a37b09a646af6258cf12959d5a2bdf98d3fe0d94df51db6d618241b27",
+    "Name": "/vendor/lib/libvcodecdrv.so",
+    "Size": 875660
+  },
+  {
+    "SHA256": "9f5e042ee0f1b75cce811d3008bc825db71ed882821ebe6b3f4ae32c638cb249",
+    "Name": "/vendor/lib/libwebrtc_audio_preprocessing.so",
+    "Size": 844604
+  },
+  {
+    "SHA256": "488e9bc177cff503ef9f62078a5b007ef4c09ba504ab8c3c601e431cdaaeb723",
+    "Name": "/vendor/lib/libglslcompiler.so",
+    "Size": 808760
+  },
+  {
+    "SHA256": "0224301e5f37f716868ac299d753ed4364ed05c45024f7221d842890f2decdf6",
+    "Name": "/vendor/lib/libvc1dec_sa.ca7.so",
+    "Size": 799788
+  },
+  {
+    "SHA256": "b6e4717172bda77548e478a63bfa72b0e378522ecc7e90d89c8d3c14d6f407af",
+    "Name": "/vendor/lib/libcam.hal3a.v3.so",
+    "Size": 775668
+  },
+  {
+    "SHA256": "c302d71b169b34f8d8803dc7999e090510a58fab91d3b999a88ed23e6d0976d2",
+    "Name": "/vendor/lib/libcharon-ss.so",
+    "Size": 733720
+  },
+  {
+    "SHA256": "10969f9b69b4c75d07854d0154963243e3796f1f70fba86676a08132bc47e36f",
+    "Name": "/vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta",
+    "Size": 662982
+  },
+  {
+    "SHA256": "eb4e32fa3e62a46be8882694643bdb19bdd188d4a3e2ad29d8e7c5c04e27da64",
+    "Name": "/vendor/bin/rs2spir",
+    "Size": 645384
+  },
+  {
+    "SHA256": "d43458f691ea1e1f5559acb7c227d164be56ec78ab92a23c580ec9fb3483dce2",
+    "Name": "/vendor/media/PFFprec_600.emd",
+    "Size": 637001
+  },
+  {
+    "SHA256": "d0ccf6599142e082b4985bf89d2cb4183590302c8d0c7762748e5df9963211b3",
+    "Name": "/vendor/bin/volte_stack",
+    "Size": 628400
+  },
+  {
+    "SHA256": "6a233b1d8711556d48a1b298f1ba7fed58490ec8ac469e03125c1cbd508402b4",
+    "Name": "/vendor/lib/modules/wmt_drv.ko",
+    "Size": 627924
+  },
+  {
+    "SHA256": "61b1a48f21596c7ce6a270c37dbc8c876f771afc2f1a836c8595df357c9ef33c",
+    "Name": "/vendor/bin/volte_imcb",
+    "Size": 610776
+  },
+  {
+    "SHA256": "4ed6679c80c2e7d510ef6b8b5b21da8979c1e6c725023dce0feb84e6abff0aa0",
+    "Name": "/vendor/lib/libdpframework.so",
+    "Size": 565764
+  },
+  {
+    "SHA256": "709c3f2b26b34a4984c9d8d68a17732db8554c2f0bc2a4881a66a521c93cd252",
+    "Name": "/vendor/lib/libspeech_enh_lib.so",
+    "Size": 559128
+  },
+  {
+    "SHA256": "b3544aaa7fc9e8ae821f7150e7b2870e44ed3017db6f2b2664ecc71a80b6684a",
+    "Name": "/vendor/lib/egl/libGLESv1_CM_mtk.so",
+    "Size": 534236
+  },
+  {
+    "SHA256": "877b66f7f06c773a79bba5b7830a45c6ad7b27ed58062e38c443406bea89cc1d",
+    "Name": "/vendor/lib/libgybeauty420.so",
+    "Size": 523200
+  },
+  {
+    "SHA256": "a30f57c95d5ed5c57ebe3f3d97170164e98f181dccf0132671c7dc0bb0627446",
+    "Name": "/vendor/lib/libcam.camadapter.so",
+    "Size": 522348
+  },
+  {
+    "SHA256": "84b14fdab6ee3d851df46482b598c2fb170e4973633cbe8c6c58e6d4d080fabe",
+    "Name": "/vendor/lib/libgybeauty422.so",
+    "Size": 518972
+  },
+  {
+    "SHA256": "e5820cbc6d24cca5a168c30bf05de7ff0f7ba3a96a86eacdf48d96478fcabfda",
+    "Name": "/vendor/lib/lib3a.so",
+    "Size": 515808
+  },
+  {
+    "SHA256": "defdcc154f1e06b10ce536a641d78f1dd24e7a0ce2ac2c52702f12ce4978ce42",
+    "Name": "/vendor/etc/selinux/precompiled_sepolicy",
+    "Size": 515778
+  },
+  {
+    "SHA256": "b9403924cde15d88836a647783a3b40625faa5219f03c7aa31f1247d9cbd203b",
+    "Name": "/vendor/lib/libfvaudio.so",
+    "Size": 504372
+  },
+  {
+    "SHA256": "743a8d9d7c14d6c9b85aa8d8b5e0f1a26b68c30ea9d68e67a97b152cbde9775a",
+    "Name": "/vendor/bin/hostapd",
+    "Size": 504232
+  },
+  {
+    "SHA256": "ced7450dbe83dcdfab3ee3f435d7bb3ccaa416aa6087976c14e6a3e003e3e0db",
+    "Name": "/vendor/lib/libstrongswan.so",
+    "Size": 499680
+  },
+  {
+    "SHA256": "fcf69559c473f6b6c417f5ff4882216d6097e89560cf5aac8a15d204db7843f9",
+    "Name": "/vendor/lib/hw/vulkan.mt6739.so",
+    "Size": 493628
+  },
+  {
+    "SHA256": "9d8156f7af8ca27a3429624311573d3449aec5975a58febf4ca89650ecec2ec0",
+    "Name": "/vendor/lib/libvolte_core_shr.so",
+    "Size": 485060
+  },
+  {
+    "SHA256": "0f623e41670d84efe16ee678d07b8d7cdf8eff9d77f7a0e69426f17898557a5b",
+    "Name": "/vendor/lib/libcam.metadataprovider.so",
+    "Size": 472364
+  },
+  {
+    "SHA256": "33a8d50ccae0e9212528581f67f3c91235722f72ffb23bfbd6a2380fa86879ec",
+    "Name": "/vendor/lib/libh264dec_se.ca7.so",
+    "Size": 466932
+  },
+  {
+    "SHA256": "62e8f5d0640976b20c0dd2219d932bc9e221323c7c0dabc04fd043666fe8beae",
+    "Name": "/vendor/firmware/WIFI_RAM_CODE_6755",
+    "Size": 444160
+  },
+  {
+    "SHA256": "448d2f22a2690a38fdff4f123af1ec7d7d76812e65cb93e4508f477498483544",
+    "Name": "/vendor/lib/librilfusion.so",
+    "Size": 436052
+  },
+  {
+    "SHA256": "ee7203bcedbd1f48e2a657dc4c66ceb62ab70f788e5e638fc026d1beb7258583",
+    "Name": "/vendor/lib/libMtkSpeechEnh.so",
+    "Size": 435172
+  },
+  {
+    "SHA256": "cb970aed5e2b48bc2b5e5bc2eb41fdee34555ed4dab26b902d7f01bdcd130a9f",
+    "Name": "/vendor/lib/hw/hwcomposer.mt6739.so",
+    "Size": 428260
+  },
+  {
+    "SHA256": "9cb809aa3c457732813e85d42151b2fd27be4cf54cbce0f3235167f73aa1d0e3",
+    "Name": "/vendor/lib/libh264dec_sa.ca7.so",
+    "Size": 426272
+  },
+  {
+    "SHA256": "cc67f640b988ff2c7418fbc038628b6ff78daf1f6e87ec93949972fc67f8fedf",
+    "Name": "/vendor/media/LMspeed_508.emd",
+    "Size": 415875
+  },
+  {
+    "SHA256": "b4f365fa8344d44a04a148cac9ab974dcc4a932be3b5a7cfc989b7764cc41c07",
+    "Name": "/vendor/bin/toybox_vendor",
+    "Size": 414240
+  },
+  {
+    "SHA256": "bcf0eea409e2ff8a4730ed1ce0d7be7956c0cbda1e804bb6ea96302a668428f4",
+    "Name": "/vendor/lib/libcam.camnode.so",
+    "Size": 413852
+  },
+  {
+    "SHA256": "7e469e84e2de6d0cba564d2e6530c5d772f3d31a0fc6e4d88d4dc13fecc7d33d",
+    "Name": "/vendor/lib/libfprint-x32.so",
+    "Size": 413644
+  },
+  {
+    "SHA256": "fe609cf12c8ef75ffe86e800763868892fc169307bb8da7e3b66a3ec27a6ec29",
+    "Name": "/vendor/lib/libHEVCdec_sa.ca7.android.so",
+    "Size": 411080
+  },
+  {
+    "SHA256": "8bc862ba274c57c8255b21aeb963deb8b48e7e403d6ba65c051c7c0d80f16c28",
+    "Name": "/vendor/lib/libh264dec_sd.ca7.so",
+    "Size": 409620
+  },
+  {
+    "SHA256": "b0a94901a980127bd105bda7acb0e59183cb0f8531fcae302b5f63f701664dc4",
+    "Name": "/vendor/bin/aee_aedv",
+    "Size": 385848
+  },
+  {
+    "SHA256": "6557efeb721a0f4c69e82916a3e6855050df6f9e6016f9e821b70432b300fe18",
+    "Name": "/vendor/lib/libvp8dec_sa.ca7.so",
+    "Size": 366980
+  },
+  {
+    "SHA256": "1ab892af8d01696d9ff566af5cd6cf3f165aced84e47388b185512de3bf8b31d",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.dfps@1.0_vendor.so",
+    "Size": 354356
+  },
+  {
+    "SHA256": "4b60a2ef85b8709faf9c642b94cae056e57455fbcd4564ade213fa3a56de66be",
+    "Name": "/vendor/lib/libvp9dec_sa.ca7.so",
+    "Size": 346864
+  },
+  {
+    "SHA256": "5b777ce2c877d608797067ef8421dc89b1ecf2267e78442bef6b51758b9b5d6e",
+    "Name": "/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin",
+    "Size": 319760
+  },
+  {
+    "SHA256": "0514185eab09b685d2b21329543e55c7a926ed118764d86a5bded14954aa0868",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so",
+    "Size": 319116
+  },
+  {
+    "SHA256": "0edcbb6044a60a5f1d8886bd2bdb9af57c48fa4da338b1dd79647caf9cdeb773",
+    "Name": "/vendor/lib/libjpeg-alpha.so",
+    "Size": 308996
+  },
+  {
+    "SHA256": "698b78a899bc9f2ff294cc7ba01bfb0644c268bfbcf310a9632cb7de14169095",
+    "Name": "/vendor/lib/libssl-ss.so",
+    "Size": 303072
+  },
+  {
+    "SHA256": "6efe069e0f516179e3b147482644e5e958662eed59fe25ce622499eaec547daf",
+    "Name": "/vendor/lib/libcurl_xcap_md.so",
+    "Size": 296492
+  },
+  {
+    "SHA256": "65b849b6289a5dae36c509b2b37eb83e451e91e0a34f95fbd18133eec4a547ba",
+    "Name": "/vendor/lib/libcam.halsensor.so",
+    "Size": 288900
+  },
+  {
+    "SHA256": "d9e8cedf196462b7f4784ab44dadd638e677b32c7a7501bb7c632eee7d38cceb",
+    "Name": "/vendor/lib/libvp8enc_sa.ca7.so",
+    "Size": 273332
+  },
+  {
+    "SHA256": "eb8b1195a704b6a933d99a209c7acbbe71a632cbc1cf4086bcf5bf8fcc7e6d71",
+    "Name": "/vendor/lib/libh264enc_sa.ca7.so",
+    "Size": 269156
+  },
+  {
+    "SHA256": "ce7f6f0cf8c06467f54d7c4cc3960710f749e01be4f1c3ce3a53b757366f8077",
+    "Name": "/vendor/lib/libcam.camshot.so",
+    "Size": 262920
+  },
+  {
+    "SHA256": "932609fd7c08e10201ca94216140bb3138a7aa5b5d29e0133f9f4635346bcabb",
+    "Name": "/vendor/app/LocationEM2/LocationEM2.apk",
+    "Size": 262225
+  },
+  {
+    "SHA256": "ced2a247ea591251f89e5fdd798ef6209888eaee30b49f097027c06b8ba736ef",
+    "Name": "/vendor/lib/modules/met.ko",
+    "Size": 261660
+  },
+  {
+    "SHA256": "c8129cd502d8015573174e56a84a40527508e04726284a3d6582a826c4a54440",
+    "Name": "/vendor/lib/libimageio_plat_drv.so",
+    "Size": 250652
+  },
+  {
+    "SHA256": "1c8454441bb9e2187e2e8e6ca0b87ad9067b60742d7fd6aad1a363e5e3a1895d",
+    "Name": "/vendor/lib/libhevce_sb.ca7.android.so",
+    "Size": 248348
+  },
+  {
+    "SHA256": "910284a175ca90ac175dced2a94145329fc93d765da392109c95d44596c3c4d9",
+    "Name": "/vendor/bin/mnld",
+    "Size": 241192
+  },
+  {
+    "SHA256": "796b38314b80adf955169e3793bac88480d163355947d06d27d5f9a398cd6445",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so",
+    "Size": 230544
+  },
+  {
+    "SHA256": "80e4a895eecb1c18562ac02643f2251a9396361e8ceeaa0f22dcaada7b8ef93c",
+    "Name": "/vendor/lib/libmtkjpeg.so",
+    "Size": 230100
+  },
+  {
+    "SHA256": "180946a7dec4016d9b82cd9d6f07da7dc62de850f7db159c747a520e79190e2b",
+    "Name": "/vendor/lib/libacdk.so",
+    "Size": 224548
+  },
+  {
+    "SHA256": "507d383e7ec1e48de7314a8db995e0e5c235b9f1c6def51eb41842e43db31320",
+    "Name": "/vendor/lib/libril.so",
+    "Size": 223528
+  },
+  {
+    "SHA256": "70fd02c3d03e3826638ea6d1110a88ac93ca8953b0c90c4d42625eefdceddaca",
+    "Name": "/vendor/lib/libcam.iopipe.so",
+    "Size": 223172
+  },
+  {
+    "SHA256": "cf6b180daa49ccf9dea38bc104298c3c6de072a3772cdf9ead37afd9550b89e3",
+    "Name": "/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so",
+    "Size": 219516
+  },
+  {
+    "SHA256": "e3ed95b36f450d74e77456d5184a718bc56edca595e8b957034dca85f697bcce",
+    "Name": "/vendor/lib/libMtkOmxVdecEx.so",
+    "Size": 215860
+  },
+  {
+    "SHA256": "3a23f763b43a28c964a43ec891857f07388447204de77c2479966814fc85ff13",
+    "Name": "/vendor/lib/libIMGegl.so",
+    "Size": 214780
+  },
+  {
+    "SHA256": "52ef80f53243b732947b9184231919a1b8b115c90f06ede07a596c83f4ccae54",
+    "Name": "/vendor/lib/libutinterface_custom_md.so",
+    "Size": 214500
+  },
+  {
+    "SHA256": "24c3dde3a161f538c7f84037d835ee70d630ac1bd8f4daac28ea4634c7bc9b05",
+    "Name": "/vendor/lib/libcamdrv.so",
+    "Size": 214340
+  },
+  {
+    "SHA256": "18e7c0b708bd48558952ac800c1b80dadd501e890f75a83cb620754f3280cf14",
+    "Name": "/vendor/etc/mddb/MDDB.META_MT6739_S00_C767_39_O1_LWTG_V0_1_4_S181029_1_ulwtg_n.EDB",
+    "Size": 209761
+  },
+  {
+    "SHA256": "2cda60a0a8132410c056764a830ce9680aeecc01af2e60a27f54460684a8ddf1",
+    "Name": "/vendor/lib/libcam.client.so",
+    "Size": 206728
+  },
+  {
+    "SHA256": "5154e15edbc224767f0e80e0b5a826ee8497dd6ad53eeb8a6d1b9f63ed481c73",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so",
+    "Size": 203848
+  },
+  {
+    "SHA256": "c8f278d51bfd6123a3abaf4ac88858b0890c660f1b8fe4f457386760442fa6e8",
+    "Name": "/vendor/bin/sh",
+    "Size": 200116
+  },
+  {
+    "SHA256": "004d64e328a0940af0e2e31fa0f6fa80a7f01ae3d92bc023d4cc2eb9c2bfd9f6",
+    "Name": "/vendor/lib/libcam.paramsmgr.so",
+    "Size": 200088
+  },
+  {
+    "SHA256": "37dd1ba2be370e587a565732819dd0547588c5accc85111bdd6ff148a0964d24",
+    "Name": "/vendor/lib/libcurl-ss.so",
+    "Size": 198180
+  },
+  {
+    "SHA256": "2e8de1a29d9701f2ea261aada76e7d29141a2f420a282a8d2b047e4ef11a17cd",
+    "Name": "/vendor/lib/libmp4enc_xa.ca7.so",
+    "Size": 197464
+  },
+  {
+    "SHA256": "14b317d3ca7c057fc98afbed22a055de98407d1f32729d813394fe2b7fb80e48",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so",
+    "Size": 196512
+  },
+  {
+    "SHA256": "b7a1b30e7b495aa8c9af24cd7e517ccfbe0aeb8f2045cd339c1668901a2371d5",
+    "Name": "/vendor/etc/gallery/Gallery2PqTool/Gallery2PqTool.apk",
+    "Size": 196066
+  },
+  {
+    "SHA256": "b3417ef295baadded8792aaad704a43a6ad5cd8fe3fcce0f0b7d06ce9095d586",
+    "Name": "/vendor/lib/libmtkcam_device1.so",
+    "Size": 192248
+  },
+  {
+    "SHA256": "7563654f348e69e9917a1014de5bd39d6848a7453e9bcd1beccbd8dca8cf69b7",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so",
+    "Size": 190516
+  },
+  {
+    "SHA256": "9a6dbf5cafc609b212f83fb710d48c04b9558f79a984f5f88a18a12dffe2f7c0",
+    "Name": "/vendor/lib/libfgauge_gm30.so",
+    "Size": 189556
+  },
+  {
+    "SHA256": "5699e9ef706ce3bb57edb76b71183e77722c4ce01742715ff43885e2f07bc168",
+    "Name": "/vendor/lib/libgybeauty.so",
+    "Size": 186024
+  },
+  {
+    "SHA256": "4d4929b74617fa93e3f65fba32314ec9b48059c56197a6ab0caf03dc4cea2f21",
+    "Name": "/vendor/bin/hw/android.hardware.wifi@1.0-service",
+    "Size": 184260
+  },
+  {
+    "SHA256": "ef21898c048d960d4316f38e664e4a8132f887a1298e6fb5dcbc6e74c14f19bd",
+    "Name": "/vendor/bin/aee_dumpstatev",
+    "Size": 181884
+  },
+  {
+    "SHA256": "ba360f55f1642b80769225cd973cb514b21f632fea928143c58bdfa20dd98054",
+    "Name": "/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin",
+    "Size": 180207
+  },
+  {
+    "SHA256": "d3830186e8c46d5cbc2d424369b0f903a8b3779a1e5140e36ddcb718f0fc67d3",
+    "Name": "/vendor/lib/libccap.so",
+    "Size": 173692
+  },
+  {
+    "SHA256": "abb2c7d52d715336aaf0503902cfda4113cda4448d2610fc1c0369fe8148020e",
+    "Name": "/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so",
+    "Size": 171216
+  },
+  {
+    "SHA256": "5f818bfe63e2abff89e0ce72e284f8c102af5e9cd4963cc29479be8f29914e02",
+    "Name": "/vendor/thh/ta/edcf939535189067614cafae2909775b.ta",
+    "Size": 170973
+  },
+  {
+    "SHA256": "3b9c0d895020d57a06c331446be0c6bce2ef24e78cbe054e7270b8778a29982a",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so",
+    "Size": 169788
+  },
+  {
+    "SHA256": "6efa0b9983b6487258facde410df2e6ffc72929526762180ce08959473cfe605",
+    "Name": "/vendor/lib/libmp4enc_sa.ca7.so",
+    "Size": 166540
+  },
+  {
+    "SHA256": "4b666a956739cb4c9728637e70e58481d7bb966a5998b31516e3b39274d3602f",
+    "Name": "/vendor/lib/libpq_prot.so",
+    "Size": 165960
+  },
+  {
+    "SHA256": "ab36730cc22edb1c9b0aca6e50587f5b2bf7040361f31acb0b9571d6822d35e0",
+    "Name": "/vendor/lib/modules/fmradio_drv.ko",
+    "Size": 165168
+  },
+  {
+    "SHA256": "3c1bee655edce57040147db465ee4fdfbd206d9c85d933fdeaf53b2133aa8961",
+    "Name": "/vendor/res/sound/testpattern1.wav",
+    "Size": 162770
+  },
+  {
+    "SHA256": "5cffe4befcc6c242ff889e6f79a207501c1fd6912ab6ea737b1fb056089a57d9",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so",
+    "Size": 161972
+  },
+  {
+    "SHA256": "188415f4d85705ce87fcaad875b87a4009117ba879936ec552ea323b53e7066f",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/ubmModel2.bin",
+    "Size": 161652
+  },
+  {
+    "SHA256": "8d0c9378cfb1e802646f51771597d69dc1e8859b0eee744cc4e6b5ad8faf5d2f",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/ubmModel1.bin",
+    "Size": 161652
+  },
+  {
+    "SHA256": "da088a91bc86bd4aae2e13ebf851c757c510a3d3731e0580b34f9a5c117b21ec",
+    "Name": "/vendor/res/sound/CADetected.ogg",
+    "Size": 158312
+  },
+  {
+    "SHA256": "d283e564a2948a49795d63e54e00dc121a0cf36e97030cad716ea5d43e31876b",
+    "Name": "/vendor/res/sound/CA2CA.ogg",
+    "Size": 158312
+  },
+  {
+    "SHA256": "4c78792ca9aab3dc3cea70f97280d284f05a61d6829450b9677359278a9bd02f",
+    "Name": "/vendor/bin/mfv_ut",
+    "Size": 158072
+  },
+  {
+    "SHA256": "d6be99296dfacce1ee193a6564043bc7c5d7248947a2ac8d0538c43a60507d3f",
+    "Name": "/vendor/bin/bip",
+    "Size": 157240
+  },
+  {
+    "SHA256": "0152af1b769452be139d2433a485e16d9d9c93c7120153839ebfc76dd01b84c6",
+    "Name": "/vendor/lib/libaudio_param_parser-vnd.so",
+    "Size": 156988
+  },
+  {
+    "SHA256": "8234e5d6688a852fb3e1cb1b4c25967ff705a5926681883a6e7fe336671dc599",
+    "Name": "/vendor/lib/libMtkOmxVenc.so",
+    "Size": 153916
+  },
+  {
+    "SHA256": "f466e50b6ca8f60f527a96dc2e8bbf03f4318f7268f584600be4e204868c76f9",
+    "Name": "/vendor/bin/epdg_wod",
+    "Size": 153156
+  },
+  {
+    "SHA256": "762e8077df8cb71620cade165c47e09040faa31e48c324843d2691b7b7e3df6c",
+    "Name": "/vendor/bin/volte_imsm_93",
+    "Size": 153152
+  },
+  {
+    "SHA256": "b78badb5c77dd256402db29adac0447a3f188c4ee67e82b7f0132bd8404dae9a",
+    "Name": "/vendor/lib/libmtkcam_imgbuf.so",
+    "Size": 149088
+  },
+  {
+    "SHA256": "74819a50f46f74d8564058461c9de50e3c5477f2c83c57fb334784d066c5cacd",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so",
+    "Size": 148528
+  },
+  {
+    "SHA256": "6babd89a9ce5b672be754a857c380cd79315220e2ba2c46003bebe1f3fc0b331",
+    "Name": "/vendor/bin/ccci_fsd",
+    "Size": 148004
+  },
+  {
+    "SHA256": "8d91e393a2a61d2d2ceeab9207199fd0c701603933b2ca783dd65681a30b3ba7",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so",
+    "Size": 143680
+  },
+  {
+    "SHA256": "8b2aa2b910f041f5b9a0d26929a43c4e89cf111c7b97a5acac480e4e53d0b236",
+    "Name": "/vendor/etc/mddb/MDDB.META.ODB_MT6739_S00_C767_39_O1_LWTG_V0_1_4_S181029_1_ulwtg_n.XML.GZ",
+    "Size": 138326
+  },
+  {
+    "SHA256": "08fdc2833bc16ed81005a02ea3f2738bd72cbdec48a5e01d64be39f2f04f5c38",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.gnss@1.1-impl.so",
+    "Size": 133944
+  },
+  {
+    "SHA256": "c9d332b62a3ef6075dfcbfb3af090f346f3c2c46069b5abf280e42e586b47e44",
+    "Name": "/vendor/etc/gallery/Gallery2Gif/Gallery2Gif.apk",
+    "Size": 131441
+  },
+  {
+    "SHA256": "bf6523b90ac2e57ac9f88f3911eda506bb1e98153c94e5899f147b2b03752730",
+    "Name": "/vendor/lib/hw/sensors.mt6739.so",
+    "Size": 130220
+  },
+  {
+    "SHA256": "f9f96059868ba9cfcd9d16fda1620a113b698aa64d97abb1051db0910b026516",
+    "Name": "/vendor/lib/libmtkcam_metadata.so",
+    "Size": 129992
+  },
+  {
+    "SHA256": "512134a0097e90f001d6ccb7f45122531a9fac68f7151df599f6e50fac55f853",
+    "Name": "/vendor/lib/libhwc2on1adapter.so",
+    "Size": 126340
+  },
+  {
+    "SHA256": "b0bddb5f8f51a0bcfc57632a2b5432ca8420a4e5a56d0b6c20a13d3f9b36784f",
+    "Name": "/vendor/lib/libfeatureiodrv.so",
+    "Size": 125324
+  },
+  {
+    "SHA256": "d14b560581abdde31825c86e9d64f21ed48593255348eaea064946f23ac16ad8",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.tface@1.0_vendor.so",
+    "Size": 118956
+  },
+  {
+    "SHA256": "d91a614ef85b80aebd2fce30efcc06962b24926165b6a4e85ab6094bdfaa44fa",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so",
+    "Size": 118744
+  },
+  {
+    "SHA256": "d36b886d4d5ee9c218295d2b8f3efa01eb374dd401557ad57fdfaa1b762ae232",
+    "Name": "/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so",
+    "Size": 117248
+  },
+  {
+    "SHA256": "36df6b028e32f5c01230517ad307f7c5ab833f1f463717161cbc818a2104aa07",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so",
+    "Size": 116324
+  },
+  {
+    "SHA256": "eeda70d86c2c5b0b76dba5368607aeb399a82edd5c546c863c9e992f0e86a785",
+    "Name": "/vendor/lib/libMtkOmxVorbisEnc.so",
+    "Size": 116028
+  },
+  {
+    "SHA256": "8623673b0841b8e0311ab00318cb059791a0b730ca1f889e99037a8327c3f7db",
+    "Name": "/vendor/lib/libimageio.so",
+    "Size": 113144
+  },
+  {
+    "SHA256": "541f9ad89e578dd07705421138a38f8a0c6ff73113206bceb569c338f270014e",
+    "Name": "/vendor/lib/libnvram.so",
+    "Size": 112260
+  },
+  {
+    "SHA256": "d4eed11783084041d122f16ade6cec8cc55d357152d8498888e937752b11f5be",
+    "Name": "/vendor/lib/vendor.microtrust.hardware.capi@2.0_vendor.so",
+    "Size": 105912
+  },
+  {
+    "SHA256": "53a1d0630601eeff59ee399fffd82c6c3a4375262d0f218bb4ec6a2d6771d8f3",
+    "Name": "/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so",
+    "Size": 104960
+  },
+  {
+    "SHA256": "e0b20e0e05f84a22dbc1c991107f5a94d857331178e98121ee3741a30480ec02",
+    "Name": "/vendor/lib/libMtkOmxMp3Dec.so",
+    "Size": 103284
+  },
+  {
+    "SHA256": "5d4a4314c2db25cc78039fb09cfd1927f3cb4accff89b9a79296141aec3be18b",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0_vendor.so",
+    "Size": 101660
+  },
+  {
+    "SHA256": "3e44c84156dee0babb4f617eae3dce3780b6acef486158ba78793b5a1566687a",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1_vendor.so",
+    "Size": 101280
+  },
+  {
+    "SHA256": "ff1b473844409c99b97b2f836599dc202cbe6513351849846611b497ba29dd3b",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0_vendor.so",
+    "Size": 101124
+  },
+  {
+    "SHA256": "8b2414cfe1b4d3925526beaa13cf6141976d22868cc9c48a1c37e4c8bc29acab",
+    "Name": "/vendor/lib/libaedv.so",
+    "Size": 99824
+  },
+  {
+    "SHA256": "395fa3aaf1a958e4adf91c8707b02e0121e1963d50a2c352fe4c17d6c52ee308",
+    "Name": "/vendor/lib/libblisrc32_vendor.so",
+    "Size": 98404
+  },
+  {
+    "SHA256": "b83911a24215c380409c44ed5e77909852feb6c6b53728b906d825377a16cd61",
+    "Name": "/vendor/lib/vendor.microtrust.hardware.thh@2.0_vendor.so",
+    "Size": 97376
+  },
+  {
+    "SHA256": "bd02517e36312c1f6db076bc4e27bf4dddf775c20dbd246dacc43eb4b34e6ea2",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0_vendor.so",
+    "Size": 97112
+  },
+  {
+    "SHA256": "83885a869b7897a6012b409a08e1f324ccc61fb039a63925b1c4bc05344e1dfc",
+    "Name": "/vendor/lib/libhydra.so",
+    "Size": 96536
+  },
+  {
+    "SHA256": "6bad465df734a8f4a7448edf9d66c70c72b965dceed260ee7e0d977170befd8d",
+    "Name": "/vendor/lib/libwifi-hal.so",
+    "Size": 94748
+  },
+  {
+    "SHA256": "8660079c67744b9f02c54874fc170356f080859d15624a5c5198d660a3b5d091",
+    "Name": "/vendor/etc/gallery/Gallery2Raw/Gallery2Raw.apk",
+    "Size": 94024
+  },
+  {
+    "SHA256": "92bad27769abb65f4485545662d24e0609d87c9fc2d59eba198adc94c96fb3b9",
+    "Name": "/vendor/lib/libPVRScopeServices.so",
+    "Size": 91812
+  },
+  {
+    "SHA256": "0eb42996cc2102f587cc206afea043a698e577709553ff44b669efdd80fad854",
+    "Name": "/vendor/lib/libperfservice.so",
+    "Size": 91472
+  },
+  {
+    "SHA256": "fa34ca0b45d38ec47bfe1de1847af1a19843aa69e485326119d11f45827cade2",
+    "Name": "/vendor/bin/wpa_cli",
+    "Size": 90728
+  },
+  {
+    "SHA256": "4e8a80be0d1fc8168072344eb2242ec1c6a9392dae7aa475a32655dd531386c7",
+    "Name": "/vendor/lib/libcamalgo.utility.so",
+    "Size": 90724
+  },
+  {
+    "SHA256": "61edaba761755445f665a95fec6de937a490b7e7740a78ddeefc46ae258e3da7",
+    "Name": "/vendor/bin/ccci_mdinit",
+    "Size": 90424
+  },
+  {
+    "SHA256": "8e70d5b59540858e3d907d3d9fc52a3b9a00d7a3c2db4864cc47440d4295e2e7",
+    "Name": "/vendor/lib/libfile_op.so",
+    "Size": 90152
+  },
+  {
+    "SHA256": "d73ae9e740cadedd0d7510250246999a82aed182bd2127b3e9dac1a13605c011",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so",
+    "Size": 88640
+  },
+  {
+    "SHA256": "4922d54eb27abf4f700692111e29c9b7288310bccccaddd7484e9aae5c8beffa",
+    "Name": "/vendor/lib/libpq_cust_base.so",
+    "Size": 85680
+  },
+  {
+    "SHA256": "b3f941ba718a70610b39dbb2e1d958a2bbab5960f8f40894a325ced927f4efc5",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so",
+    "Size": 84648
+  },
+  {
+    "SHA256": "cbc972c7922abaf24597c3c0c4b48d0248a427dbd10e82115774f51e560926bd",
+    "Name": "/vendor/lib/vendor.mediatek.hardware.netdagent@1.0_vendor.so",
+    "Size": 84396
+  },
+  {
+    "SHA256": "09b5be2f5b3db48eb05524a9401174a992409f51427df8cf421a061ba6579f00",
+    "Name": "/vendor/lib/libcam_utils.so",
+    "Size": 83984
+  },
+  {
+    "SHA256": "5d593e0aee684ef4cd0ae7e7ce1b8473ebd089718e824fc289e61e0da8131f07",
+    "Name": "/vendor/etc/gallery/Gallery2Drm/Gallery2Drm.apk",
+    "Size": 83688
+  },
+  {
+    "SHA256": "ecad8df5c4f690bf7ec67adebae5de2a99ea222e47903a57c6702fc31923bce4",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so",
+    "Size": 83004
+  },
+  {
+    "SHA256": "6fb7f0430cfd65a6c6587b66ebeadfc5aef2d773e6fbbba2d5c0b9d422e6da63",
+    "Name": "/vendor/etc/gallery/Gallery2Pq/Gallery2Pq.apk",
+    "Size": 82387
+  },
+  {
+    "SHA256": "5a2acb7b4f118ab4b53ebdfeb8a9d2c284e997c1af49027141a546f08d60869c",
+    "Name": "/vendor/bin/hw/android.hardware.broadcastradio@1.1-service",
+    "Size": 82168
+  },
+  {
+    "SHA256": "16dca5890825a8bb17240c04ceee619238b70a766aa9ff8058d9091b0c459a03",
+    "Name": "/vendor/lib/libreference-ril.so",
+    "Size": 79852
+  },
+  {
+    "SHA256": "4251202d71ca5505e13532470a123f979b599ff0fc7c6a16c1e29f7fddfd2a32",
+    "Name": "/vendor/bin/starter",
+    "Size": 79616
+  },
+  {
+    "SHA256": "c338d12133c16b7e2ad2627e015c8ffa09b6d76e7ac01ca75a8140f6fe46c9c3",
+    "Name": "/vendor/lib/libmtkcam_stdutils.so",
+    "Size": 79612
+  },
+  {
+    "SHA256": "273f5ab5a4f660c209f6a463b3b3cbed1cb46e9c6a809837da3c304f9e5b0cff",
+    "Name": "/vendor/lib/mediacas/libclearkeycasplugin.so",
+    "Size": 79596
+  },
+  {
+    "SHA256": "5caca52c5e1f65a7850e39abe305c1e811bd8afd8cdfafdd7c8a412597583588",
+    "Name": "/vendor/lib/libcam.device1.so",
+    "Size": 79424
+  },
+  {
+    "SHA256": "03c44423c90b77704081bebb669079a427374ba35509b6c6352ef906ae2c7a3c",
+    "Name": "/vendor/lib/libvcodec_utility.so",
+    "Size": 79152
+  },
+  {
+    "SHA256": "845b478bb5bb5f99cdb6733d8f87d20f98a7d695a309ea74379952cb382c4723",
+    "Name": "/vendor/lib/libmtkcam_fwkutils.so",
+    "Size": 78308
+  },
+  {
+    "SHA256": "01b7d600a2e0a141b04eddde7c4dd6046b2530caf13731df0d389edefa444b0d",
+    "Name": "/vendor/bin/gsm0710muxd",
+    "Size": 77936
+  },
+  {
+    "SHA256": "a2b478be72c3acb2d9006ebc0586b75e4c1daa19a3f03846f159d07b14300d85",
+    "Name": "/vendor/lib/libcustom_nvram.so",
+    "Size": 77596
+  },
+  {
+    "SHA256": "154eb97dc62351ce50f03739d264bde50f3b89df13a3e6380aa4b2bf8be7e9a6",
+    "Name": "/vendor/lib/libcam.jni.lomohaljni.so",
+    "Size": 77564
+  },
+  {
+    "SHA256": "8b4abb00d0017a88dd1a1992a1b09ae94fa20d488b0c702944354ad86b930116",
+    "Name": "/vendor/lib/libminijail_vendor.so",
+    "Size": 74444
+  },
+  {
+    "SHA256": "f857d8e11d0e23de2ad59b60e07fb083c7e141440b856482381a75148df19191",
+    "Name": "/vendor/lib/libClearMotionFW.so",
+    "Size": 74228
+  },
+  {
+    "SHA256": "01ae0db4ff23b4a1cb14afd656bb1cf5c7da4d22a860e92feebb500d08be1c13",
+    "Name": "/vendor/lib/libBnMtkCodec.so",
+    "Size": 74220
+  },
+  {
+    "SHA256": "c7d6e421b20988b8df5f340e7f1be2db8118101b3efc36ebb921121f94a10e25",
+    "Name": "/vendor/lib/hw/android.hardware.drm@1.0-impl.so",
+    "Size": 71516
+  },
+  {
+    "SHA256": "fa85dc421b2a4a26dacb6ceee17da85be6f6ff75f1d0add5c14fe92c9d985c3d",
+    "Name": "/vendor/lib/libbessound_hd_mtk_vendor.so",
+    "Size": 71356
+  },
+  {
+    "SHA256": "48e097f15ea70cdcffb3fec52fcd20a6c74fa842af98e3df83e1003f5504e140",
+    "Name": "/vendor/bin/wfca",
+    "Size": 71232
+  },
+  {
+    "SHA256": "b4f90fc83aadeb8a75302166966653a867fe6cb35259c8dabd5a9aab4517e4f5",
+    "Name": "/vendor/lib/libn3d3a.so",
+    "Size": 69912
+  },
+  {
+    "SHA256": "ac65dcccd02a2db7d8985d711efa2a27fb273e97ea54cb3cd6b78be00d6a662c",
+    "Name": "/vendor/lib/soundfx/libbundlewrapper.so",
+    "Size": 69112
+  },
+  {
+    "SHA256": "e957798e79fa7e2cb2ca0bca8ebdea6bc76f221b54439d9e5ef4678ec5b47289",
+    "Name": "/vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta",
+    "Size": 68117
+  },
+  {
+    "SHA256": "a868749ac46db1dabcba016b9d0c04c32e0fa1552a4a9a1f23400c5bbcd283f8",
+    "Name": "/vendor/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so",
+    "Size": 67076
+  },
+  {
+    "SHA256": "61b2738eb4456091666c319f4bf5288c4e3a7a0441a0ae9a745134feef8e7369",
+    "Name": "/vendor/lib/lbs_hidl_service-impl.so",
+    "Size": 66828
+  },
+  {
+    "SHA256": "d264197a67192bfa59c2ec9665e8fcf1105d923bac25ddef3b29f76bf67105d2",
+    "Name": "/vendor/app/LPPeService/LPPeService.apk",
+    "Size": 64488
+  },
+  {
+    "SHA256": "8b9965314ed5372c8640970668e6cdde1e32eb8599047d6149ea192fce4956a1",
+    "Name": "/vendor/lib/libMtkOmxRawDec.so",
+    "Size": 62800
+  },
+  {
+    "SHA256": "eb6893b3deaa3145bea02d2f9f113938572346264651faa7d1a3704e5d4d4999",
+    "Name": "/vendor/lib/libDR.so",
+    "Size": 62648
+  },
+  {
+    "SHA256": "83ea5a46a163a31ee3c24a5f99d736fa3163c4b395e50bfb106ea00e630021d9",
+    "Name": "/vendor/etc/init/hw/init.mt6739.usb.rc",
+    "Size": 62617
+  },
+  {
+    "SHA256": "c0ee5bb1743479120b7a7f0e2f495247e69d166cdfe430bc22bbe9b7b24867e4",
+    "Name": "/vendor/lib/libMtkOmxApeDec.so",
+    "Size": 62416
+  },
+  {
+    "SHA256": "17d8731fc1133076c557fe9d1b559a3e89949bc78592a7d9b49b6f7335ed767b",
+    "Name": "/vendor/lib/libMtkOmxGsmDec.so",
+    "Size": 62384
+  },
+  {
+    "SHA256": "56db7f2728fe02d71dda70dcd45d8f3d5c7808263b6da0056480f6780df6edd5",
+    "Name": "/vendor/lib/libMtkOmxAdpcmDec.so",
+    "Size": 62060
+  },
+  {
+    "SHA256": "946ac1f5aafa872db3ad32d7978e53d0958dedd1bfb60ee6fb67c41dd2a3c513",
+    "Name": "/vendor/lib/hw/gps.mt6739.so",
+    "Size": 59048
+  },
+  {
+    "SHA256": "4cda7a06960fdf0ebd1d4422ce5fb1e01b377b4fbdb53e26e3f1247fe0732db6",
+    "Name": "/vendor/app/AutoDialer/AutoDialer.apk",
+    "Size": 58738
+  },
+  {
+    "SHA256": "2317a87252c423bcc67dec7cea4138c4b15072d84e30cf6209b680ceab497752",
+    "Name": "/vendor/lib/libudf.so",
+    "Size": 58720
+  },
+  {
+    "SHA256": "8e7ea037da556abf408b10014ad44fee796a67a34faac403ff31efe6d33698d7",
+    "Name": "/vendor/lib/libdrm.so",
+    "Size": 58684
+  },
+  {
+    "SHA256": "c0641a768a46a49c1c356d30fc4f2d3a507baa78b8eedab905174986e0db3497",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so",
+    "Size": 58340
+  },
+  {
+    "SHA256": "3f437f0cc7dbc803a707ef7e0163f27954655fa14b0a02e7895741cf12a83e4a",
+    "Name": "/vendor/lib/libMtkOmxAdpcmEnc.so",
+    "Size": 58056
+  },
+  {
+    "SHA256": "9ddaa73332c8fabe1a7d2ddb23a6f4fc9ca79ac2e6b0ef69fa0e1aafa781954c",
+    "Name": "/vendor/lib/libMtkOmxAlacDec.so",
+    "Size": 57812
+  },
+  {
+    "SHA256": "430a99977909f73c758aee33a8439cde7753eec1604f88760574607b457fa98b",
+    "Name": "/vendor/lib/libselinux_vendor.so",
+    "Size": 56584
+  },
+  {
+    "SHA256": "a4d604a8bc90aac13fa4de222dc376e7a57f127314d0109960ffd0af83acc620",
+    "Name": "/vendor/lib/lib_iir.so",
+    "Size": 56472
+  },
+  {
+    "SHA256": "576495e79d8d20b35614821887ddfd7054cf885d365c1135fc7b02cefc95cad0",
+    "Name": "/vendor/app/MTKThermalManager/MTKThermalManager.apk",
+    "Size": 56378
+  },
+  {
+    "SHA256": "22aff5e2f6183f7a35286f4421da08503d005f9c7a4819448004de6c30177c8e",
+    "Name": "/vendor/lib/libvcodec_cap.so",
+    "Size": 56184
+  },
+  {
+    "SHA256": "ffb40ac6f05672c46c7b0c3094ea479c9234bd675fcfaad52e011092786e0121",
+    "Name": "/vendor/bin/hostapd_cli",
+    "Size": 55976
+  },
+  {
+    "SHA256": "b589e33645e449f5167bae841e0fd6be80806965b33b6099a018eeb971708072",
+    "Name": "/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so",
+    "Size": 55404
+  },
+  {
+    "SHA256": "abc88e571386e522c27eff420d1bdd8e9279951918f1e5dd44413a26abc466a0",
+    "Name": "/vendor/lib/hw/fingerprint.default.so",
+    "Size": 55148
+  },
+  {
+    "SHA256": "2b7452baa6a4cbd94580372f2e82f5053fec2a9871011b5f8194d67a2d1108c6",
+    "Name": "/vendor/lib/libcvsd_mtk.so",
+    "Size": 55108
+  },
+  {
+    "SHA256": "8460f6d7922c02d7a5c681437d376460369c1eeb1a9d5ed528e6fc86cfb9b51d",
+    "Name": "/vendor/etc/audio_param/Speech_AudioParam.xml",
+    "Size": 54982
+  },
+  {
+    "SHA256": "d12c3ab9a8f6fd77ea1de87009aec7b20adebeef3feffb6da96e8d2d4c46eda7",
+    "Name": "/vendor/lib/libwo.so",
+    "Size": 54784
+  },
+  {
+    "SHA256": "1ad3114f3f1798485caf1e55c405a3f771808d5a6b54d1c2e34e61da3bab5580",
+    "Name": "/vendor/lib/libhwuiext.so",
+    "Size": 54576
+  },
+  {
+    "SHA256": "bcf111957c76d117900c4294284d5c77bae73f5f57c9091febedb68f1297d045",
+    "Name": "/vendor/lib/libcam.exif.so",
+    "Size": 54224
+  },
+  {
+    "SHA256": "3b0d8d46628e8d2e7348ca4e7762ce3922d8e55033bbc4696714f1bc42b88096",
+    "Name": "/vendor/lib/libcam.exif.v3.so",
+    "Size": 54188
+  },
+  {
+    "SHA256": "d6d397e1e56206db2455eab42d4885f9cab8f38203c0ef2dc1ac5e0c264a9b1f",
+    "Name": "/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so",
+    "Size": 54156
+  },
+  {
+    "SHA256": "047e0be67010d9423ea3c92294c098eb2b4e60688f9429b3538031be33b57c9a",
+    "Name": "/vendor/etc/spn-conf-op09.xml",
+    "Size": 54142
+  },
+  {
+    "SHA256": "29c67bc90d16aacd3d3b5608ab31878aafbf3ac57fdf5f9f22f5cd2c1e173f48",
+    "Name": "/vendor/lib/libcam_hwutils.so",
+    "Size": 53988
+  },
+  {
+    "SHA256": "cbe2027babfecbe5cc3f4a604dcdc1a766f8bd55afcbe88fe7b37209766ccbd8",
+    "Name": "/vendor/lib/libOpenCL.so",
+    "Size": 53752
+  },
+  {
+    "SHA256": "e27d10c70ff26fde23ad9baf7b4988210f68f8b2ed656ef604098892a72b503c",
+    "Name": "/vendor/lib/libaudiocustparam_vendor.so",
+    "Size": 53344
+  },
+  {
+    "SHA256": "3800d5267fa85222de9ad5806e7ad7b169b164e04d1a924310c43a6810bab629",
+    "Name": "/vendor/bin/netdagent",
+    "Size": 51804
+  },
+  {
+    "SHA256": "13f941588fcab21b295b6ba822a7f8eb650cf05828eadbc8874bdd93a9b6bbf8",
+    "Name": "/vendor/lib/libcam.utils.so",
+    "Size": 50784
+  },
+  {
+    "SHA256": "8dfd00639cde4cfe985ce85440dd9602959c5fe47b199e960642c24461f0dc40",
+    "Name": "/vendor/lib/mediadrm/libdrmclearkeyplugin.so",
+    "Size": 50768
+  },
+  {
+    "SHA256": "2a07c3f16ebaacacfc0dc14f79630e3dba17f8c9ccc682d1478234d1e3851862",
+    "Name": "/vendor/lib/libsensorndkbridge.so",
+    "Size": 50500
+  },
+  {
+    "SHA256": "678fce0a646162556f4573281ccbbd85fa5527b38ebf9b0a72e6802719106865",
+    "Name": "/vendor/lib/libmtkcam_sysutils.so",
+    "Size": 49984
+  },
+  {
+    "SHA256": "e3edf0160a2a24ae1b4783d4ddaddbf24f26ae50b6a584cb90750caf620bfe88",
+    "Name": "/vendor/lib/libMtkOmxG711Dec.so",
+    "Size": 49448
+  },
+  {
+    "SHA256": "db6fcb515e7cc7ca528dc428af31ab1651e9db92d7b117fcf136b116039eb849",
+    "Name": "/vendor/lib/libhwm.so",
+    "Size": 49444
+  },
+  {
+    "SHA256": "630ed99bbe891e1f2a6a413fa3ff7a528b3a31fe454c3e5d53e6af0e8d9465df",
+    "Name": "/vendor/lib/librilutilsmtk.so",
+    "Size": 49388
+  },
+  {
+    "SHA256": "8f1bedaa685bb40622f8c1ce1b2936a44ca6c46a0b327abaa852552857933643",
+    "Name": "/vendor/bin/hw/android.hardware.cas@1.0-service",
+    "Size": 47256
+  },
+  {
+    "SHA256": "71e133737a8cffd4f4710f1a48497d27921627c1468f78f8b33e71ddc5ea8fc4",
+    "Name": "/vendor/lib/hw/audio.r_submix.mt6739.so",
+    "Size": 46736
+  },
+  {
+    "SHA256": "6d00d024d702c36ed6af516402decc17be3f68ce0ca971755d3284d829373729",
+    "Name": "/vendor/lib/libmtkcam_grallocutils.so",
+    "Size": 46712
+  },
+  {
+    "SHA256": "d62b2915acd086c164523f705a11b63522a41ec859fa91e22af48fa840bf78ff",
+    "Name": "/vendor/lib/libfpspolicy.so",
+    "Size": 46388
+  },
+  {
+    "SHA256": "35699bb390d343fd5f34bd778ba213e84523e5f1a1deaa118c6596594e55978a",
+    "Name": "/vendor/lib/hw/dfps.mt6739.so",
+    "Size": 46128
+  },
+  {
+    "SHA256": "4fc029143d4cb1849d40564bd0f7f46d596149dfc731d306ec9a2c505d08737e",
+    "Name": "/vendor/lib/libmtkcam_debugutils.so",
+    "Size": 45992
+  },
+  {
+    "SHA256": "433e20492870de6f0e6154bd15953ab796d8ededebf171b9eee1ab02aef7827f",
+    "Name": "/vendor/lib/libtinyxml.so",
+    "Size": 45908
+  },
+  {
+    "SHA256": "179b95070a959b9145aa2615d8356b9a5a3181aeade04022a2bb8939bec673b9",
+    "Name": "/vendor/lib/libgpu_aux.so",
+    "Size": 45596
+  },
+  {
+    "SHA256": "792da844a974cffaccbe0f118031d2d4832428d8228b9cb0533ec16fc74a52f3",
+    "Name": "/vendor/lib/libccci_util.so",
+    "Size": 44476
+  },
+  {
+    "SHA256": "3dfcc8bef8773de13fabf571d64654fe9910f3979f194f204f206182055decde",
+    "Name": "/vendor/etc/selinux/nonplat_file_contexts",
+    "Size": 43951
+  },
+  {
+    "SHA256": "de727909e67fd0c7b27ceafca6e39f2aeb726e48c75a0a4cabb20bf17f683773",
+    "Name": "/vendor/etc/aurisys_param/Speech_AudioParam.xml",
+    "Size": 43317
+  },
+  {
+    "SHA256": "9bfad3a092fab4b765320605fefaccfb42db502096b3090ffa91205820f2c787",
+    "Name": "/vendor/app/SimRecoveryTestTool/SimRecoveryTestTool.apk",
+    "Size": 42893
+  },
+  {
+    "SHA256": "3b84ddb980e7a4b7ad56d76f11944e1dfa981a09a1b6809dda1f4330b8e4de11",
+    "Name": "/vendor/lib/libthhclient.so",
+    "Size": 42892
+  },
+  {
+    "SHA256": "972ad15e154fdf9b8ccdf5ae1389e69ca5ecc75a8521947512e2a43b5f7f84a3",
+    "Name": "/vendor/etc/aurisys_param/FV-SAM-MTK2.dat",
+    "Size": 42822
+  },
+  {
+    "SHA256": "121795fe0cd69b33cac29ae6154b548676d7661cdf4f015d4f0af7ace228c91e",
+    "Name": "/vendor/lib/hw/audio.r_submix.default.so",
+    "Size": 42656
+  },
+  {
+    "SHA256": "db556f739654dc127395b9049fb10185bf065603a11e6a45338adad35fd41242",
+    "Name": "/vendor/lib/libaudioprimarydevicehalifclient.so",
+    "Size": 41704
+  },
+  {
+    "SHA256": "400e3887d8be513cd087a609758d452bc2c7ddbd182ae80c200bd53951ba9e6b",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.power@1.1-impl.so",
+    "Size": 41616
+  },
+  {
+    "SHA256": "6655b67770d8a32fae5a6e93d09dcd2220920dc55a8292aa0be438466dbd8541",
+    "Name": "/vendor/lib/mediadrm/libmockdrmcryptoplugin.so",
+    "Size": 41572
+  },
+  {
+    "SHA256": "afd44eda717fcd959bd272e235868ee38627993214033f62b413c06c1dbb08de",
+    "Name": "/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so",
+    "Size": 41452
+  },
+  {
+    "SHA256": "376599c28de6e462339439990fafe092b7174f8d29c8f2d31fd24f66222fdfca",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so",
+    "Size": 41380
+  },
+  {
+    "SHA256": "a54e17ac07552105c95f79427e7c171178d6ad6a59e4f8ff765bb1a0679136e0",
+    "Name": "/vendor/lib/libcamalgo.dngop.so",
+    "Size": 41304
+  },
+  {
+    "SHA256": "3be942dd21b1a12bdf45e68fe2bea7753ac9fa9e423879066af6a5017662b81c",
+    "Name": "/vendor/etc/init/hw/init.mt6739.rc",
+    "Size": 41221
+  },
+  {
+    "SHA256": "21172cb2944d7d94437fd3eb249fa421bb3939d1a28ab792765426fede3fcf43",
+    "Name": "/vendor/lib/lib_speech_enh.so",
+    "Size": 40872
+  },
+  {
+    "SHA256": "34d838629b4c26b140b915e4a931b86fb6e445727b9eebd77cb25602bb796528",
+    "Name": "/vendor/bin/ccci_rpcd",
+    "Size": 40248
+  },
+  {
+    "SHA256": "02908197d952012ff60d0ca27467d7a5fbc89708b9da538fc0e54ab115625884",
+    "Name": "/vendor/lib/libsimaka.so",
+    "Size": 38632
+  },
+  {
+    "SHA256": "94644e509a1c831ea7c52d10c94d061870d2ff28f91856e06a03d6bd289340b0",
+    "Name": "/vendor/bin/ipsec_mon",
+    "Size": 38372
+  },
+  {
+    "SHA256": "17f9401ef7ab5cc3ec1ead830f2baaca634e4da08663edd77857c5f864401042",
+    "Name": "/vendor/bin/stp_dump3",
+    "Size": 37664
+  },
+  {
+    "SHA256": "660ba834ce02e421abd51bed9207a5479a6edc64e36b19137028fa5f42008e9c",
+    "Name": "/vendor/lib/soundfx/libreverbwrapper.so",
+    "Size": 37580
+  },
+  {
+    "SHA256": "e528f211205b0b778fcd26e6d4b5a067c45ec773df5be8b2e66fc08682611773",
+    "Name": "/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so",
+    "Size": 37552
+  },
+  {
+    "SHA256": "eaa8825bd385f92cd0b9ca1d0a4c1a598c9ecc3effe4962c77703d36cc287791",
+    "Name": "/vendor/lib/libui_ext.so",
+    "Size": 37484
+  },
+  {
+    "SHA256": "7ef5278fcd4754faca25c0eee7309b420cf0afe745187d318a42205b0689633b",
+    "Name": "/vendor/lib/libcam1_utils.so",
+    "Size": 37468
+  },
+  {
+    "SHA256": "2d2ac9b060db18e1f2fbb5b7fea4f1090eb2c071c99ca6b6ae0b7e524f2a2d2f",
+    "Name": "/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta",
+    "Size": 37369
+  },
+  {
+    "SHA256": "6594147d2000dbc094c0f4c7e0e2846da7e6c4e58396ce3432060faae6f54b0d",
+    "Name": "/vendor/bin/vndservice",
+    "Size": 37360
+  },
+  {
+    "SHA256": "340710f4598e191bb4ab01ace4fcba37dff6a4d9ff58cc00ec8f99e549f17af5",
+    "Name": "/vendor/lib/libged.so",
+    "Size": 37224
+  },
+  {
+    "SHA256": "0337e5f0d6c85b8dd61450fa255107920383b5c083109a27fcb92c5c245272d3",
+    "Name": "/vendor/lib/libaudiocomponentengine_vendor.so",
+    "Size": 37116
+  },
+  {
+    "SHA256": "25ad27dfb82e01d558770a000f7970b465754b093144e0a0bf584c258a3f55c2",
+    "Name": "/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so",
+    "Size": 37096
+  },
+  {
+    "SHA256": "1e220cf8512b2a5440ed52b77c7ba89f02d9abf41afa8bacb6de3e026a1aca67",
+    "Name": "/vendor/bin/muxreport",
+    "Size": 36132
+  },
+  {
+    "SHA256": "9ce5abbe9572b89e505274ece35216e4cfe7a3b33d6fed6679fd283da445aa62",
+    "Name": "/vendor/lib/libmtklimiter_vendor.so",
+    "Size": 34484
+  },
+  {
+    "SHA256": "aca7e362f0d867971e2de2b7ff871ee2dcd3ef08b3f9b784e398498999aa3be1",
+    "Name": "/vendor/lib/libvolte_xdmc_shr.so",
+    "Size": 34260
+  },
+  {
+    "SHA256": "0c59efda46289700e65eae6152c7d06f41fef3938393c2095d0b422f3438ae54",
+    "Name": "/vendor/bin/wmt_launcher",
+    "Size": 34224
+  },
+  {
+    "SHA256": "0d8430d43ad3cdb97e64db1f13f9112294dd015b10ccd455ef78138e6a48cfb8",
+    "Name": "/vendor/lib/libthermalalgo.so",
+    "Size": 33676
+  },
+  {
+    "SHA256": "c3b8b188036dd7a4e4991bfcf0bd56edd54d94d5405fb9786c57598380a7d274",
+    "Name": "/vendor/data/misc/ProjectConfig.mk",
+    "Size": 33462
+  },
+  {
+    "SHA256": "df6f94635d86ae7c21a6d76e1dbdcd9af7390613ca4a6e4a9c6764399e27d4bc",
+    "Name": "/vendor/bin/mrdump_tool",
+    "Size": 33340
+  },
+  {
+    "SHA256": "b2f8693cec5a45eca8f4bd4bbe873d81e4bbb434e38ddd09889096fbc96ab52f",
+    "Name": "/vendor/lib/hw/flp.mt6739.so",
+    "Size": 33240
+  },
+  {
+    "SHA256": "4a65eade54df4b8bba511f36423099a5207f9648d2112d4a8bf83c66c67cfe93",
+    "Name": "/vendor/lib/libnvramagentclient.so",
+    "Size": 33104
+  },
+  {
+    "SHA256": "f2dfa3a849410ae09c807a34369faa86cbcd848a6607b8e931250f0a5389edec",
+    "Name": "/vendor/lib/libipsec_ims_shr.so",
+    "Size": 32880
+  },
+  {
+    "SHA256": "ada9f7019e6ab93a63abc1107b71c1cb88302bc1b6d781d6fd0568c1e503e3b5",
+    "Name": "/vendor/lib/libJpgDecPipe.so",
+    "Size": 32772
+  },
+  {
+    "SHA256": "ebda711dcd8a45f510b6ada54268542d690de4503a851ce7c98a97f1447f0068",
+    "Name": "/vendor/thh/ta/bd038be8f6724256887c1fa734524012.ta",
+    "Size": 32617
+  },
+  {
+    "SHA256": "7fbad903d1dd1912f020958dd8dd29027fc7b90912d9a77cfddb3c8b42dd6620",
+    "Name": "/vendor/lib/libSonyIMX386PdafLibraryWrapper.so",
+    "Size": 32556
+  },
+  {
+    "SHA256": "423adb2f3310817aeeccb95da0199c1c719ddfcaaabd7192533104ce79b0856e",
+    "Name": "/vendor/lib/libSonyIMX338PdafLibraryWrapper.so",
+    "Size": 32556
+  },
+  {
+    "SHA256": "852ddfd8c5e4ee3bc20948645e823307680af19b6777cf0142f8df472b1e7f5e",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/128.dat",
+    "Size": 31748
+  },
+  {
+    "SHA256": "7f4eb390f60410c977bd62c89da146fd533e100bc6243baf7f38c2089b79cd62",
+    "Name": "/vendor/lib/libbluetooth_mtk_pure.so",
+    "Size": 29992
+  },
+  {
+    "SHA256": "84efb3254d7acac8c6dcbd090d3952ed443f835cff9e14592af371b9d4078522",
+    "Name": "/vendor/bin/grep",
+    "Size": 29808
+  },
+  {
+    "SHA256": "c5cd0d2c7636a010a3ac11327b50296b7c0d8f66106411f1b57adb3677c1f82e",
+    "Name": "/vendor/lib/soundfx/libaudiopreprocessing.so",
+    "Size": 29732
+  },
+  {
+    "SHA256": "fdfa929d4e2b3fe55e5a429086b0949da45fcc12dbcb77342b794c07bdcf5011",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.power@1.1-service",
+    "Size": 29732
+  },
+  {
+    "SHA256": "248b68cfa2f395b00028673834e6a5de5966c6ff7d6d03b8c018d5d61724cbfe",
+    "Name": "/vendor/lib/libbluetooth_mtk.so",
+    "Size": 29664
+  },
+  {
+    "SHA256": "bd0cfa7b228003881d310ff387d34c7795161a8424b8a790ea2e5ea5d2b23c8a",
+    "Name": "/vendor/etc/NOTICE.xml.gz",
+    "Size": 29629
+  },
+  {
+    "SHA256": "55bf1968b935a88e25f71349640ee866ae40dc87a34995cba964bbbb9e473850",
+    "Name": "/vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service",
+    "Size": 29332
+  },
+  {
+    "SHA256": "a467e71c522d708c0e1e7fe15df5e24f8909573c4afa00d5b7821990c7146837",
+    "Name": "/vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service",
+    "Size": 29328
+  },
+  {
+    "SHA256": "0a7dd6f26ebc575f2a1fd8b8fc26a886a477829da310adfc0c1924154f3d4814",
+    "Name": "/vendor/bin/autobt",
+    "Size": 29184
+  },
+  {
+    "SHA256": "49d1180ee54931c2c6a966c8e396be51c5b4f7a6d2fb5168d2db80f750adb85e",
+    "Name": "/vendor/lib/libmtee.so",
+    "Size": 29164
+  },
+  {
+    "SHA256": "2b0624e8221afcd877c3ef549fbe0b34cdf3d15d4c0c5327ecd4e30937c5cfd9",
+    "Name": "/vendor/lib/libeffects.so",
+    "Size": 29132
+  },
+  {
+    "SHA256": "b18817e4d2835b02d1a30779ae3c157868bd212efa4b9e176e3776848daf9ebf",
+    "Name": "/vendor/lib/hw/libSoftGatekeeper.so",
+    "Size": 29104
+  },
+  {
+    "SHA256": "009f03477d19318a92e160fb295749f1e521a1a8d6cd68bb84776fe2e207e2fb",
+    "Name": "/vendor/etc/init/hw/factory_init.rc",
+    "Size": 28969
+  },
+  {
+    "SHA256": "934e8288faf4e7b9564d187cf6d5a131d97966fc3fe4a6eb532c2d6eb2111329",
+    "Name": "/vendor/lib/libbwc.so",
+    "Size": 28844
+  },
+  {
+    "SHA256": "2d4599b16212a00cab89d14141d0943fd0d1e52a0a40f47b128e9c8511326f81",
+    "Name": "/vendor/lib/hw/android.hardware.thermal@1.0-impl.so",
+    "Size": 28840
+  },
+  {
+    "SHA256": "b29c3e30280eb580a18bab4833d5e41c716a50d04a5bb4d69685de1786482e21",
+    "Name": "/vendor/lib/hw/keystore.mt6739.so",
+    "Size": 28828
+  },
+  {
+    "SHA256": "7a9a752adec4a834fe6db8ea27a7fe0713fff52b3da91575443fe0c1790ad2b0",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.0-impl.so",
+    "Size": 28816
+  },
+  {
+    "SHA256": "6127359fb2e45e2c13b3842feb1bf42ee325d6e3d26a2396363d34dc1230e79d",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so",
+    "Size": 28708
+  },
+  {
+    "SHA256": "37ff0a5a0b5c71208395121879538b898eebcf7e4a9cd463af3e7cf6cb1c5bb4",
+    "Name": "/vendor/lib/libMtkOmxCore.so",
+    "Size": 28660
+  },
+  {
+    "SHA256": "72fc8a28b493f6ce9b85a580e4e39e7daf44c06b63f81654a284814794f6e663",
+    "Name": "/vendor/lib/libJpgEncPipe.so",
+    "Size": 28656
+  },
+  {
+    "SHA256": "6fe96da31e09036e662377bf354d7eb7b82c1f185b6bd829b6bb3b7864f5f878",
+    "Name": "/vendor/lib/libstorage_otp.so",
+    "Size": 28648
+  },
+  {
+    "SHA256": "88cff00bc441b2ff7b330d231929b802b822c9bf2da0b2605c2c04e20f446b59",
+    "Name": "/vendor/lib/libaudioloudc.so",
+    "Size": 28624
+  },
+  {
+    "SHA256": "0e53444c07fae8900a58c12eeb903810c720f90774b19f08af63abfa633007eb",
+    "Name": "/vendor/lib/libbluetooth_hw_test.so",
+    "Size": 28524
+  },
+  {
+    "SHA256": "5641e975fee35fb65943d4241397e0f19112969783e53d15fb21eef86b37dfc9",
+    "Name": "/vendor/lib/libaudiocompensationfilterc.so",
+    "Size": 28504
+  },
+  {
+    "SHA256": "dff9c7cb50c6eb74147dc1f4d51aae3a4739866c28aacac28f2fdf3654a0bcf7",
+    "Name": "/vendor/lib/libaudiocompensationfilter_vendor.so",
+    "Size": 28492
+  },
+  {
+    "SHA256": "01fb548bd1c71998e113fe4a92f99d4d193a8c29fd5eca818be3fecd7518e988",
+    "Name": "/vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta",
+    "Size": 27825
+  },
+  {
+    "SHA256": "82d7360c8b9c97dfa1984ef89c8f76b5f9fbd4d659af68334ca44b943f93f75c",
+    "Name": "/vendor/etc/audio_param/Record_AudioParam.xml",
+    "Size": 27472
+  },
+  {
+    "SHA256": "265be4105ba074278265412004b3d2356f92de264b03951f71ebbfb88e3f9203",
+    "Name": "/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml",
+    "Size": 27430
+  },
+  {
+    "SHA256": "51f5c4b1c9e76634b66a342eaf784e81da915726550ef96a0398e312b895fac4",
+    "Name": "/vendor/lib/libPQDCjni.so",
+    "Size": 27076
+  },
+  {
+    "SHA256": "b9259a30440795b144bc1d9a9f32494ec2d65400f169081fa1b7f5d27b7d1a2e",
+    "Name": "/vendor/app/NlpService/NlpService.apk",
+    "Size": 26981
+  },
+  {
+    "SHA256": "93e48d58b92d3ad669b5f3714314bef7b806ed7d6a818f477854f39013ff454e",
+    "Name": "/vendor/etc/audio_param/Speech_ParamUnitDesc.xml",
+    "Size": 26526
+  },
+  {
+    "SHA256": "4590a6829120122022959faf7b6b7982e77b1dddacbd7707901e4f61a79dc4eb",
+    "Name": "/vendor/lib/libksensor.so",
+    "Size": 26396
+  },
+  {
+    "SHA256": "7f91221f7a247bb9db46646a2ae376da3fe3a0ca8f9b408c76e109fccbf75a69",
+    "Name": "/vendor/lib/libmsbc_mtk.so",
+    "Size": 26284
+  },
+  {
+    "SHA256": "8c130aefa3b8e870b3e56e1b56c67e90fe028ae7070f38b3bcecf2883842b677",
+    "Name": "/vendor/bin/aee_core_forwarder",
+    "Size": 26220
+  },
+  {
+    "SHA256": "756c26d446483d8ebd99384c0a4a3fbeb5c4ea7edd31f73c20f896ed0e25ae9a",
+    "Name": "/vendor/bin/stroke",
+    "Size": 26128
+  },
+  {
+    "SHA256": "04547e14b42cd40797682da2bb36a03643783e1b38a4ebc603a74597fe4e1579",
+    "Name": "/vendor/bin/aeev",
+    "Size": 26024
+  },
+  {
+    "SHA256": "e68a6cf5167a33e4f221a748f89997c5648e0b610527e11dadacfdae6fd0a6c5",
+    "Name": "/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service",
+    "Size": 25304
+  },
+  {
+    "SHA256": "341cd52c64a575a42a28cee5e6cfdc6d3ee3c352b77c0473360a120f2eeb5f9d",
+    "Name": "/vendor/lib/hw/gralloc.default.so",
+    "Size": 25200
+  },
+  {
+    "SHA256": "077167de131cc6973907b48a2daeeef33cbc484dfb6e5d4b6af676068091716f",
+    "Name": "/vendor/lib/hw/audio.usb.default.so",
+    "Size": 25156
+  },
+  {
+    "SHA256": "f9f0b70926f1a0cadbcf4044780ad85fef1cb35cd58e554921d826eace85a414",
+    "Name": "/vendor/lib/libSwJpgCodec.so",
+    "Size": 25120
+  },
+  {
+    "SHA256": "b908c064eaabeefa9810ddf527d605b671a27b6d2fbe9e3a46025675e48a149d",
+    "Name": "/vendor/bin/thermal",
+    "Size": 25060
+  },
+  {
+    "SHA256": "cdbe4c1b390e86afe57b717ec5baf3b25f5f613bc62192d4c6374deaba34908e",
+    "Name": "/vendor/bin/wifi2agps",
+    "Size": 24980
+  },
+  {
+    "SHA256": "7e57fe29b91addff925610ce0ca9f23a470d2a3876e68aa99decd68c6c38c4f4",
+    "Name": "/vendor/bin/init_thh",
+    "Size": 24960
+  },
+  {
+    "SHA256": "f092abfc65d3188a063c158110bfa75001cb58b01c544826183ed4d414710707",
+    "Name": "/vendor/bin/nvram_daemon",
+    "Size": 24856
+  },
+  {
+    "SHA256": "4f719bf1de779f0f85340738507f960add114d27f80585845064c613407f1e74",
+    "Name": "/vendor/lib/libnbaio_mono.so",
+    "Size": 24740
+  },
+  {
+    "SHA256": "4f657c29f46ce5a557bacac2e0987697c9e50050e374df2dcd8d39000c4fc284",
+    "Name": "/vendor/lib/hw/sound_trigger.primary.mt6739.so",
+    "Size": 24724
+  },
+  {
+    "SHA256": "3e29347a54109dfa899ae728cf683a3effefbe2599167380dd93db465bf0feb4",
+    "Name": "/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so",
+    "Size": 24724
+  },
+  {
+    "SHA256": "f0285495bbd4aee96cc0c92a0fde049725e80adac622839de3f63e60f82cf07e",
+    "Name": "/vendor/lib/libaudiodcrflt_vendor.so",
+    "Size": 24652
+  },
+  {
+    "SHA256": "61c694d8f4ebd0e69483f5fe5ac88df35c04b0c1813d45b1d26fdd68c82adb5c",
+    "Name": "/vendor/lib/libmediacodecservice.so",
+    "Size": 24608
+  },
+  {
+    "SHA256": "70081fe1647ef9fac8128083b9b01720ff9aee6013fc5070d227cadafe357ca4",
+    "Name": "/vendor/lib/libalsautils.so",
+    "Size": 24592
+  },
+  {
+    "SHA256": "240041355d6b7640b2dc1977e36a5c09245d927336e8e1678a63b31366919b2e",
+    "Name": "/vendor/lib/libmtk_drvb.so",
+    "Size": 24548
+  },
+  {
+    "SHA256": "27a1c24c626fc28777566b36ccf57a2c0fc2514937d926d4b2f5d67a38eee071",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so",
+    "Size": 24536
+  },
+  {
+    "SHA256": "c82d74d4e8ac2e8845f4ffe41bbeaa170677be9e72a1c218e5014f11df83e5f4",
+    "Name": "/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so",
+    "Size": 24528
+  },
+  {
+    "SHA256": "6167e7684c2e03b27d5144f0e6a31f9418a6575bc8017b0d81430695d947e752",
+    "Name": "/vendor/lib/libgeofence.so",
+    "Size": 24512
+  },
+  {
+    "SHA256": "9b7a7f2cd8121738e069deb9245f9eac2957ff5102b97afcb461daa7cc9bdf47",
+    "Name": "/vendor/lib/libwpa_client.so",
+    "Size": 24500
+  },
+  {
+    "SHA256": "ee893a1c76ea416607759db8dd60963f033542edb50d34917a0045501dd2e6c8",
+    "Name": "/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so",
+    "Size": 24496
+  },
+  {
+    "SHA256": "4e314758775b97435f860a282ddba2eea7eb726dffbbd80385e4083d9a948193",
+    "Name": "/vendor/lib/libSonyIMX230PdafLibraryWrapper.so",
+    "Size": 24372
+  },
+  {
+    "SHA256": "3e47f5d1884ac600774e837e4c2b18d795bfdbc55313a46617296b8198f9c9e1",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/ubmModel10.bin",
+    "Size": 24200
+  },
+  {
+    "SHA256": "c56be74133fdfc96c53bc26ed183810b75ba179120ea0dbb2b0141412fd6cea6",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/ubmModel0.bin",
+    "Size": 24200
+  },
+  {
+    "SHA256": "7d0d24af406a0b839fba3f21dc616ae1db70202d0d0560ed0778428380791d95",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/ubmModel3.bin",
+    "Size": 24116
+  },
+  {
+    "SHA256": "df39834d0d5a3fd92b01885129a004976af893c3b8a554cc65bfc374521d25d1",
+    "Name": "/vendor/etc/init/hw/meta_init.rc",
+    "Size": 23064
+  },
+  {
+    "SHA256": "0dba0737592f95e1c8a765b77bccd390717b5de7a5e1915da6ef8022a3f1b6aa",
+    "Name": "/vendor/lib/libmemtrack_GL.so",
+    "Size": 22328
+  },
+  {
+    "SHA256": "d4d711e6ec588cf248f655e0e830bedd8144eb5c01ecf87fb998c2e495c64698",
+    "Name": "/vendor/lib/libvcodec_oal.so",
+    "Size": 22316
+  },
+  {
+    "SHA256": "007af4ece0db6131eca3ef8d7bf1dba92ea82e554a1609afcc3fe3a21a6f2995",
+    "Name": "/vendor/bin/charon",
+    "Size": 21976
+  },
+  {
+    "SHA256": "1d37c462751495b2028888f2a63516d4ada64056ab0da40589fab2340cfb3489",
+    "Name": "/vendor/bin/aee_archivev",
+    "Size": 21928
+  },
+  {
+    "SHA256": "047bee5262073776946bea9c659034104bc96bf846f56fd170157f1e31de7277",
+    "Name": "/vendor/lib/libPQjni.so",
+    "Size": 21276
+  },
+  {
+    "SHA256": "ab9b1a81ac3ce0cdcb4aaf9dafac1947558d0545bd47157f183a3796c366cd5b",
+    "Name": "/vendor/lib/hw/audio.primary.default.so",
+    "Size": 20984
+  },
+  {
+    "SHA256": "16f1ab9776dde775f2d9116a7ff963644665c08abce57b955c3a7a4519dc6181",
+    "Name": "/vendor/bin/vndservicemanager",
+    "Size": 20940
+  },
+  {
+    "SHA256": "cc6e0bbf28d6da557154049b8f25c4d0d30958a0975af5ceecbf353b1efa4b2f",
+    "Name": "/vendor/lib/libkeystore-engine-wifi-hidl.so",
+    "Size": 20932
+  },
+  {
+    "SHA256": "449ce0f524ec56835ae16b54083291c5ed9d926e57dcf82ddef33ff188988ea0",
+    "Name": "/vendor/bin/hw/android.hardware.configstore@1.0-service",
+    "Size": 20920
+  },
+  {
+    "SHA256": "3cac5375ff87887fa5f60cdafb5bd8a5da4564da11188b108dfcd45247ae2820",
+    "Name": "/vendor/lib/hw/kmsetkey.mt6739.so",
+    "Size": 20820
+  },
+  {
+    "SHA256": "24b74be13ca98651836daff0d892489d8c41eb253decf5eacd8723e370fb35d4",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.tface@1.0-service",
+    "Size": 20788
+  },
+  {
+    "SHA256": "69f5f5365503692ac871deb266cf349162a0752ba2a7ce02ed45c283ce66590e",
+    "Name": "/vendor/lib/hw/lights.mt6739.so",
+    "Size": 20628
+  },
+  {
+    "SHA256": "7c812bf1cc6c7a3a1dbc7c90d3763e0d71cb2cf399c0bc12b97dfa5149b7a10f",
+    "Name": "/vendor/bin/fuelgauged_nvram",
+    "Size": 20588
+  },
+  {
+    "SHA256": "e05bd99f68126fbd45902ca89cf46bcc5c437ef5f6987dd4fbfcc0e38f3e225b",
+    "Name": "/vendor/lib/libtinycompress.so",
+    "Size": 20568
+  },
+  {
+    "SHA256": "3a6e29000ad7c0f9c502108de818ba553fa0740197c4b698ef9a47b4b77e6b6c",
+    "Name": "/vendor/lib/libnativecheck-jni.so",
+    "Size": 20536
+  },
+  {
+    "SHA256": "a640ec7b0760e5dc949ab29d78c2049d6c697cf458e146478a2bb15d2cd96de8",
+    "Name": "/vendor/lib/libpowerhalwrap.so",
+    "Size": 20532
+  },
+  {
+    "SHA256": "552e39e043cadc5dc8b42836d381323e3c7a321e20e57c07c7d8c5a4e850102e",
+    "Name": "/vendor/bin/hw/mtkfusionrild",
+    "Size": 20512
+  },
+  {
+    "SHA256": "bf1db7a520950336313fad9a55c4fc21519be6db67544dc2001e289db0d1a1ed",
+    "Name": "/vendor/bin/mtkcam-debug",
+    "Size": 20508
+  },
+  {
+    "SHA256": "efbcb62db0304e00d03533a5b019c061644789366c636944442fe678eb31c051",
+    "Name": "/vendor/lib/soundfx/libldnhncr.so",
+    "Size": 20500
+  },
+  {
+    "SHA256": "2638ffa32a400eb29a9de158e7eac12cf07a02f7efb61af7325305e143a1f9d7",
+    "Name": "/vendor/bin/wmt_concurrency",
+    "Size": 20488
+  },
+  {
+    "SHA256": "775517e98ba2f3a075d424b84caf3add4991f4429daba7fdaf2b83fead9fb11d",
+    "Name": "/vendor/lib/soundfx/libdownmix.so",
+    "Size": 20480
+  },
+  {
+    "SHA256": "dbf40732e894452865c183450c4ec9afdde59ba1e3941546f536dfa5c4c2a8e1",
+    "Name": "/vendor/bin/hw/android.hardware.media.omx@1.0-service",
+    "Size": 20472
+  },
+  {
+    "SHA256": "31ef34f2b52213de41e59022c4a4383b9b3379a466946894bc89c4586470d9c4",
+    "Name": "/vendor/lib/hw/gatekeeper.mt6739.so",
+    "Size": 20448
+  },
+  {
+    "SHA256": "8fb3546dd72eba14de39fe46530a50f37d81f5c77d592c329a46f303ff4f487f",
+    "Name": "/vendor/lib/libaudiocomponentenginec.so",
+    "Size": 20432
+  },
+  {
+    "SHA256": "0f9fea7f9821616c0b8d1846c6c02b495c005fc855056b93885a185d5915e240",
+    "Name": "/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so",
+    "Size": 20424
+  },
+  {
+    "SHA256": "fbfc3f3ddc552899d04eddc32bfbcda63975979068195461fc2d616693026efb",
+    "Name": "/vendor/lib/libgralloc_extra.so",
+    "Size": 20420
+  },
+  {
+    "SHA256": "ec1e7625e96047756f20ae937653c202343aaddda68e2b7d15f35bc129a3ec66",
+    "Name": "/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so",
+    "Size": 20416
+  },
+  {
+    "SHA256": "b52976868980adfefbb728ea56f263be31a848b97e17328e2be2c3e6d604a112",
+    "Name": "/vendor/bin/md_ctrl",
+    "Size": 20396
+  },
+  {
+    "SHA256": "05be01be436651ee33cab313b695b3f42a784700d7b612735d4f7702de647536",
+    "Name": "/vendor/bin/hw/android.hardware.drm@1.0-service.widevine",
+    "Size": 20396
+  },
+  {
+    "SHA256": "39712c07bf01f46dd3fdb9e4e26aced316fcd8ff41e4a77f3548eac6df8431c5",
+    "Name": "/vendor/bin/wmt_loader",
+    "Size": 20392
+  },
+  {
+    "SHA256": "055c2a06610e9851adfd31b081c86b5753c02babefe90e2f7a8c53abeace7621",
+    "Name": "/vendor/bin/teei_daemon",
+    "Size": 20384
+  },
+  {
+    "SHA256": "09acedf5e8d8dbfb1c96017673aa45c36fe8c1ee4749c96c61e6688bf3e073ce",
+    "Name": "/vendor/bin/sysenv_daemon",
+    "Size": 20380
+  },
+  {
+    "SHA256": "5982c3708917cf0105ed9fcf5d71a0c523c5104c6bb7404339da0382dab04376",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.pq@2.0-service",
+    "Size": 20380
+  },
+  {
+    "SHA256": "a438b6974f297995336bca10fc0232a6533afcdd2fc4ff91248c8e0dfb8f27d7",
+    "Name": "/vendor/bin/nvram_agent_binder",
+    "Size": 20364
+  },
+  {
+    "SHA256": "a619753163075ae1ce068d538a7949d5da0c5b1dcd2bd9d928ce6b477a66b914",
+    "Name": "/vendor/lib/libperfservicenative.so",
+    "Size": 20336
+  },
+  {
+    "SHA256": "c77859efe289df1e6bbb8c5a530d98cddd38a7a68f7dcab2d6363d4efb88c703",
+    "Name": "/vendor/lib/soundfx/libvisualizer.so",
+    "Size": 20328
+  },
+  {
+    "SHA256": "3b198b818a9a9f6b53eca208478fdc8857282b831139935e345a38fdcefd19a2",
+    "Name": "/vendor/lib/librgbwlightsensor.so",
+    "Size": 20328
+  },
+  {
+    "SHA256": "8e2b9fc6493e4315109ba11760bace509053e6cc1cfe4de22e8d3f31dbf86cc1",
+    "Name": "/vendor/bin/netdc",
+    "Size": 20324
+  },
+  {
+    "SHA256": "cc158eea543589e0cacf4161b5468700c3a2399cca2d4a44636680906fa0a744",
+    "Name": "/vendor/lib/libavservices_minijail_vendor.so",
+    "Size": 20316
+  },
+  {
+    "SHA256": "6456d53d9ca949318cdac4b942d59ba0432f07d0edeb5166654ffa41d83e5fe3",
+    "Name": "/vendor/bin/wmt_loopback",
+    "Size": 20312
+  },
+  {
+    "SHA256": "c41615576449335ccf3f0709d252687588ce6aec1f697c7811b2c02c2c0c1ce8",
+    "Name": "/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek",
+    "Size": 20308
+  },
+  {
+    "SHA256": "b87c12b8018e88f36482f5cfe8b5a2c251d6fba39a3b8585b388ef34f2c2af01",
+    "Name": "/vendor/lib/libbluetooth_relayer.so",
+    "Size": 20304
+  },
+  {
+    "SHA256": "766f9ccda0c2f9a923b795441c4b4d663bb19cb19e3bd6fee31f653ed7deaf01",
+    "Name": "/vendor/bin/hw/camerahalserver",
+    "Size": 20300
+  },
+  {
+    "SHA256": "cbf6ceb034ffec3ffb371cef07ce440da267d2905b249b5dce314c7b3d63ba1e",
+    "Name": "/vendor/lib/libmhalImageCodec.so",
+    "Size": 20296
+  },
+  {
+    "SHA256": "926af0fd84512e3bb10c9a059e4777dcf92945490913aadf615c37cba8bff17f",
+    "Name": "/vendor/lib/libcam.hal3a.v3.dng.so",
+    "Size": 20280
+  },
+  {
+    "SHA256": "b0d9efef0b15c315c4ae78804bb171155cc4fdbec79b52adb7d3ca33bd964b3a",
+    "Name": "/vendor/lib/libhwminijail.so",
+    "Size": 20272
+  },
+  {
+    "SHA256": "1f97208339fed5598217baff1232471cfb744200b5f2db897feaa69318ebeba9",
+    "Name": "/vendor/lib/libsysenv.so",
+    "Size": 20268
+  },
+  {
+    "SHA256": "09cb58a9a2b0d87f7c8557d009740f17df6b1d13d619d15ecebc857969406796",
+    "Name": "/vendor/lib/libmrdumpv.so",
+    "Size": 20268
+  },
+  {
+    "SHA256": "d9ef0003f124ab24452cf7159401b9bbfcf3b00b39b986c3ab932b69a13d1562",
+    "Name": "/vendor/lib/libforkexecwrap.so",
+    "Size": 20260
+  },
+  {
+    "SHA256": "ccf4262c93a7e9f2abd194c9c8881025731e8ccf0148f4561961abfc8b85ed51",
+    "Name": "/vendor/lib/libbluetoothem_mtk.so",
+    "Size": 20252
+  },
+  {
+    "SHA256": "0d6c0c307c3e30fcde3ab2ce5496cfb5add5751a2571c79f350ca545463a9143",
+    "Name": "/vendor/lib/libtface.so",
+    "Size": 20220
+  },
+  {
+    "SHA256": "a04e175d06d3937851a2f3c32597ba21f82cb4eeff392d6635976e29c00ba674",
+    "Name": "/vendor/lib/libperfctl_vendor.so",
+    "Size": 20220
+  },
+  {
+    "SHA256": "956528cecc1b13d75ca3541964087c9ac5bf621c23aa3a429e16a836982497be",
+    "Name": "/vendor/lib/libvcodec_capenc.so",
+    "Size": 20204
+  },
+  {
+    "SHA256": "3e1bc7df15c40de53eab7d019801a330e9e7442ae252ebd7d15eed6b42022d0c",
+    "Name": "/vendor/etc/agps_profiles_conf2.xml",
+    "Size": 19236
+  },
+  {
+    "SHA256": "506b5e0817df3d82cfe4ec9fd82d32374c526027f60f04f26e8f990ac0acc768",
+    "Name": "/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta",
+    "Size": 18897
+  },
+  {
+    "SHA256": "1a05514995dfcdcd4b8049ec754c2d497f06d26a6465cd6c92f5d9588938abca",
+    "Name": "/vendor/etc/audio_param/VoIPv2_AudioParam.xml",
+    "Size": 18799
+  },
+  {
+    "SHA256": "f4acd429f825bb441bf4b5e236832398218313957ed5771d80e9bd19874c35f9",
+    "Name": "/vendor/etc/media_profiles.xml",
+    "Size": 18748
+  },
+  {
+    "SHA256": "fb3e21a85a00fc61d7042de906f2744ae5b430fbbb6e746182b84248ac4523da",
+    "Name": "/vendor/lib/libmtcloader.so",
+    "Size": 18376
+  },
+  {
+    "SHA256": "0f30a3335d4cfd91ce1e9bc34f9639af1656508dbe22f7294fe4a1356a2edc02",
+    "Name": "/vendor/lib/libmtkshifter_vendor.so",
+    "Size": 18100
+  },
+  {
+    "SHA256": "e8c3186f8adc8a58471bc8c6a835b5140698023d0822f8d8a9f1389ed3a2005f",
+    "Name": "/vendor/manifest.xml",
+    "Size": 18036
+  },
+  {
+    "SHA256": "0fe632801baa8157b05a7c728f5bfc820473978bcfcb69ccd54e403831f7fb10",
+    "Name": "/vendor/lib/modules/gps_drv.ko",
+    "Size": 17724
+  },
+  {
+    "SHA256": "03d58678474d38bb3c5c5cae313e0dd91a9fb1c4e8290143027250680c61ca03",
+    "Name": "/vendor/etc/audio_param/Volume_AudioParam.xml",
+    "Size": 17714
+  },
+  {
+    "SHA256": "349d0b3cfcbc30399af29b77a47238f5ade5bd84aa5d6326ae67075cdc7232e9",
+    "Name": "/vendor/lib/libvt_custom.so",
+    "Size": 16748
+  },
+  {
+    "SHA256": "3d1fbac55f2e85c5dfe49d094e9b74a46815f9bc5a4043b61fc7982439bd21fa",
+    "Name": "/vendor/etc/aurisys_config.xml",
+    "Size": 16745
+  },
+  {
+    "SHA256": "750233c7e7ac233b2b4746a0c07967af462447adc5e91486f797533157eafecf",
+    "Name": "/vendor/lib/hw/audio_policy.stub.so",
+    "Size": 16640
+  },
+  {
+    "SHA256": "85767f5f7ca70938a86dd92b5816a5bc2ec06ce92a407a8066b97a3b7f7732f6",
+    "Name": "/vendor/lib/libcam_platform.so",
+    "Size": 16448
+  },
+  {
+    "SHA256": "c525d8e5f2ce62e0605a9d0d876468de963eb7941b111a087a85cea424041863",
+    "Name": "/vendor/bin/fuelgauged",
+    "Size": 16388
+  },
+  {
+    "SHA256": "daf995c601cd4bd7eb8b707a04366076e0c923f6792618baff8edbaa82b79c7b",
+    "Name": "/vendor/lib/libkeystore-wifi-hidl.so",
+    "Size": 16340
+  },
+  {
+    "SHA256": "93cc7f8e59b0e2bbf454566749ab0a22ea4e0ca2890606b4c882e4e53070ab22",
+    "Name": "/vendor/lib/hw/vibrator.default.so",
+    "Size": 16328
+  },
+  {
+    "SHA256": "1f7c164888a5724d0e393bd4e11381165d80e863a221a08d730143496ed02607",
+    "Name": "/vendor/lib/hw/power.mt6739.so",
+    "Size": 16292
+  },
+  {
+    "SHA256": "f0b1a1849ffdce7819b28aa3d246adcfea19dc64b2dbf9a63397eda5020bf0ad",
+    "Name": "/vendor/lib/hw/thermal.mt6739.so",
+    "Size": 16288
+  },
+  {
+    "SHA256": "46b38c2c6285e1580b0f58720bbb215fa3857ab4679b98e214452b6bb6c3e355",
+    "Name": "/vendor/lib/hw/local_time.default.so",
+    "Size": 16248
+  },
+  {
+    "SHA256": "3436b47e353749f9a8cea8a21af6665c99f98fc812ad944ad9b0567ff80a41d5",
+    "Name": "/vendor/lib/hw/power.default.so",
+    "Size": 16240
+  },
+  {
+    "SHA256": "421662fb83476181658231c46e53c5436b26908a59174f9d8343f6fcc585ea4e",
+    "Name": "/vendor/lib/hw/memtrack.mt6739.so",
+    "Size": 16236
+  },
+  {
+    "SHA256": "aa515ee79b065d83db8c81500b0f9d0f91e805af7471908d65012088be73a58c",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service",
+    "Size": 16232
+  },
+  {
+    "SHA256": "b72b7dc273ce38c0f229e1542aad5fa002010c96eacaf01494b4e8f9f76cb71f",
+    "Name": "/vendor/bin/hw/android.hardware.vibrator@1.0-service",
+    "Size": 16232
+  },
+  {
+    "SHA256": "80e5bdd0ed6b05c9b878a1d8c6dc2457c264b30f9da571275c9d95abd7605156",
+    "Name": "/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek",
+    "Size": 16232
+  },
+  {
+    "SHA256": "382b5d25578b2be92aee54aac086d97175b2459cc520759b1103f9d16fe1f877",
+    "Name": "/vendor/bin/hw/vtservice_hidl",
+    "Size": 16228
+  },
+  {
+    "SHA256": "35c1c715375b33e585427252124a290dd9f7e8e9879c4107fdbf784e8c9f4aeb",
+    "Name": "/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek",
+    "Size": 16228
+  },
+  {
+    "SHA256": "9cf6646103e14a4bb60270f9c17dcfecb1a4e439fa7ec15759f9029144ab553d",
+    "Name": "/vendor/bin/hw/android.hardware.keymaster@3.0-service",
+    "Size": 16228
+  },
+  {
+    "SHA256": "71fad6a5eacd318a6059b9a292636faed9e248946d13c6ef871d1f39aa312cad",
+    "Name": "/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service",
+    "Size": 16228
+  },
+  {
+    "SHA256": "e56a242dd2a4439481479bdfaf1b1827dbc732d06f78acba33f9c7011269df16",
+    "Name": "/vendor/bin/hw/android.hardware.gatekeeper@1.0-service",
+    "Size": 16228
+  },
+  {
+    "SHA256": "53eece6dbeca006ca088d57215125cde945ccf842af78228fbde11acc30ec169",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service",
+    "Size": 16224
+  },
+  {
+    "SHA256": "4f5cdd31e3fd48f4038f7e09444be2b226fdc2edcf6912d7bdc0b8675b7ba11c",
+    "Name": "/vendor/bin/hw/android.hardware.thermal@1.0-service",
+    "Size": 16224
+  },
+  {
+    "SHA256": "85593ee3248120754717256a262417cda2f83d86a153db449237b80f9e903949",
+    "Name": "/vendor/bin/hw/android.hardware.memtrack@1.0-service",
+    "Size": 16224
+  },
+  {
+    "SHA256": "a9c00fe80cb44e12be6988aca0b872f39d18faf256d598d5be964df00a0f586e",
+    "Name": "/vendor/bin/hw/android.hardware.light@2.0-service-mediatek",
+    "Size": 16224
+  },
+  {
+    "SHA256": "62f673eb338cb54894190ecfaeb103b6be5e9bfb6505f404f83dd8e46470a111",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service",
+    "Size": 16220
+  },
+  {
+    "SHA256": "0e15ea00ce1e89acc261b936e9fbf8c26703289733eb667b6df6fdc70864af28",
+    "Name": "/vendor/bin/hw/android.hardware.graphics.composer@2.1-service",
+    "Size": 16216
+  },
+  {
+    "SHA256": "9f969d3710c20224003ec23089428bed5d15ed91f015d3b249b14ec406a1f15e",
+    "Name": "/vendor/bin/hw/vendor.mediatek.hardware.gnss@1.1-service",
+    "Size": 16212
+  },
+  {
+    "SHA256": "29c81ccb238755058f0ec1a7a14947b212ede97d35d62533c28b201598e122ce",
+    "Name": "/vendor/lib/lib3a.log.so",
+    "Size": 16208
+  },
+  {
+    "SHA256": "b32e66b364e9f11a0e44e387d45f153e58d81296784af9244b92da1d8913eabf",
+    "Name": "/vendor/bin/hw/android.hardware.drm@1.0-service",
+    "Size": 16208
+  },
+  {
+    "SHA256": "e1fcabaac6f2656f67085b31a433d97bfd69090bbe9604dd075128b06c08d1cf",
+    "Name": "/vendor/bin/thermalloadalgod",
+    "Size": 16204
+  },
+  {
+    "SHA256": "c4f3ca4e636860c145eeacdadac2a2aaa4b2d5b63a34e11d4ed302797ee84eb7",
+    "Name": "/vendor/bin/hw/power_native_test",
+    "Size": 16200
+  },
+  {
+    "SHA256": "7288945fe6ab2afd257caecd3df889f2245ebaa9bec9f06e764871a58f4b19d0",
+    "Name": "/vendor/lib/soundfx/libeffectproxy.so",
+    "Size": 16192
+  },
+  {
+    "SHA256": "f6629472a5b0bf22b1a0d1680ce2b91bcce771d0ef0f393b0251632c3fc4e81a",
+    "Name": "/vendor/bin/lbs_hidl_service",
+    "Size": 16192
+  },
+  {
+    "SHA256": "3505bc09aeaa8ea22425091f47923144c45cce427e38372d772e2a1fd3bd13ba",
+    "Name": "/vendor/bin/thermal_manager",
+    "Size": 16180
+  },
+  {
+    "SHA256": "2b63b6f2caf993d97115ddfaa9487ed5f7946e80ccc26382fd45dfe16609f4c2",
+    "Name": "/vendor/lib/libmmprofile.so",
+    "Size": 16172
+  },
+  {
+    "SHA256": "ae081165679a8f00c0344468607e77d8eb99c6c2880c097939e3b29648441257",
+    "Name": "/vendor/lib/libmtkcam_modulehelper.so",
+    "Size": 16136
+  },
+  {
+    "SHA256": "de4eb771871d4d20feafa3bea61de60e5434b30c3168e10f1152d22dad9b66b9",
+    "Name": "/vendor/lib/libion_mtk.so",
+    "Size": 16132
+  },
+  {
+    "SHA256": "e908514bc7c1d59c31e35d54e1b08fe04be302dba1055bf501a47da16f2756c8",
+    "Name": "/vendor/lib/libcam.hal3a.log.so",
+    "Size": 16132
+  },
+  {
+    "SHA256": "c4777ec3895ed2a3a92a06a402de27301c790af2d4f5f801739c1d69d6dabe44",
+    "Name": "/vendor/lib/libratconfig.so",
+    "Size": 16128
+  },
+  {
+    "SHA256": "83675679e00962f0a117450b997bf1682b96ed4221186a58f5ffba7c23ddff08",
+    "Name": "/vendor/lib/libdirect-coredump.so",
+    "Size": 16120
+  },
+  {
+    "SHA256": "061cd73c8f310c05f38ac8ffb9c607b329fcb7e958858945e1740839890e6252",
+    "Name": "/vendor/lib/libstagefrighthw.so",
+    "Size": 16104
+  },
+  {
+    "SHA256": "08c652be95ad2304a1f5e1bf9294940b15fd43399352154dd72d13fbe667fabb",
+    "Name": "/vendor/lib/libaudiotoolkit_vendor.so",
+    "Size": 16100
+  },
+  {
+    "SHA256": "587166772d1e8f67db4797f62559d465690bed8f9f88d010f3fbbc164c8f3b3b",
+    "Name": "/vendor/lib/libabfadp.so",
+    "Size": 16100
+  },
+  {
+    "SHA256": "3827bb26649d5c7f581527679976cb332461bee7c6817ec9618b2bf87c89a796",
+    "Name": "/vendor/lib/librilutils.so",
+    "Size": 16088
+  },
+  {
+    "SHA256": "23720df6a58ee2c84d990bbb9b465204a243b8aa6ad818ab693282d2d9997a75",
+    "Name": "/vendor/lib/libnvram_sec.so",
+    "Size": 16088
+  },
+  {
+    "SHA256": "c8fc8035850fa68340542d683e8aa86a4422331c09724893ba744904805d749a",
+    "Name": "/vendor/lib/libfmcust.so",
+    "Size": 16088
+  },
+  {
+    "SHA256": "7490b62f674917bc372e7abb61a8fa3ae839f845800567226e7de9bd0e5dc6b8",
+    "Name": "/vendor/lib/libimsg_log.so",
+    "Size": 16084
+  },
+  {
+    "SHA256": "50824391f52198e5eed2b20ef97af5d76122755f30420207fe003178e3050178",
+    "Name": "/vendor/lib/libbt-vendor.so",
+    "Size": 16076
+  },
+  {
+    "SHA256": "5793aaba70fd296e6822ef349dc0dc669e0786608dc166f5e8db4d42a9b212ef",
+    "Name": "/vendor/lib/libifcutils_mtk.so",
+    "Size": 16072
+  },
+  {
+    "SHA256": "10113bc199484ee0129154807fe0fa7a99fa368c89fdc319b4b16413c29aa17f",
+    "Name": "/vendor/lib/libnvram_daemon_callback.so",
+    "Size": 16060
+  },
+  {
+    "SHA256": "99c579c0a7b220229b4e29a46eba6819ff6e919d264c460d41c8037c4f098f2f",
+    "Name": "/vendor/lib/libnvram_platform.so",
+    "Size": 16052
+  },
+  {
+    "SHA256": "393d32d5d730b76346d10a7fe0fb402cb2ef616f26979c2e11fcd31a449dbca1",
+    "Name": "/vendor/lib/libion_ulit.so",
+    "Size": 16052
+  },
+  {
+    "SHA256": "29cbd24f2a1cee2c82efb80626fd2be84432d1396c50c80e69db4c97485fd1ab",
+    "Name": "/vendor/lib/libcam_mmp.so",
+    "Size": 16052
+  },
+  {
+    "SHA256": "297633b75c322006bf1f6cc7fec5091f0841fe7e8ce16846cbbd66d2115d1144",
+    "Name": "/vendor/lib/librrc.so",
+    "Size": 16048
+  },
+  {
+    "SHA256": "4f5561360557473e12bfb06ee49b801699493071bf49d4aaddb6609c05860df5",
+    "Name": "/vendor/lib/libSonyIMX386PdafLibrary.so",
+    "Size": 16044
+  },
+  {
+    "SHA256": "de0d32879590984bf4dfbeb1353962da0014c3965eaadddf08eef5151ffc8df1",
+    "Name": "/vendor/lib/libSonyIMX338PdafLibrary.so",
+    "Size": 16044
+  },
+  {
+    "SHA256": "06b47db3fc364c91e31f52a563faf5402d367ebc62edb84f0fda9df6bfcf8f99",
+    "Name": "/vendor/lib/libSonyIMX230PdafLibrary.so",
+    "Size": 16036
+  },
+  {
+    "SHA256": "6bcbd66c49f68b670964c1d0f70946296e75951e5c3681ff3a3258af90a01395",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/64.dat",
+    "Size": 15876
+  },
+  {
+    "SHA256": "c8a4068ed32abb311cd041f8d8b7fa01e402fa8d2f8fe8be0f36228e66d1b80d",
+    "Name": "/vendor/lib/modules/bt_drv.ko",
+    "Size": 15632
+  },
+  {
+    "SHA256": "c676a744d5b77507db4e3ad7ba257de556cead477297be2886cd24d2659a9f1f",
+    "Name": "/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml",
+    "Size": 15487
+  },
+  {
+    "SHA256": "d3c015010583bd2c3657003a4a2acb89b5043c56514e9d56c5dfdfd4848690c8",
+    "Name": "/vendor/etc/audio_policy_configuration.xml",
+    "Size": 14729
+  },
+  {
+    "SHA256": "291bdfbdb6f45e2a11464413118f3127cd94df5e5f83fb41bbabf3afcfce351a",
+    "Name": "/vendor/app/MTKLoggerProxy/MTKLoggerProxy.apk",
+    "Size": 14479
+  },
+  {
+    "SHA256": "2ba9c7b066bb0d41f981d4e6804a646bb107cb80eb2cb39a32757c6da3ece3da",
+    "Name": "/vendor/lib/libthha.so",
+    "Size": 13820
+  },
+  {
+    "SHA256": "25fdc324c94a64081f99f48b7389812e72f1b7fa8a2ee010879d8ce117fe8f4c",
+    "Name": "/vendor/etc/DSM.xml",
+    "Size": 13809
+  },
+  {
+    "SHA256": "4fff4f4c5cd7c1accd5ffeadfdcde8e143d96956b4af26370adf47eb7a55a4e8",
+    "Name": "/vendor/lib/egl/libEGL_mtk.so",
+    "Size": 13776
+  },
+  {
+    "SHA256": "05ce215bccb88d4ebd2902b6845c6650ec4f8a8f6886c5e66930671e18e71303",
+    "Name": "/vendor/bin/rttv",
+    "Size": 13736
+  },
+  {
+    "SHA256": "29215e813f213fc581f1ebd9cade0ac87dca95a1f19a98835d56398709158083",
+    "Name": "/vendor/lib/libcapi_adapter.so",
+    "Size": 13728
+  },
+  {
+    "SHA256": "1186ec0d2d0698bc4a18bf3e9317a825077e11ee2aa992729197b3f4dbc407b8",
+    "Name": "/vendor/etc/audio_param/Record_ParamUnitDesc.xml",
+    "Size": 12501
+  },
+  {
+    "SHA256": "0390f35faaddd03325b37c3037d5375b96bc0da8dc9a3eb02c40d46aeb7e0013",
+    "Name": "/vendor/build.prop",
+    "Size": 12006
+  },
+  {
+    "SHA256": "5111cafbd5d0b32dd1d8422bda30ef38f7fdf88d822f27c9a66a5fcfccbf3d03",
+    "Name": "/vendor/etc/audio_device.xml",
+    "Size": 11991
+  },
+  {
+    "SHA256": "a6b91273c14e801e170cd53551165bdf6a9213fd650cdba9f28dd0837c9d22fe",
+    "Name": "/vendor/etc/audio_param/Speech_ParamTreeView.xml",
+    "Size": 11697
+  },
+  {
+    "SHA256": "7454857c86dfa7616f2189be50c390bcf16acdcbb5244342aeb300d73669b8a7",
+    "Name": "/vendor/lib/modules/wmt_chrdev_wifi.ko",
+    "Size": 11368
+  },
+  {
+    "SHA256": "e9f4cb00577d8dcb584a7e84223e0ab68afdf40c2fe2c82cdc2102bbbf7658c6",
+    "Name": "/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml",
+    "Size": 11188
+  },
+  {
+    "SHA256": "2dac8b16c0841fdaafe1e6d0986a5035c4fe2c66e6178eabe24f2711900b0630",
+    "Name": "/vendor/etc/audio_policy_volumes.xml",
+    "Size": 10439
+  },
+  {
+    "SHA256": "ed622c2d8b67bf91ba838dc500dd2badab5fc8eda83cf0a2cdb61eccf64c044a",
+    "Name": "/vendor/etc/init/microtrust.rc",
+    "Size": 9857
+  },
+  {
+    "SHA256": "1ed5ad7c1b20d591cc7a47c4bf9491b587f47df4fa4d40f9b784dd46f9d570b6",
+    "Name": "/vendor/firmware/customfilter/catcher_filter_1_ulwtg_n_meta.bin",
+    "Size": 9564
+  },
+  {
+    "SHA256": "aec1fe40e54a99c90bb12d2cc58e77b5cb0f433ee714892dfcf30551ee97bd65",
+    "Name": "/vendor/firmware/customfilter/catcher_filter_1_ulwtg_n__Default.bin",
+    "Size": 9564
+  },
+  {
+    "SHA256": "89b4d3d6888d940f430fd9f1a73227679e9b5ab7f2728ab87b3e62e39592d4b7",
+    "Name": "/vendor/firmware/customfilter/catcher_filter_1_ulwtg_n_SlimLog_DspAllOff.bin",
+    "Size": 9564
+  },
+  {
+    "SHA256": "45a52906c2a824d7f70922658d587babcee788146fa8634815e4da55cbeb0750",
+    "Name": "/vendor/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin",
+    "Size": 9564
+  },
+  {
+    "SHA256": "77ead2f1b6dc5011ffd2463f2f6659838258c86d2205578dc3125cc6432f0a4b",
+    "Name": "/vendor/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin",
+    "Size": 9564
+  },
+  {
+    "SHA256": "aec1fe40e54a99c90bb12d2cc58e77b5cb0f433ee714892dfcf30551ee97bd65",
+    "Name": "/vendor/firmware/catcher_filter_1_ulwtg_n.bin",
+    "Size": 9564
+  },
+  {
+    "SHA256": "f70189f787feb100f7fec79679391e3a43906081ffeefc17cfe4b3ae12636e17",
+    "Name": "/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml",
+    "Size": 9400
+  },
+  {
+    "SHA256": "a8152b798e7cbe79c149e8d007ec7b9629be09eaa5afcf47e3f175da4ffacee0",
+    "Name": "/vendor/etc/media_codecs_performance.xml",
+    "Size": 9251
+  },
+  {
+    "SHA256": "f0acb8c0f0852e9d46b334aa876e62df228574d7307fe0460e83367dbd6d0b61",
+    "Name": "/vendor/etc/selinux/nonplat_property_contexts",
+    "Size": 8912
+  },
+  {
+    "SHA256": "0dae19c9e0ded579d90cc27f83b223de12fecbc2a886940b51176e843a1de6d1",
+    "Name": "/vendor/etc/media_codecs_mediatek_video.xml",
+    "Size": 8818
+  },
+  {
+    "SHA256": "eb7a8b0c5dd50edfe5147109b1a9d88d49e662cc44377ae34c06dd0c900161f8",
+    "Name": "/vendor/etc/init/hw/init.sensor_1_0.rc",
+    "Size": 8771
+  },
+  {
+    "SHA256": "41b822e15d39b5a2ca690e3450f94ec475231e90a21843d2bde3a7c70e10068c",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.gen",
+    "Size": 7949
+  },
+  {
+    "SHA256": "992fcccd727059803be691dad5f72c3fbd1bfe1bae72f55b3da7baebac66514f",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.l",
+    "Size": 7843
+  },
+  {
+    "SHA256": "db4bc7dd69052b9170f7715206f234bc1caf39bfd17b92353d4eddccf0bf77ad",
+    "Name": "/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml",
+    "Size": 7691
+  },
+  {
+    "SHA256": "49fe05ac263a5fa707a154623fc5a9991e86c5354f19d23185d6f56ff6724e31",
+    "Name": "/vendor/etc/audio_param/SpeechVol_AudioParam.xml",
+    "Size": 7659
+  },
+  {
+    "SHA256": "c2dbe3cec1bb38756ef826c1f23c7b915afb54c2399a5a686674c333600c3520",
+    "Name": "/vendor/etc/audio_param/VoIP_AudioParam.xml",
+    "Size": 7058
+  },
+  {
+    "SHA256": "b1d6ffa31a241ecda63d762d98bb061141815aa2c0caf6040ddc37f23d17f681",
+    "Name": "/vendor/framework/lib_ut_ta_manager.jar",
+    "Size": 7017
+  },
+  {
+    "SHA256": "40d68d4df934cce09010aa75599de964ab6344aec7a21862e856a9822ddc529a",
+    "Name": "/vendor/etc/gallery/Gallery2Root/Gallery2Root.apk",
+    "Size": 6581
+  },
+  {
+    "SHA256": "d5dd11d234f0a6a5244d0f7227d3076ff4ebf62b1310c58923fc299cd02c01f6",
+    "Name": "/vendor/etc/audio_policy.conf",
+    "Size": 6435
+  },
+  {
+    "SHA256": "5f1a07df472c7e0ed533b5d3f91659542c54b24a10b2f754b6d506ed1ff571a8",
+    "Name": "/vendor/lib/libaudiosetting.so",
+    "Size": 6108
+  },
+  {
+    "SHA256": "f86b74ecbd9bae2eebd7a470e9eb4b64e67db3a47e07121a3e4d8d2976884394",
+    "Name": "/vendor/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk",
+    "Size": 5983
+  },
+  {
+    "SHA256": "8ad03f068187cee4e6c7de7cf3ad18c8d072481f335c9700527166b7bf520788",
+    "Name": "/vendor/etc/audio_param/RecordUI_AudioParam.xml",
+    "Size": 5858
+  },
+  {
+    "SHA256": "65c099b1a2956b67f0fe4d4bba2b45dee64af314ae12a645aa98eb0329c3d90d",
+    "Name": "/vendor/etc/media_codecs_google_video_le.xml",
+    "Size": 5686
+  },
+  {
+    "SHA256": "53558bc1e6586e64523f3d1a1d7244c4c082b76afcf57daceaeb8bbd88299d8d",
+    "Name": "/vendor/etc/audio_param/PlaybackACF_AudioParam.xml",
+    "Size": 5573
+  },
+  {
+    "SHA256": "1dfa1fafb21755f8828712c4bd4f89bf3b54c233350feadb6ebfc8a7874e2a49",
+    "Name": "/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml",
+    "Size": 5520
+  },
+  {
+    "SHA256": "fdb3b0e7a591fcb3c1ade552db859d165fdda0f4c0bb01c925bce9ff47df6649",
+    "Name": "/vendor/lib/libverno.so",
+    "Size": 5448
+  },
+  {
+    "SHA256": "831fa480338e9959cdf7ffa7dd6021cc871af70b1523571791d58e71ce69ad2e",
+    "Name": "/vendor/ueventd.rc",
+    "Size": 5364
+  },
+  {
+    "SHA256": "96d7b595a76f6a0c32400d0caf5c830e13fd49a9abd676be29db7d88001032fe",
+    "Name": "/vendor/framework/lib_ut_capi_adapter.jar",
+    "Size": 5318
+  },
+  {
+    "SHA256": "488fe756a8107f443ce069b189054170c07b6f1da6a70faa4d2209f65d832875",
+    "Name": "/vendor/lib/libh264dec_customize.so",
+    "Size": 5168
+  },
+  {
+    "SHA256": "65ef93a63ba190722b6d7da9af4e2659c4a23fb9605efc85fb3c70bea5a2a1ff",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.power@1.1-service.rc",
+    "Size": 5098
+  },
+  {
+    "SHA256": "536761d2e0893adddfe7d3c1d8dba8a3fc44f3b6487c52c0c996634691e3ddb6",
+    "Name": "/vendor/etc/permissions/handheld_core_hardware.xml",
+    "Size": 4886
+  },
+  {
+    "SHA256": "c3acd6442046ac4bd949b5c6f18d79f2707b5bdc677fa8e676bd02a88035ac75",
+    "Name": "/vendor/etc/media_codecs_google_audio.xml",
+    "Size": 4830
+  },
+  {
+    "SHA256": "f3b05a76d5d4934a688341ff9142f485916c3e0167498a1fd917eaa67df4b684",
+    "Name": "/vendor/etc/.tp/thermal.off.conf",
+    "Size": 4697
+  },
+  {
+    "SHA256": "465fc0402e94a2445cef71833d6cd4fbb952a2ca808cbc2acdbf547b26cdb768",
+    "Name": "/vendor/etc/.tp/thermal.conf",
+    "Size": 4697
+  },
+  {
+    "SHA256": "b1da304dfb3b32ef11487f475597dd2e877e721d6c6a4ed4fc2de66a104b2855",
+    "Name": "/vendor/etc/audio_param/VoIP_ParamTreeView.xml",
+    "Size": 4684
+  },
+  {
+    "SHA256": "20ee6ec060fae2aed0816eb256a099dd990480485f27514adde3c1c8b37c17cc",
+    "Name": "/vendor/etc/media_codecs_mediatek_audio.xml",
+    "Size": 4501
+  },
+  {
+    "SHA256": "83f15b5642f457fa4ad7a2ccf52c80edcd1cd8c3ea8179faca2ad83fde828bb0",
+    "Name": "/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml",
+    "Size": 4279
+  },
+  {
+    "SHA256": "6a4fe8717ccf97e1f1b6d705576e961f3fbd364bd427e1ea2dae56c6c733d227",
+    "Name": "/vendor/etc/.tp/.ht120.mtc",
+    "Size": 3835
+  },
+  {
+    "SHA256": "70c3bb39a23901b38b5ffb00692d300695da4b0dd9cb7dfc2917c40452729717",
+    "Name": "/vendor/etc/audio_param/SpeechUI_AudioParam.xml",
+    "Size": 3831
+  },
+  {
+    "SHA256": "19406521decc7da9a33d9b30930708436133f09be1986be47bd7d165c2fe654c",
+    "Name": "/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml",
+    "Size": 3772
+  },
+  {
+    "SHA256": "aaa01f85c57ad6838ddb38849787ceb0e93dcfc25b73924ca9fc61f11e957ac8",
+    "Name": "/vendor/etc/security/cacerts_supl/594f1775.0",
+    "Size": 3640
+  },
+  {
+    "SHA256": "38d9626757b263c0c9b927bd455ff4991b9fd52c1995907f245a135b73103116",
+    "Name": "/vendor/etc/fstab.mt6739",
+    "Size": 3560
+  },
+  {
+    "SHA256": "612b104c24adad7a46497697296adfca0428b35431d5e8bd945bede650611603",
+    "Name": "/vendor/etc/media_codecs.xml",
+    "Size": 3503
+  },
+  {
+    "SHA256": "7fcb81a2ede88495883deabe5f65f3d3aab6516b174a0fc13d8ed232430ef290",
+    "Name": "/vendor/etc/init/hw/init.modem.rc",
+    "Size": 3494
+  },
+  {
+    "SHA256": "91ef40e4d9bac6132f499ffd69f325ab1523c94e2c78d0c318c94998a1cc96c6",
+    "Name": "/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml",
+    "Size": 3489
+  },
+  {
+    "SHA256": "5ad71f9fcee7adfd452f905a537861837b64176e7b461d2d763ee354daf921d2",
+    "Name": "/vendor/etc/audio_param/Volume_ParamUnitDesc.xml",
+    "Size": 3442
+  },
+  {
+    "SHA256": "f55dcc5f6c0c675e37f2f7fd5e0b6ad4d39e576a2983b7be286338266d8ef297",
+    "Name": "/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml",
+    "Size": 3432
+  },
+  {
+    "SHA256": "5d897fdac17da97c92f7024f3c0c3976f86b151d52ad20fbe82e1643fc283600",
+    "Name": "/vendor/etc/audio_param/AudioParamOptions.xml",
+    "Size": 3430
+  },
+  {
+    "SHA256": "bd262a41095f65bba9289df38c6aa94bc6af88e484f33ddbec58f5813c882c43",
+    "Name": "/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml",
+    "Size": 3429
+  },
+  {
+    "SHA256": "02eec5bf31b3d9da0471536c1441cb8a6f616855790cb704c1263c567104dbd1",
+    "Name": "/vendor/etc/virtual-spn-conf-by-efspn.xml",
+    "Size": 3265
+  },
+  {
+    "SHA256": "529843b12ded7392e049f45c1b60ce9bb982a8c9ce64386aec8ab4bebe2321f9",
+    "Name": "/vendor/etc/security/cacerts_supl/f336e3d1.0",
+    "Size": 3148
+  },
+  {
+    "SHA256": "d3d9e5cf32908b6e21267cb5cb8cd97885021fc6f07027f9b16b30bfc1669960",
+    "Name": "/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml",
+    "Size": 3037
+  },
+  {
+    "SHA256": "c660139027b2b43a5f4104c23ec1fcf4e9212cda864fc803f6e9293181bb6eac",
+    "Name": "/vendor/etc/audio_param/RecordVol_AudioParam.xml",
+    "Size": 3012
+  },
+  {
+    "SHA256": "09cbec3afe67448b703b503fae8655afa9b91e6452551be87a83c32d95c58ade",
+    "Name": "/vendor/etc/ecc_list.xml",
+    "Size": 2934
+  },
+  {
+    "SHA256": "e0e3eaa2ee0827bc9f5f2fdaae4117bdcc4661b02bd8b89a1f075279136e7f10",
+    "Name": "/vendor/etc/security/cacerts_supl/c542733d.0",
+    "Size": 2925
+  },
+  {
+    "SHA256": "8637353c36933180233aa4f3e38196c03e3261cd00b4f960e37d16f67418abf5",
+    "Name": "/vendor/etc/selinux/nonplat_hwservice_contexts",
+    "Size": 2837
+  },
+  {
+    "SHA256": "bb1f8adb4cc12f05f4dc1612a078721527dfc4f9694149fff1e08968f454b7c6",
+    "Name": "/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml",
+    "Size": 2835
+  },
+  {
+    "SHA256": "bfae2925ed8b4c3aae02c8da850004d7e727a32110a4603fa40b0a1551967283",
+    "Name": "/vendor/etc/power_whitelist_cfg.xml",
+    "Size": 2814
+  },
+  {
+    "SHA256": "d20cec5b40cdeb3b52752fb680b72b69e9dbdbf08fb03b3c7dc902e5aca039e7",
+    "Name": "/vendor/etc/audio_em.xml",
+    "Size": 2787
+  },
+  {
+    "SHA256": "71ed9555f51fc0d0d7b29e72eb34827cc1f142b477dfacf6763f9d2354590fae",
+    "Name": "/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml",
+    "Size": 2779
+  },
+  {
+    "SHA256": "7eb7fbe2f35f864060b5265d2b04fd5531003271456c706335203a86cb093678",
+    "Name": "/vendor/etc/security/cacerts_supl/7651b327.0",
+    "Size": 2657
+  },
+  {
+    "SHA256": "b5e6ed63c7e74db2586c4c67902741e83b3b1a00bce0554a74e13417c927927f",
+    "Name": "/vendor/etc/security/cacerts_supl/848ea856.0",
+    "Size": 2624
+  },
+  {
+    "SHA256": "8d9025527a672bca499f6276c44ceba4b977470de09c6b1eb60fa03509658c21",
+    "Name": "/vendor/etc/default_volume_tables.xml",
+    "Size": 2617
+  },
+  {
+    "SHA256": "5d48dcf3eac680439bbcb29d63384e89d9dd4b23106d1e6f23c6c716b769e07a",
+    "Name": "/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml",
+    "Size": 2591
+  },
+  {
+    "SHA256": "e8e2fbef813240dcdde213e2ad347ca86d6399894314a85a7213786757d369d1",
+    "Name": "/vendor/etc/audio_param/Playback_ParamTreeView.xml",
+    "Size": 2566
+  },
+  {
+    "SHA256": "c107c6d3453a05c3028a8dfc6c4c8eccbeebf031b96ec4463ecc48db9cc836a5",
+    "Name": "/vendor/etc/powercontable.cfg",
+    "Size": 2556
+  },
+  {
+    "SHA256": "e9de0e69d94d9957520ebbd72ed7884e2eaa565e2ec9e4bde459773ed21fac06",
+    "Name": "/vendor/etc/audio_param/RecordVolUI_AudioParam.xml",
+    "Size": 2477
+  },
+  {
+    "SHA256": "e8288ab8a6bba5d979cb11866c1621126627d9c20ce6b2c50aececaa11b10da6",
+    "Name": "/vendor/etc/ams_aal_config.xml",
+    "Size": 2476
+  },
+  {
+    "SHA256": "fa2c8a6da630c43a03a1067ec772b2621c0dcb497779dec53fec0202dd421860",
+    "Name": "/vendor/etc/audio_param/HpImpedance_AudioParam.xml",
+    "Size": 2400
+  },
+  {
+    "SHA256": "16ea7a6a945e0c4bd85bfcf29062900118eeb67f6b65a94d8a3c8f533a6fa676",
+    "Name": "/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml",
+    "Size": 2325
+  },
+  {
+    "SHA256": "0b91cd39b7491c1353f84f946d6712509c461c2a05b4997772a059e176679519",
+    "Name": "/vendor/firmware/em_filter_1_ulwtg_n.bin",
+    "Size": 2252
+  },
+  {
+    "SHA256": "13f6bfaa10b9e77974b0e250fb59e4f583ce0a623766c8cfce1451c96f37afde",
+    "Name": "/vendor/etc/usb_audio_policy_configuration.xml",
+    "Size": 2237
+  },
+  {
+    "SHA256": "223581ca21517d5cbdce9f6a3adb87b2d6e1b615fdb1e1a572ae9b3abce7a07d",
+    "Name": "/vendor/etc/a2dp_audio_policy_configuration.xml",
+    "Size": 2220
+  },
+  {
+    "SHA256": "e0536422d36b642a116c265fd43fc9dac1ba499fb1b8859314414c2ae9da6dc0",
+    "Name": "/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml",
+    "Size": 2203
+  },
+  {
+    "SHA256": "21e1e4bb328556598de1862d22cef1b950526ca332e19e12ff464d1b8b2cdbbd",
+    "Name": "/vendor/etc/init/hw/init.connectivity.rc",
+    "Size": 2188
+  },
+  {
+    "SHA256": "3571e70bcffa64e0069034dfbebe6bc1dec575fa98fb5a0dde98e0b74a363846",
+    "Name": "/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml",
+    "Size": 2126
+  },
+  {
+    "SHA256": "b13ccf5e4399a8368da33c8927ba98acac26681bb0b32d673137107709665e46",
+    "Name": "/vendor/etc/audio_param/Record_ParamTreeView.xml",
+    "Size": 2117
+  },
+  {
+    "SHA256": "ed79c6a16dbd33f30b13bded54635ac25bd52524bdddfaed01991606944f8a6b",
+    "Name": "/vendor/etc/init/hw/factory_init.connectivity.rc",
+    "Size": 2115
+  },
+  {
+    "SHA256": "44aa04e6a3fe674bf22e1e87fee602ca4d42e701740bf96f0101fe6c3b2abe09",
+    "Name": "/vendor/etc/r_submix_audio_policy_configuration.xml",
+    "Size": 2105
+  },
+  {
+    "SHA256": "7f083f449fcd68c5ad0f18bd4267f6cc8ee1436e6cf3ea9e1cac3753ea93b4ae",
+    "Name": "/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml",
+    "Size": 2056
+  },
+  {
+    "SHA256": "a962fea5418d07f5054f66790fd1ebd397d818dd0ea5f69165344ca1d2416abd",
+    "Name": "/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml",
+    "Size": 1975
+  },
+  {
+    "SHA256": "d2f8d0f9418e34b146c9ea8d5d8143861cb0305bcd704f67c9193e153c22dce9",
+    "Name": "/vendor/etc/audio_param/VoIPUI_AudioParam.xml",
+    "Size": 1966
+  },
+  {
+    "SHA256": "f6c0ad46cd0348ca9c09d50d367a7c3b9d573f071b005b4e67b74cba8ccbcea4",
+    "Name": "/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml",
+    "Size": 1966
+  },
+  {
+    "SHA256": "8cc08a95e47657a9dfbf9a8070157cfe3630f1d4718c4655b44eaa5901e8ccb0",
+    "Name": "/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml",
+    "Size": 1948
+  },
+  {
+    "SHA256": "a7480c0d6175426bf4d3d4ec6dac1b9c9675981f43d9d9834d7bfcf335128374",
+    "Name": "/vendor/etc/init/hw/init.project.rc",
+    "Size": 1885
+  },
+  {
+    "SHA256": "cbe128727b06d655f89341af0ee9a532081e1817465960d7feaf6ece66c7737d",
+    "Name": "/vendor/etc/powerscntbl.cfg",
+    "Size": 1804
+  },
+  {
+    "SHA256": "6e44159d3a0db3181b5984da66f9964ba5f6901ed50efe4ecf930427e8d6cb40",
+    "Name": "/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml",
+    "Size": 1791
+  },
+  {
+    "SHA256": "a93f04c85ea844e73c97ccce8ca17b919877496491f40934989c74d7cfe8a779",
+    "Name": "/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml",
+    "Size": 1729
+  },
+  {
+    "SHA256": "a2759469fca9e80373a3aa896309220e182dabb43f64e3be9f3b07443c7e5c66",
+    "Name": "/vendor/etc/init/hw/meta_init.connectivity.rc",
+    "Size": 1702
+  },
+  {
+    "SHA256": "525ddc6ec8b61c5f6d361cde8dea67e1ecac1a2ac2acdae28d02ad9ae94edfec",
+    "Name": "/vendor/etc/mtk_omx_core.cfg",
+    "Size": 1661
+  },
+  {
+    "SHA256": "2f02b42d8692e0c646360caa79834a5ec2758a1aa4eecf2d342ea5d074677e6c",
+    "Name": "/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml",
+    "Size": 1611
+  },
+  {
+    "SHA256": "8bb5f9d84dfb0bae3702ea5f54b626330e2e4472f0236f8233a2e44356b3948a",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt",
+    "Size": 1586
+  },
+  {
+    "SHA256": "2ce6bfc6258afc93dd402b8a76e0d939d9763d9d4a89ee68b9066d4ee5145e7f",
+    "Name": "/vendor/etc/init/hw/init.aee.rc",
+    "Size": 1583
+  },
+  {
+    "SHA256": "8fda3c8a5feb6aac8be7a0209415a71e84b06bf18bc2ee6dae49e75054baeae5",
+    "Name": "/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml",
+    "Size": 1570
+  },
+  {
+    "SHA256": "5e3d949cf628782fe0fc83a53e82631318bf601144eb768718d8eafae7ccce56",
+    "Name": "/vendor/etc/DSM_config.xml",
+    "Size": 1525
+  },
+  {
+    "SHA256": "893299f422d50dfc38fa4fef23d7e833a164d98066d58b4fc7489b49e775d207",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer",
+    "Size": 1500
+  },
+  {
+    "SHA256": "40f60f2e2f83fb6c63ddefeba7939a7852b2d468183ea939cc4dcac8fe4cc87d",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/gold.cer",
+    "Size": 1476
+  },
+  {
+    "SHA256": "e7d3607ce78046e2d34248cd7153e4340892f4444bd09c50ae8247ef3fe9d96c",
+    "Name": "/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml",
+    "Size": 1439
+  },
+  {
+    "SHA256": "c4c2d3a31b0802e5d6d6c71484b5528b6c0d49ba21c969fe42c095f3c4920a80",
+    "Name": "/vendor/etc/init/hw/meta_init.modem.rc",
+    "Size": 1413
+  },
+  {
+    "SHA256": "0b01707cc432ece0428721b929a8907ce299f79eabfb5aa2076136cbe52f9ed5",
+    "Name": "/vendor/etc/audio_param/RecordFIR_AudioParam.xml",
+    "Size": 1359
+  },
+  {
+    "SHA256": "c7f1d44984215c825d78710da307081e3675f99146cf44ff81bc41a6a4c42826",
+    "Name": "/vendor/etc/audio_param/Playback_ParamUnitDesc.xml",
+    "Size": 1338
+  },
+  {
+    "SHA256": "cb507485fd0c67032bd9913756f01b73a300f7f672c10c3670ca63cddf88cbdb",
+    "Name": "/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml",
+    "Size": 1286
+  },
+  {
+    "SHA256": "2f7a5e52abf730bdc7f5acc73dffb1da0fc592a74a40eedf59a3dd676cc23c5b",
+    "Name": "/vendor/etc/init/init.volte_imsm_93.rc",
+    "Size": 1269
+  },
+  {
+    "SHA256": "71ade394d93737db51f8e388452cd9afac42bf42d01dab7dd66a9c4827daecf7",
+    "Name": "/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml",
+    "Size": 1266
+  },
+  {
+    "SHA256": "d79b676cf5f128fafa9f38f23fe59287882686040433fd35cf0d539a1280c302",
+    "Name": "/vendor/etc/ipsec/strongswan.conf",
+    "Size": 1255
+  },
+  {
+    "SHA256": "c721cb1d104b2fb621434476eae44d97ae120e602f2f09c410270c478a4d7d64",
+    "Name": "/vendor/etc/audio_param/USBDevice_AudioParam.xml",
+    "Size": 1253
+  },
+  {
+    "SHA256": "67ad4ca648218db793246b8fda7baa677ef4f1ff9c16ac638028386307e700ed",
+    "Name": "/vendor/etc/init/init.wod.rc",
+    "Size": 1242
+  },
+  {
+    "SHA256": "9acfab7e43c8d880d06b262a94deeee4b4659989c3d0caf19baf6405e41ab7df",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der",
+    "Size": 1239
+  },
+  {
+    "SHA256": "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der",
+    "Size": 1213
+  },
+  {
+    "SHA256": "9e452fa2e2a1fea568a89e87d196ad875467c19a7597b129ac921ae02300d09f",
+    "Name": "/vendor/etc/audio_param/VoIPVol_AudioParam.xml",
+    "Size": 1173
+  },
+  {
+    "SHA256": "b9d96642f571805953cab4fd7d98f9a2eb4bdfb12dd54da9fba44f2c4b39f62b",
+    "Name": "/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml",
+    "Size": 1170
+  },
+  {
+    "SHA256": "9fb2b20e77f0104e5b1d01630f8af69e1d6b24baae47a1a5ca91e9c0f0aee30c",
+    "Name": "/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml",
+    "Size": 1144
+  },
+  {
+    "SHA256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+    "Name": "/vendor/firmware/mt6627_fm_v1_coeff.bin",
+    "Size": 1092
+  },
+  {
+    "SHA256": "f917a0f6b352769ea404511327e0b57e3e8e82307b61575233ba31eb806f0c7c",
+    "Name": "/vendor/etc/permissions/android.hardware.camera.xml",
+    "Size": 1092
+  },
+  {
+    "SHA256": "19f23235208f02e4e58f0b99d6e3db4388814aaba359f8d848cd336a95db4a4f",
+    "Name": "/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml",
+    "Size": 1088
+  },
+  {
+    "SHA256": "affe9bb9be9e0bf57c0f59524c11a7eb8672d4cbea60ea9895ac8c78f96b9de5",
+    "Name": "/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml",
+    "Size": 1076
+  },
+  {
+    "SHA256": "51ff8b5da5714891bd44a90f1ff0d13d86983538d458d392b31157c237e771ba",
+    "Name": "/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml",
+    "Size": 1062
+  },
+  {
+    "SHA256": "8d722f81a9c113c0791df136a2966db26c950a971db46b4199f4ea54b78bfb9f",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der",
+    "Size": 1060
+  },
+  {
+    "SHA256": "055df9cecfb48a0d39dd572f695db812d032d81f68c83e76a8bab16b274caf7a",
+    "Name": "/vendor/etc/permissions/android.software.live_wallpaper.xml",
+    "Size": 1050
+  },
+  {
+    "SHA256": "2fd00246dfb9ef40ec33613d589d2d2826f46d0c457f06c7e1127245ca0ed110",
+    "Name": "/vendor/compatibility_matrix.xml",
+    "Size": 1040
+  },
+  {
+    "SHA256": "a97185f87f4438188267a0cf004e17f60ee7483555d8ab3c11d093767585fc5a",
+    "Name": "/vendor/etc/permissions/android.hardware.touchscreen.multitouch.xml",
+    "Size": 1035
+  },
+  {
+    "SHA256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+    "Name": "/vendor/firmware/mt6627_fm_v1_patch.bin",
+    "Size": 1028
+  },
+  {
+    "SHA256": "2455250b12a8d011e0a4427d31f322f1823ceffac08873c228e673ffac078fa1",
+    "Name": "/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml",
+    "Size": 1027
+  },
+  {
+    "SHA256": "b478b812250df878635c2aa7ec7d155eaa625ee82916e2cd294361886cd1fbd4",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der",
+    "Size": 1026
+  },
+  {
+    "SHA256": "0f51d41cd44c211504be0234afe03ebe2b13f08aee74653b6f9d139c27ae9bd1",
+    "Name": "/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml",
+    "Size": 1006
+  },
+  {
+    "SHA256": "f6efeab2f0ccce0bd935e32312a7b6cacd907be31ddf5e1bddebc8c31ca21bf4",
+    "Name": "/vendor/etc/audio_param/RecordDMNR_AudioParam.xml",
+    "Size": 998
+  },
+  {
+    "SHA256": "53e154598af01fa439ebfe22940b3bb4f5b41908a8b8a29e6381a94ac660ea48",
+    "Name": "/vendor/etc/ecc_list_OP18.xml",
+    "Size": 981
+  },
+  {
+    "SHA256": "67049dcdf068875bb6525966b854764c2c539965768fb02007ca9339c29ebf19",
+    "Name": "/vendor/etc/permissions/android.hardware.usb.accessory.xml",
+    "Size": 975
+  },
+  {
+    "SHA256": "c147af5105ec65f5e6b560bb5a2b4851d16b7c8edc8b27281eccf88b9acdbc0e",
+    "Name": "/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml",
+    "Size": 951
+  },
+  {
+    "SHA256": "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt",
+    "Size": 947
+  },
+  {
+    "SHA256": "443c2817eaa62acd4134289c8fb1a7120dc410cf8610e28ab59620d78ffa84e2",
+    "Name": "/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml",
+    "Size": 943
+  },
+  {
+    "SHA256": "24bcd790812b438782c59424ec0db74b4dff228d8a96919ce39cf428ffc9c903",
+    "Name": "/vendor/etc/permissions/android.hardware.location.gps.xml",
+    "Size": 942
+  },
+  {
+    "SHA256": "7621a6e6aed1398d4b492940b411edfea439d9fd98fe5a88f261b2eec1cd695e",
+    "Name": "/vendor/etc/init/hw/factory_init.project.rc",
+    "Size": 936
+  },
+  {
+    "SHA256": "10d32e420a280193f72c76e2b9e1faad73b4031594c2bb799f60f16268df8561",
+    "Name": "/vendor/etc/ecc_list_OP12.xml",
+    "Size": 929
+  },
+  {
+    "SHA256": "3ffa39df204c4897d21faaf280dff7e011018b64a0e8aa84874c9a690200f807",
+    "Name": "/vendor/etc/permissions/android.hardware.faketouch.xml",
+    "Size": 927
+  },
+  {
+    "SHA256": "b63133836109b5e1a9e47c8ef6369161b5ea8ee4f473d6d3284b582aebb0b6a2",
+    "Name": "/vendor/etc/cdma_ecc_list_ss.xml",
+    "Size": 926
+  },
+  {
+    "SHA256": "1bb39f50768ff105d51ceb511b617902196260e9000a944b54205e3001a085bb",
+    "Name": "/vendor/etc/cdma_ecc_list_OP01.xml",
+    "Size": 926
+  },
+  {
+    "SHA256": "a69f0fe9eb506442ef9e74900acaae0ec6ca183f395d263d029e62eceba10c09",
+    "Name": "/vendor/etc/permissions/android.hardware.audio.low_latency.xml",
+    "Size": 924
+  },
+  {
+    "SHA256": "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt",
+    "Size": 914
+  },
+  {
+    "SHA256": "883aa2f7c65d080edd25f367c416c8875e6eff1bf3e3ef397fc7deb08b3b3b6e",
+    "Name": "/vendor/etc/permissions/android.hardware.touchscreen.xml",
+    "Size": 909
+  },
+  {
+    "SHA256": "cf0fb46e6767b5b98652bfc18318fb30d2a2332e547efd985f1cd8a7233d3051",
+    "Name": "/vendor/etc/permissions/android.hardware.vulkan.version.xml",
+    "Size": 904
+  },
+  {
+    "SHA256": "37d51006c512eaab626421f1ec8c92013fc5f82ae98ee533eb4619b8deb4d06c",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der",
+    "Size": 896
+  },
+  {
+    "SHA256": "f5386b8d9e8d07e080e8738e5cd3142dbc5c070975af043cfa093f7bde6ca061",
+    "Name": "/vendor/etc/audio_param/USBCall_AudioParam.xml",
+    "Size": 896
+  },
+  {
+    "SHA256": "0f8e1e8dca5d6188e89b932354cd9c15321097cab02e0ab27231dae5602d5318",
+    "Name": "/vendor/etc/init/init.fingerprint.rc",
+    "Size": 894
+  },
+  {
+    "SHA256": "1e93627316d371ebaf1e5aad14b247530587780f3034b1ba136cbd66fc42dd48",
+    "Name": "/vendor/etc/permissions/android.hardware.telephony.gsm.xml",
+    "Size": 881
+  },
+  {
+    "SHA256": "6000af71328831c27958f4784feb5cf91f80c21640eb183d4293f7008a21f638",
+    "Name": "/vendor/etc/cdma_ecc_list_OP12.xml",
+    "Size": 876
+  },
+  {
+    "SHA256": "b4bc6d388de2e7a49387f24e3ccfc7a400175dee81ffe3acf9951c5051bd1c13",
+    "Name": "/vendor/default.prop",
+    "Size": 875
+  },
+  {
+    "SHA256": "5c1b0737b84c4faac3bf3deee053ada10f627dea5019552b9b765a347e6e0574",
+    "Name": "/vendor/etc/ecc_list_OP09.xml",
+    "Size": 873
+  },
+  {
+    "SHA256": "1442db4230c4ff00214c038f6968097929db79d515b6aff26abda0c4371255e3",
+    "Name": "/vendor/etc/ecc_list_OP01.xml",
+    "Size": 873
+  },
+  {
+    "SHA256": "c8145486852c7c453da721797d2aa1be4c89ca4d878b1a7dfc75b377fbe2d45d",
+    "Name": "/vendor/etc/init/hw/multi_init.rc",
+    "Size": 871
+  },
+  {
+    "SHA256": "34df4a1963e75d4ab0b2b08ad7462fe1f047d88904bac1b6ce4e71ecbf3f24ba",
+    "Name": "/vendor/etc/permissions/android.hardware.opengles.aep.xml",
+    "Size": 870
+  },
+  {
+    "SHA256": "a1e7f5a1014066e65bd674967bfcd84f9228e1d549af063a8d4874fa113a2c8c",
+    "Name": "/vendor/etc/permissions/android.hardware.usb.host.xml",
+    "Size": 868
+  },
+  {
+    "SHA256": "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/Root-R3.cer",
+    "Size": 867
+  },
+  {
+    "SHA256": "c8418a9add9c29c08e4e8933ce065e69ddcc33951140981aca7462dd0e13fd98",
+    "Name": "/vendor/etc/permissions/android.hardware.vulkan.level.xml",
+    "Size": 865
+  },
+  {
+    "SHA256": "30322d49e6108ea9ca6b46c7bf8bd1cf5674a5776c4bcff3b297aeeaba6c86ca",
+    "Name": "/vendor/etc/permissions/android.software.managed_users.xml",
+    "Size": 843
+  },
+  {
+    "SHA256": "88816300cf08cae66fb8346550d3a8cb27b7ac679827ca86ef5840aedc472cd5",
+    "Name": "/vendor/etc/permissions/android.hardware.wifi.direct.xml",
+    "Size": 843
+  },
+  {
+    "SHA256": "f63957b7d1dc3c7a94ebe7408c11b977339698130d1c2a58858250fd17ae1d8f",
+    "Name": "/vendor/etc/permissions/android.hardware.microphone.xml",
+    "Size": 841
+  },
+  {
+    "SHA256": "efa612bba17138732172da85daa22e758b005da66ecd393f11b3d6a062f5bcf7",
+    "Name": "/vendor/etc/init/android.hardware.audio@2.0-service-mediatek.rc",
+    "Size": 835
+  },
+  {
+    "SHA256": "845f59a4e13fbdda3b48c30a3a0510db45a261af15f31d4925c939dc48d8e3e0",
+    "Name": "/vendor/etc/permissions/android.hardware.bluetooth_le.xml",
+    "Size": 830
+  },
+  {
+    "SHA256": "c1315743359a2c41344582074fd6238ce22600c0b28183e2901d9075585ff0a2",
+    "Name": "/vendor/etc/permissions/android.hardware.wifi.xml",
+    "Size": 829
+  },
+  {
+    "SHA256": "03a2f333ebc3f5441647091b5a116086208202488cf2a12090544e3d548a619b",
+    "Name": "/vendor/etc/permissions/android.hardware.sensor.accelerometer.xml",
+    "Size": 824
+  },
+  {
+    "SHA256": "81ff96a3e5426d4a8cef870a3e53840f457963f91218babc31a16bd4dcf96e90",
+    "Name": "/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml",
+    "Size": 822
+  },
+  {
+    "SHA256": "08305a972411f4f0068c23e77e00154826f5335a3e12fc1d6042ca130e1db3fd",
+    "Name": "/vendor/etc/permissions/android.hardware.bluetooth.xml",
+    "Size": 820
+  },
+  {
+    "SHA256": "fbba0187ec9af39df361fce81a69998964fe5b99b89efa7caec7b565d32e5b5d",
+    "Name": "/vendor/etc/ecc_list_OP17.xml",
+    "Size": 818
+  },
+  {
+    "SHA256": "548fe200278a6c9ba393066b3eb1a4151c8ea452efe5c7acaa4aee1f17046ce3",
+    "Name": "/vendor/etc/permissions/android.hardware.sensor.light.xml",
+    "Size": 816
+  },
+  {
+    "SHA256": "0881f1838f0aceeb9d0af8598c2a4205c36367659786f63ce017567d86f99614",
+    "Name": "/vendor/etc/permissions/android.hardware.sensor.proximity.xml",
+    "Size": 815
+  },
+  {
+    "SHA256": "d00398894dad217b68294cd558afd323a122a73d238c262fe13a691f344e9490",
+    "Name": "/vendor/etc/permissions/com.beanpod.tamanager.xml",
+    "Size": 804
+  },
+  {
+    "SHA256": "851d8a939f6b6b84f9e569aad68a40d90a2b54e0991b80e7c7b8fcae3d9f957c",
+    "Name": "/vendor/etc/permissions/com.beanpod.capi.xml",
+    "Size": 801
+  },
+  {
+    "SHA256": "cda8e1bcc97e6e20826291d0c595aea0beef56fecedda8043a259927d303d664",
+    "Name": "/vendor/etc/init/init_connectivity.rc",
+    "Size": 794
+  },
+  {
+    "SHA256": "6b9e82420e94dccf036507781fe51984f71dbf5d270fa82f40d7d3d2cbe34e25",
+    "Name": "/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml",
+    "Size": 778
+  },
+  {
+    "SHA256": "9564f477723e0f7820fa16678d05c7645da0bdda9730d8341eeeff9e5aaa400d",
+    "Name": "/vendor/etc/cdma_ecc_list.xml",
+    "Size": 766
+  },
+  {
+    "SHA256": "599364e91d29b2f8ce63b1c995a7bb8bdb4841897b10c21afca916f197dba39c",
+    "Name": "/vendor/etc/cdma_ecc_list_OP09.xml",
+    "Size": 765
+  },
+  {
+    "SHA256": "d6ed4f27ddecc19a8e8092886aa9a0713f9b2c69519f3405fbb773b9675fe880",
+    "Name": "/vendor/etc/permissions/android.software.device_admin.xml",
+    "Size": 753
+  },
+  {
+    "SHA256": "9f69f484dc4e987b93ab6bf1d3dcb0b46d0f8d056ed5d2d2ef83f3ac8d07cfa8",
+    "Name": "/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml",
+    "Size": 748
+  },
+  {
+    "SHA256": "9c03125fbea5dbdf54b26a242dc5e330e1dc23037f6ffd87de900a285dc40e9d",
+    "Name": "/vendor/etc/permissions/android.software.midi.xml",
+    "Size": 745
+  },
+  {
+    "SHA256": "ddb63c9b845fd10e589084eb9e85514b456c429f5f24453eaf73ce79d2f0f5af",
+    "Name": "/vendor/etc/init/init.cccimdinit.rc",
+    "Size": 738
+  },
+  {
+    "SHA256": "606b6c9305528b5aa54d0c87296e5856521f318d78b2911c72bb16e0081bff83",
+    "Name": "/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml",
+    "Size": 730
+  },
+  {
+    "SHA256": "60ad0dac138d13a453f8c3f6e1416d042132042ff45e535a760bd914e3857ab4",
+    "Name": "/vendor/etc/audio_param/RingbackVol_AudioParam.xml",
+    "Size": 698
+  },
+  {
+    "SHA256": "5edb7ac43b82a06a8761e8d7be4979ebf2611f7dd79bf91c1c6b566a219ed766",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der",
+    "Size": 690
+  },
+  {
+    "SHA256": "53dfdfa4e297fcfe07594e8c62d5b8ab06b32c7549f38a163094fd6429d5da43",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der",
+    "Size": 683
+  },
+  {
+    "SHA256": "3653950efc3ff956059b1ca766d925cd6d8d74873b5fc79ccc582fbe4bb192bc",
+    "Name": "/vendor/etc/partition_permission.sh",
+    "Size": 676
+  },
+  {
+    "SHA256": "fef0cc1a87a5c79b1cadc83ad854169a554cef46f7e26885d6520f343a3fb7e2",
+    "Name": "/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml",
+    "Size": 612
+  },
+  {
+    "SHA256": "e9665367602eb3ef84e483bb4c0c03cc930d27f4c9ee5f89cdb1870a2c94b068",
+    "Name": "/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml",
+    "Size": 580
+  },
+  {
+    "SHA256": "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0",
+    "Name": "/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt",
+    "Size": 579
+  },
+  {
+    "SHA256": "b3b9c074579c52a855f97f06a015a38f4381347e429904c3f6323a6b284f8341",
+    "Name": "/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml",
+    "Size": 571
+  },
+  {
+    "SHA256": "e756740e07461e14e2b4db7f81f997750c7477407ec38b8c3d0598cf59e36c0d",
+    "Name": "/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml",
+    "Size": 555
+  },
+  {
+    "SHA256": "6ec3595381ae2ca1f1d577cea3e9a904e8ef89619c58e0dc8c3b182af1891139",
+    "Name": "/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc",
+    "Size": 546
+  },
+  {
+    "SHA256": "2d0ee5862b501e9847987dcf9149b3b5875243686a340a68518f4cf22c1b15d5",
+    "Name": "/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml",
+    "Size": 523
+  },
+  {
+    "SHA256": "7498466cd87d09bb207cbb55ea310feb949a5a2b43786bf2c469db1df3a97e9a",
+    "Name": "/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml",
+    "Size": 519
+  },
+  {
+    "SHA256": "58c1057346a3b7c285b72de3ac203d53e15a1aeb56fe54d0c5be7e32c7652a72",
+    "Name": "/vendor/etc/audio_param/BtInfo_AudioParam.xml",
+    "Size": 516
+  },
+  {
+    "SHA256": "4d39de1b134a8e09afa17a212a635381a31d48a7d10666c7cb767c0cbab27921",
+    "Name": "/vendor/etc/init/hostapd.android.rc",
+    "Size": 512
+  },
+  {
+    "SHA256": "d20f2e51597634018243b5821da15596cf2812168bc3ac8220cc4836e79f00ca",
+    "Name": "/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml",
+    "Size": 490
+  },
+  {
+    "SHA256": "03c99cc749ee6d978c912729751d8d5186a150babb2b1363fa90d4d0b4d1a1bc",
+    "Name": "/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml",
+    "Size": 489
+  },
+  {
+    "SHA256": "28930463d5b5f9ab10df79631372b4f2247fff0876924c6eedbb6eb5dda51b1e",
+    "Name": "/vendor/etc/init/md_ctrl.rc",
+    "Size": 485
+  },
+  {
+    "SHA256": "20c9eb1d07f29493c1770bde245f0397f0a8e5dd7d148ebcd51845d415c74de2",
+    "Name": "/vendor/etc/init/init.bip.rc",
+    "Size": 484
+  },
+  {
+    "SHA256": "0b471a7aef77e942bd00620e26afba5670b25442bd89dcd237c79576f945871e",
+    "Name": "/vendor/etc/mkshrc",
+    "Size": 459
+  },
+  {
+    "SHA256": "5b313dc09ae65150baf4bfc198c0b33df12c0507bde84e1167edf633f01bfe85",
+    "Name": "/vendor/etc/init/rild.rc",
+    "Size": 455
+  },
+  {
+    "SHA256": "6d5c6b99d236294d32e2edd758ce925989684b22252a8b615c496cd331762b7a",
+    "Name": "/vendor/etc/smsdbvisitor.xml",
+    "Size": 449
+  },
+  {
+    "SHA256": "7f7dea6a4be52bb21257bf92146911c2dbbb4ca855ccdd113a6347114bbba363",
+    "Name": "/vendor/etc/init/init.vtservice.rc",
+    "Size": 449
+  },
+  {
+    "SHA256": "b2ffbba4b100732f14cfac0fa4eba6ce736a48fd1805379b859a1a0c70c4548a",
+    "Name": "/vendor/etc/init/init.volte_imcb.rc",
+    "Size": 440
+  },
+  {
+    "SHA256": "3ef4f01696dc598525bac14c0c9efccc9da815d514909ff599da0acac1fc53f7",
+    "Name": "/vendor/etc/audio_param/VoIPv2General_AudioParam.xml",
+    "Size": 440
+  },
+  {
+    "SHA256": "c1eea3c92f2757503504a41ff8d784c0b24a456f647df4898a2536e44f1fe595",
+    "Name": "/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml",
+    "Size": 440
+  },
+  {
+    "SHA256": "67bb1f55d2c18937d6bcc48114218c102156d58e3a2d05fb6e60357f7ecd5540",
+    "Name": "/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml",
+    "Size": 410
+  },
+  {
+    "SHA256": "b7af39a8d5872e8bc804fae5e64fb9c1c864772dfe85baa49bcb85ab438029f4",
+    "Name": "/vendor/etc/init/init.cccifsd.rc",
+    "Size": 376
+  },
+  {
+    "SHA256": "a75b98986dc5b6b95c74428960284a3747f4ae1206c4c6bf3a0ced9752041fdd",
+    "Name": "/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml",
+    "Size": 342
+  },
+  {
+    "SHA256": "d44ff70f4501913a7c85c01371c79867f61f6a330386f5539992230fd24be333",
+    "Name": "/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml",
+    "Size": 336
+  },
+  {
+    "SHA256": "033e0aaddc4bb39e45d9d23c157150294e2e483d0f04f6346f14caa4a94fb4fb",
+    "Name": "/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml",
+    "Size": 333
+  },
+  {
+    "SHA256": "0012faa6897b876cef35d6c2f92cf104323d79cea1da880b5ea5be28e9edc306",
+    "Name": "/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml",
+    "Size": 328
+  },
+  {
+    "SHA256": "7f033497dc2f8ed58e78f0a06d85a1971585e071fb0609aa82a04f469074a0db",
+    "Name": "/vendor/etc/selinux/nonplat_seapp_contexts",
+    "Size": 326
+  },
+  {
+    "SHA256": "efa96b5df4605f3a67e2abcbdf335cbeb708e576fc510c5616b254db0d60b25b",
+    "Name": "/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml",
+    "Size": 325
+  },
+  {
+    "SHA256": "bb1f9048cc5a0562c76a24f4387191adc782e2443104102ef154d5970c7fe6a3",
+    "Name": "/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml",
+    "Size": 322
+  },
+  {
+    "SHA256": "c45a07fb91845794ec2889d1c63e3826ee017da573c9a845d2b0ce027b3c9594",
+    "Name": "/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc",
+    "Size": 321
+  },
+  {
+    "SHA256": "e2a6728b912354e51d0abcefd7ee064f79046fbfb79a01d4be5eacc2bfb911bd",
+    "Name": "/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml",
+    "Size": 321
+  },
+  {
+    "SHA256": "79c50caf7ddbc0f6493e2db381780d61f5fdc005acb6dd10ab54bb96f6a04a27",
+    "Name": "/vendor/etc/wifi/wpa_supplicant.conf",
+    "Size": 312
+  },
+  {
+    "SHA256": "0f24efadab3d3e8286774cb50495f65d26ed96b280d9d684f54fdd1d4f6c72d7",
+    "Name": "/vendor/firmware/fm_cust.cfg",
+    "Size": 304
+  },
+  {
+    "SHA256": "32084ae6425f451caa6d0a5e75a888cb70ddbd7e16ed1f56d4b1edc6fb2ee94a",
+    "Name": "/vendor/etc/init/mtk_agpsd.rc",
+    "Size": 294
+  },
+  {
+    "SHA256": "e77dc7e908342cc8828641a88e6583667a023bf1f020c40d6d38ab5788b03f1d",
+    "Name": "/vendor/etc/init/android.hardware.media.omx@1.0-service.rc",
+    "Size": 283
+  },
+  {
+    "SHA256": "2f616b01dc163b4b8c72819d0e4d7fa7649fa47b9ef91f7165ced33659464c77",
+    "Name": "/vendor/etc/init/camerahalserver.rc",
+    "Size": 272
+  },
+  {
+    "SHA256": "71eac89bef056bca03191a17402e3fc0f1e638367cbdadefc01aa255356a4285",
+    "Name": "/vendor/etc/init/sysenv_daemon.rc",
+    "Size": 265
+  },
+  {
+    "SHA256": "073b693b62395b4ae22ea9e975c83f06608f19c69eb8b9a69c968fc8d722a285",
+    "Name": "/vendor/etc/seccomp_policy/mediacodec.policy",
+    "Size": 263
+  },
+  {
+    "SHA256": "50dd34078681cc2f5c5287890bd32da1d45583348c7097e38a3576af022ff29c",
+    "Name": "/vendor/etc/init/init.wfca.rc",
+    "Size": 263
+  },
+  {
+    "SHA256": "45f49d766c57a97bb2ab7a8f2001923302ff217b9141be90a051ba458550514a",
+    "Name": "/vendor/etc/init/init.md_apps.rc",
+    "Size": 258
+  },
+  {
+    "SHA256": "46a12da86eddfefa1dcb436b21100cc7348f7afa00595a430fca9aff70dd5b79",
+    "Name": "/vendor/etc/virtual-spn-conf-by-efpnn.xml",
+    "Size": 241
+  },
+  {
+    "SHA256": "15bc4029f3f710d4a3570606e38dc10511ec111a357943a5478ebfd68d74251a",
+    "Name": "/vendor/etc/init/init.volte_ua.rc",
+    "Size": 232
+  },
+  {
+    "SHA256": "bbaa83acfc5cc5e4d04eac06e0d5a0345309cccc7ad39cf8d05b2225357dc5b5",
+    "Name": "/vendor/etc/init/init.volte_stack.rc",
+    "Size": 226
+  },
+  {
+    "SHA256": "8bb4ffe79c01bd08a25536bedb1cb352af16ffbad696ceeeb2278199a60171d2",
+    "Name": "/vendor/etc/slp_conf",
+    "Size": 220
+  },
+  {
+    "SHA256": "457273daf3e70a6e069dde468e081564aaa3ab00d5eb28f606dcdebed163612e",
+    "Name": "/vendor/etc/ipsec/ipsec.conf",
+    "Size": 218
+  },
+  {
+    "SHA256": "b3cd0965897055bd57eb511e127cc24c5d8ab621d732c193c569e5ccea15167f",
+    "Name": "/vendor/etc/init/aee_aedv.rc",
+    "Size": 216
+  },
+  {
+    "SHA256": "89a33384b350d47a399a5873e73106003053089299b04ee6a18ce093fbc46d93",
+    "Name": "/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc",
+    "Size": 214
+  },
+  {
+    "SHA256": "d106b3e1c50b3bef77ed2981aa53428346a18ba08147a63a7fd2e2ccb8f61b6a",
+    "Name": "/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc",
+    "Size": 212
+  },
+  {
+    "SHA256": "4e04176ccf13ba1f97a90381bfd97fd9f217e31650ca80f968d1a79971b8c0e6",
+    "Name": "/vendor/etc/special_pws_channel.xml",
+    "Size": 209
+  },
+  {
+    "SHA256": "73067e8623d55dd3517edefb3cb520315fdb7edcc193aec5c3f2785c81b7f350",
+    "Name": "/vendor/etc/init/vndservicemanager.rc",
+    "Size": 199
+  },
+  {
+    "SHA256": "9cf5edab7029c39ffb564071452ea081d27a72f0453fede6851df8a5ca9658a1",
+    "Name": "/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc",
+    "Size": 199
+  },
+  {
+    "SHA256": "e9bffdd5b881b518e35767cbe6856361b0f9415a95d130e8433a94c00dafd30e",
+    "Name": "/vendor/etc/virtual-spn-conf-by-imsi.xml",
+    "Size": 196
+  },
+  {
+    "SHA256": "20ea9c58fa740099ee169e07e8e8cc95d226edec16def565e7b343964c0caefe",
+    "Name": "/vendor/etc/init/hw/meta_init.project.rc",
+    "Size": 196
+  },
+  {
+    "SHA256": "e8f169a97d133f7669a60486b5f0c2a2a74fa89fd7d036fcec15f5b3594be834",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.tface@1.0-service.rc",
+    "Size": 193
+  },
+  {
+    "SHA256": "7bf654a232ab4c42274ac3bf309ad91871a9c3cb3649f1e6b877ddef3503ff34",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc",
+    "Size": 193
+  },
+  {
+    "SHA256": "d1164e80aef682a4f2d8e521f01c35fcd4c8525735e646c850f8b76b0139514c",
+    "Name": "/vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc",
+    "Size": 190
+  },
+  {
+    "SHA256": "837532782b358421dd13ec37b8ff2a3a1a62afc66fddfc683954b6ddc8521407",
+    "Name": "/vendor/etc/init/muxreport.rc",
+    "Size": 190
+  },
+  {
+    "SHA256": "657e5fcb5581dd28e5a43fe79909bba8076f2b53aa403aafdedf2ad67a65bd7c",
+    "Name": "/vendor/etc/init/init.wlan_drv.rc",
+    "Size": 189
+  },
+  {
+    "SHA256": "714cf73a38eb69617c6842cd2c409d13eb1aebe5f82786a94d986f3bc5bbc927",
+    "Name": "/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc",
+    "Size": 188
+  },
+  {
+    "SHA256": "707d105983e96505ff429070b0718d57fcac6a31f403068c3ff6389dd1a70ec4",
+    "Name": "/vendor/etc/virtual-spn-conf-by-efgid1.xml",
+    "Size": 186
+  },
+  {
+    "SHA256": "4c7bab647a909e6ccb19b1c1809223d19b8d060c519c3897b3ee215966baddcd",
+    "Name": "/vendor/etc/init/android.hardware.drm@1.0-service.rc",
+    "Size": 181
+  },
+  {
+    "SHA256": "cf55dbbb7fc03b3a0cf0a58d494140f2870670564767d990212af3c67147dc37",
+    "Name": "/vendor/etc/init/android.hardware.cas@1.0-service.rc",
+    "Size": 181
+  },
+  {
+    "SHA256": "262e5a2edcf3e13d987031b42f7638758aae15eba5baa54ef99ff0d2833e2add",
+    "Name": "/vendor/etc/init/init.mafp.rc",
+    "Size": 169
+  },
+  {
+    "SHA256": "73f0d12bb9b403dc30e45dbfba9f45616a05287df17610341b3c2ebe449ac6d1",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc",
+    "Size": 168
+  },
+  {
+    "SHA256": "3ff93520e54d22473c43be48b2b2c697ac66bdc9c77105dea7dbb884f7b9d5d4",
+    "Name": "/vendor/etc/init/gsm0710muxd.rc",
+    "Size": 166
+  },
+  {
+    "SHA256": "401b16fbfbc3332e1379acd52a83399c22026ba6240c3bf07c8907ec583cf22b",
+    "Name": "/vendor/etc/init/netdagent.rc",
+    "Size": 163
+  },
+  {
+    "SHA256": "d7208a38b7f8c97a37d653c4c809ba352dbccfeec801da4e9c2a0bd29b2f99d6",
+    "Name": "/vendor/etc/fs_config_files",
+    "Size": 160
+  },
+  {
+    "SHA256": "3f15e9533266cb5e4b2653481e26d30a4a4a05f9cd62892e5a777ae320320319",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc",
+    "Size": 157
+  },
+  {
+    "SHA256": "0b9b20ae0848a3a5d6ba26461205539f8c50860270fd53f84510f4d66d0657e4",
+    "Name": "/vendor/etc/init/ipsec_mon.rc",
+    "Size": 148
+  },
+  {
+    "SHA256": "3da7e1e0678552ca392cee40f8c1b8124361f881e07129722b378b88a470eb0b",
+    "Name": "/vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc",
+    "Size": 142
+  },
+  {
+    "SHA256": "e65b4e63942e55381b730fa453f2f5180400728ed62f962d752d94065db65a0c",
+    "Name": "/vendor/etc/init/android.hardware.configstore@1.0-service.rc",
+    "Size": 141
+  },
+  {
+    "SHA256": "08a49f157069f11e362c50a9e241637f11e66b18ede553057ddf19ee7d2fbc91",
+    "Name": "/vendor/etc/init/lbs_hidl_service.rc",
+    "Size": 140
+  },
+  {
+    "SHA256": "041494fcae9148e7583a7e8c4fa30e8c8744284d8e109e8de65ff09433c29b79",
+    "Name": "/vendor/etc/init/android.hardware.broadcastradio@1.1-service.rc",
+    "Size": 137
+  },
+  {
+    "SHA256": "35deb456bcf355408af72cf0f5be9d47509aeefe4ba2fc8bf4d70dcd5e5922bf",
+    "Name": "/vendor/etc/init/android.hardware.keymaster@3.0-service.rc",
+    "Size": 136
+  },
+  {
+    "SHA256": "b053c6ad5f23feec0b657aab58712f5375b803b9a93f489feede5931007c161e",
+    "Name": "/vendor/etc/wifi/p2p_supplicant_overlay.conf",
+    "Size": 135
+  },
+  {
+    "SHA256": "df59420a429969e290bb774e3ac30b6ea23e3e577042ed4c8015fffaabfff90c",
+    "Name": "/vendor/etc/seccomp_policy/mediaextractor.policy",
+    "Size": 135
+  },
+  {
+    "SHA256": "dc6070a5102f0e0efce37c033127349f37bd34436eba02c2e4b5242f75972805",
+    "Name": "/vendor/etc/init/init.fmradio_drv.rc",
+    "Size": 133
+  },
+  {
+    "SHA256": "e4cd41685654a113a82acbab5072f4357ec1840511215dcc00817582d896b444",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.gnss@1.1-service.rc",
+    "Size": 130
+  },
+  {
+    "SHA256": "d80b8aa98bf1337491e66a23085b7270ebe871bd4ce999ddd659c29faaa0bf0b",
+    "Name": "/vendor/etc/selinux/vndservice_contexts",
+    "Size": 128
+  },
+  {
+    "SHA256": "eddfddd74c0029efdf899f8ed10e516482121b22222a78e1a3611bceaecf663f",
+    "Name": "/vendor/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc",
+    "Size": 127
+  },
+  {
+    "SHA256": "faa9418102fb3ec97d2a05beb6070bc3744c59da66e108dc6941aa198af8b265",
+    "Name": "/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc",
+    "Size": 127
+  },
+  {
+    "SHA256": "73c9c031b9cc8d38de8bc1d29ffd8fc9da42d9cd652c6818e176827081d98297",
+    "Name": "/vendor/etc/init/android.hardware.memtrack@1.0-service.rc",
+    "Size": 125
+  },
+  {
+    "SHA256": "bbad5c421cac656852cafe032dce8fb340e793cc1ec360bac52ff4e3b1387197",
+    "Name": "/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc",
+    "Size": 125
+  },
+  {
+    "SHA256": "779f57664cf615fdb5bd774a1dce6f3715a59e888bf1cdf865c033daa9fc3464",
+    "Name": "/vendor/etc/init/android.hardware.thermal@1.0-service.rc",
+    "Size": 123
+  },
+  {
+    "SHA256": "46b11f1f7aab4e214596d2d9ddf8b8834c8c9e6afb74e15194fcc02c6ad0d652",
+    "Name": "/vendor/etc/init/android.hardware.vibrator@1.0-service.rc",
+    "Size": 121
+  },
+  {
+    "SHA256": "d21b7d88a636df9a2816d30c7364135143e994ddc4134197eb4f1b4f2c2532b0",
+    "Name": "/vendor/etc/init/init.gps_drv.rc",
+    "Size": 120
+  },
+  {
+    "SHA256": "731f83d87993789d5eadd4c8ab356fd3f0a61e524c3fc68128509832f02aa76d",
+    "Name": "/vendor/etc/init/android.hardware.wifi@1.0-service.rc",
+    "Size": 120
+  },
+  {
+    "SHA256": "ed7fcdfac892189c96d1448420b7dc3795e771fb18ca227ad3b46472255e0238",
+    "Name": "/vendor/etc/audio_param/Playback_AudioParam.xml",
+    "Size": 114
+  },
+  {
+    "SHA256": "838cd5ae7259ad6aa19a9822e5e62b379e136fdc339312779b32238b52054eeb",
+    "Name": "/vendor/etc/emdlogger_usb_config.prop",
+    "Size": 112
+  },
+  {
+    "SHA256": "6faeba9f28a9b2ea5dd4f466fe68697d345607a2442382084ec89a5fd5d9bce5",
+    "Name": "/vendor/etc/init/fuelgauged_nvram_init.rc",
+    "Size": 111
+  },
+  {
+    "SHA256": "d739fb217b0cfe5b951920efb36d236121f9db7b0c96210b4d3bf4cd482e12d2",
+    "Name": "/vendor/etc/init/init.thermal_manager.rc",
+    "Size": 110
+  },
+  {
+    "SHA256": "02ee355fd736ed92440962df4944dc9535cade0ee8f100858654d3e56f0ed577",
+    "Name": "/vendor/etc/init/init.cccirpcd.rc",
+    "Size": 110
+  },
+  {
+    "SHA256": "e73163712524d0ef2e93eee5d66e46e519c9f4f3af44962de822b763bf8a1627",
+    "Name": "/vendor/etc/init/hw/init.ago.rc",
+    "Size": 108
+  },
+  {
+    "SHA256": "dbb810427db07ee23c8fc4604aa5a187a71941b79d4f8067ccc4d655bf257f2c",
+    "Name": "/vendor/etc/init/nvram_daemon.rc",
+    "Size": 103
+  },
+  {
+    "SHA256": "abeb74602cba6c94899468bda58fcb4ad77866676be372cf199b87599c623529",
+    "Name": "/vendor/etc/wifi/wpa_supplicant_overlay.conf",
+    "Size": 102
+  },
+  {
+    "SHA256": "c4b574f224b859fb9c0b59e7e31666af58b469890fe15f4da0e7ba36953a27e7",
+    "Name": "/vendor/etc/init/init.thermalloadalgod.rc",
+    "Size": 102
+  },
+  {
+    "SHA256": "9fc6e3bc49b67055ec3e2059f5fce7c7e5b72069697d82f963aec4dd2d61fcf0",
+    "Name": "/vendor/etc/selinux/nonplat_mac_permissions.xml",
+    "Size": 101
+  },
+  {
+    "SHA256": "d473b9438c53868161e3657c8c7b6b396a77f34b9ccc94157eab97d53f46489f",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.t",
+    "Size": 98
+  },
+  {
+    "SHA256": "fedc158a9b86e4ea4731d8194b4ed81dc6d569a6a908650e8d5b5aad3cc62d1b",
+    "Name": "/vendor/etc/init/nvram_agent_binder.rc",
+    "Size": 97
+  },
+  {
+    "SHA256": "ce787873580a4e46c444199ed54554f958c5d21bd8e64e5144c57f0b17d500b0",
+    "Name": "/vendor/etc/init/init.bt_drv.rc",
+    "Size": 94
+  },
+  {
+    "SHA256": "a21dad5bd11be27c503342fb6b6e4d25df99764fbfbf0f3dbf71670282e98768",
+    "Name": "/vendor/etc/init/wifi2agps.rc",
+    "Size": 88
+  },
+  {
+    "SHA256": "98c315d13efe61a00ba49c77c573ff94e4a5a98d5346a44966c3ae89ed8d1fb2",
+    "Name": "/vendor/etc/init/fuelgauged_init.rc",
+    "Size": 86
+  },
+  {
+    "SHA256": "f4b112fd042dd1025017e35998e25ec0befeb05cfe424f38bf27e3222299ce0d",
+    "Name": "/vendor/firmware/WMT_SOC.cfg",
+    "Size": 83
+  },
+  {
+    "SHA256": "8cf87bfd8728c85f591c789bb1f54fd97c2c3fcd51e0ad180a9b99fee169cf36",
+    "Name": "/vendor/etc/init/init.thermal.rc",
+    "Size": 83
+  },
+  {
+    "SHA256": "0aa88156ac593f1ac08f2941a3fd753b4012ba7e8d419ff20f2f9010cc710e1c",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/nl",
+    "Size": 78
+  },
+  {
+    "SHA256": "1606ef2f0ad0dfd812c8ec4ab7b7d9ae5bff3554191c7012530ca883612c70e1",
+    "Name": "/vendor/lib/egl/egl.cfg",
+    "Size": 76
+  },
+  {
+    "SHA256": "d56f1c692f1448735c3da01dfa5697cba75fc0496be5ca1b170cdd4411447c9d",
+    "Name": "/vendor/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256",
+    "Size": 65
+  },
+  {
+    "SHA256": "c99409267d7255e6c3435e88269f6956d0452a6d1cd383fa02c5bdd07e217ed4",
+    "Name": "/vendor/etc/init/init.wmt_drv.rc",
+    "Size": 50
+  },
+  {
+    "SHA256": "5aae99954e2e5cb1e990c47b584312b07a45392e2c00a69c48d13c5d0bbb8f54",
+    "Name": "/vendor/etc/public.libraries.txt",
+    "Size": 45
+  },
+  {
+    "SHA256": "a6908cc104437e4cf8ab40815f068271e9d9685090d3a42e6cb923d4f6077c05",
+    "Name": "/vendor/etc/aee-config",
+    "Size": 28
+  },
+  {
+    "SHA256": "5e545f3f29114155958a20d8a5a59c14209550a0d3c8d5dc059ed6e207b7af50",
+    "Name": "/vendor/lib/hw/gatekeeper.default.so",
+    "Size": 20
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/zcat",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/yes",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/xxd",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/xargs",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/whoami",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/which",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/wc",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/vmstat",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/uuencode",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/uudecode",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/usleep",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/uptime",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/unix2dos",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/uniq",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/uname",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/umount",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/ulimit",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/tty",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/truncate",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/true",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/tr",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/touch",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/top",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/timeout",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/time",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/tee",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/taskset",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/tar",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/tail",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/tac",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sysctl",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sync",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/swapon",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/swapoff",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/strings",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/stop",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/stat",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/start",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/split",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sort",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sleep",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sha512sum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sha384sum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sha256sum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sha224sum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sha1sum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/setsid",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/setprop",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/setenforce",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/seq",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sendevent",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/sed",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/runcon",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/rmmod",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/rmdir",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/rm",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/restorecon",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/renice",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/realpath",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/readlink",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/pwd",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/ps",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/printf",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/printenv",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/pmap",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/pkill",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/pidof",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/pgrep",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/patch",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/paste",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/od",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/nohup",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/nl",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/nice",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/netstat",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mv",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mountpoint",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mount",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/more",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/modprobe",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/modinfo",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mktemp",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mkswap",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mknod",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mkfifo",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/mkdir",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/microcom",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/md5sum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/lsusb",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/lspci",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/lsof",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/lsmod",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/ls",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/losetup",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/logname",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/log",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/load_policy",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/ln",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/killall",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/kill",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/iorenice",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/ionice",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/insmod",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/inotifyd",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/ifconfig",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/id",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/hwclock",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/hostname",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/head",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/gzip",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/gunzip",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/groups",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/getprop",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/getenforce",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/free",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/flock",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/find",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/file",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/false",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/fallocate",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/expr",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/expand",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/env",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/echo",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/du",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/dos2unix",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/dmesg",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/dirname",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/diff",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/df",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/dd",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/date",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cut",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cpio",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cp",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/comm",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cmp",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/clear",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cksum",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/chrt",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/chroot",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/chown",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/chmod",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/chgrp",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/chcon",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cat",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/cal",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/blockdev",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/basename",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/base64",
+    "Size": 13
+  },
+  {
+    "SHA256": "4d92074668f28f79c7749bed00b96dc9f904fa561870ceb0d398a0579ae00074",
+    "Name": "/vendor/bin/acpi",
+    "Size": 13
+  },
+  {
+    "SHA256": "a0644f5e60e63be498d540b24ff7649baae71151d56d2652eabcd9c6a921a9ea",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/commandfilr3.dic",
+    "Size": 11
+  },
+  {
+    "SHA256": "2be2196b9c19b0913b11d708d2550cdf0f5b0106c4ae0eec2aa07d2b243c7268",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.p",
+    "Size": 8
+  },
+  {
+    "SHA256": "2be2196b9c19b0913b11d708d2550cdf0f5b0106c4ae0eec2aa07d2b243c7268",
+    "Name": "/vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.f",
+    "Size": 8
+  },
+  {
+    "SHA256": "7b01c549928398a045692f24bcac7803b348524cdd76f21265b02984b2ba556a",
+    "Name": "/vendor/etc/selinux/plat_sepolicy_vers.txt",
+    "Size": 5
+  },
+  {
+    "SHA256": "faefbbbf05cb9cfb18112dde743b3eb327b5b26426f4206583a2fb4cb9cc344d",
+    "Name": "/vendor/bin/fgrep",
+    "Size": 4
+  },
+  {
+    "SHA256": "faefbbbf05cb9cfb18112dde743b3eb327b5b26426f4206583a2fb4cb9cc344d",
+    "Name": "/vendor/bin/egrep",
+    "Size": 4
+  },
+  {
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Name": "/vendor/etc/selinux/nonplat_service_contexts",
+    "Size": 0
+  },
+  {
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Name": "/vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt",
+    "Size": 0
+  },
+  {
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Name": "/vendor/etc/ipsec/ssl/openssl.cnf",
+    "Size": 0
+  },
+  {
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Name": "/vendor/etc/fs_config_dirs",
+    "Size": 0
+  }
+]

@@ -1,0 +1,8 @@
+service thh-2-0 /vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
+    user system
+    group system
+    disabled
+    #oneshot
+
+on property:soter.teei.init=INIT_OK
+    start thh-2-0

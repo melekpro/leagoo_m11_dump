@@ -1,0 +1,1834 @@
+ attribute vec4 position;
+        attribute vec2 inputTextureCoordinate;
+        varying vec2 textureCoordinate;
+        void main()
+        {
+            gl_Position = position;
+            textureCoordinate = inputTextureCoordinate.xy;
+        }
+
+
+
+		 precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D luminanceTexture;
+        uniform sampler2D chrominanceTexture;
+        void main ()
+        {
+            lowp vec3 rgb_1;
+            lowp vec3 yuv_2;
+            yuv_2.x = texture2D (luminanceTexture, textureCoordinate).x;
+            yuv_2.zy = (texture2D (chrominanceTexture, textureCoordinate).xw - vec2(0.5, 0.5));
+            rgb_1 = (mat3(1.0, 1.0, 1.0, 0.0, -0.343, 1.765, 1.4, -0.711, 0.0) * yuv_2);
+            mediump vec4 tmpvar_3;
+            tmpvar_3.w = 1.0;
+            tmpvar_3.xyz = rgb_1;
+            gl_FragColor = tmpvar_3;
+        }
+
+
+		precision mediump float;
+            varying mediump vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+            uniform vec4 vignetteParam;
+            uniform vec4 vignetteColor;
+            void main ()
+            {
+              mediump vec2 tmpvar_1;
+              tmpvar_1 = (textureCoordinate - vignetteParam.xy);
+              mediump float tmpvar_2;
+              tmpvar_2 = clamp (((
+                sqrt(dot (tmpvar_1, tmpvar_1))
+               - vignetteParam.z) / (vignetteParam.w - vignetteParam.z)), 0.0, 1.0);
+              lowp vec4 tmpvar_3;
+              mediump float a_4;
+              a_4 = ((tmpvar_2 * (tmpvar_2 *
+                (3.0 - (2.0 * tmpvar_2))
+              )) * vignetteColor.w);
+              tmpvar_3 = mix (texture2D (videoFrame, textureCoordinate), vignetteColor, a_4);
+              gl_FragColor = tmpvar_3;
+            }
+
+
+			 precision mediump float;
+            varying vec2 textureCoordinate;
+            uniform sampler2D inputImageTexture;
+            uniform sampler2D inputImageTexture2;
+            uniform vec4 colorParam;
+            uniform vec2 optParam;
+            uniform float mode;
+            uniform float strength;
+            void main ()
+            {
+              lowp vec4 newColor_1;
+              mediump vec2 texPos2_2;
+              mediump vec2 texPos1_3;
+              mediump vec2 quad2_4;
+              mediump vec2 quad1_5;
+              mediump float blueColor_6;
+              lowp vec4 tmpvar_7;
+              tmpvar_7 = texture2D (inputImageTexture, textureCoordinate);
+              lowp float tmpvar_8;
+              tmpvar_8 = (tmpvar_7.z * colorParam.x);
+              blueColor_6 = tmpvar_8;
+              quad1_5.y = max (min (colorParam.y, floor(
+                (floor(blueColor_6) / colorParam.y)
+              )), 0.0);
+              quad1_5.x = max (min (colorParam.y, (
+                floor(blueColor_6)
+               -
+                (quad1_5.y * colorParam.y)
+              )), 0.0);
+              quad2_4.y = max (min (floor(
+                (ceil(blueColor_6) / colorParam.y)
+              ), colorParam.y), 0.0);
+              quad2_4.x = max (min ((
+                ceil(blueColor_6)
+               -
+                (quad2_4.y * colorParam.y)
+              ), colorParam.y), 0.0);
+              texPos1_3.x = (((quad1_5.x * colorParam.z) + optParam.x) + (optParam.y * tmpvar_7.x));
+              texPos1_3.y = (((quad1_5.y * colorParam.z) + optParam.x) + (optParam.y * tmpvar_7.y));
+              texPos2_2.x = (((quad2_4.x * colorParam.z) + optParam.x) + (optParam.y * tmpvar_7.x));
+              texPos2_2.y = (((quad2_4.y * colorParam.z) + optParam.x) + (optParam.y * tmpvar_7.y));
+              lowp vec4 tmpvar_9;
+              tmpvar_9 = texture2D (inputImageTexture2, texPos1_3);
+              lowp vec4 tmpvar_10;
+              tmpvar_10 = texture2D (inputImageTexture2, texPos2_2);
+              mediump vec4 tmpvar_11;
+              tmpvar_11 = mix (tmpvar_9, tmpvar_10, fract(blueColor_6));
+              newColor_1 = tmpvar_11;
+              newColor_1.xyz = abs((vec3(mode) - newColor_1.xyz));
+              lowp vec4 tmpvar_12;
+              tmpvar_12.xyz = newColor_1.xyz;
+              tmpvar_12.w = tmpvar_7.w;
+              lowp vec4 tmpvar_13;
+              tmpvar_13 = mix (tmpvar_7, tmpvar_12, strength);
+              gl_FragColor = tmpvar_13;
+            }
+
+
+			 attribute vec4 position;
+        attribute vec4 inputTextureCoordinate;
+        uniform float dis;
+        varying vec2 textureCoordinate;
+        varying vec2 textureCoordinate2;
+        varying vec2 blurCoordinates[4];
+        varying vec2 blurCoordinates2[8];
+        void main ()
+        {
+            gl_Position = position;
+            textureCoordinate = inputTextureCoordinate.xy;
+            textureCoordinate2 = inputTextureCoordinate.xy;
+            float tmpvar_1;
+            tmpvar_1 = (dis * 4.0);
+            vec2 tmpvar_2;
+            tmpvar_2.x = 0.0;
+            tmpvar_2.y = (-0.006 * tmpvar_1);
+            blurCoordinates[0] = (inputTextureCoordinate.xy + tmpvar_2);
+            vec2 tmpvar_3;
+            tmpvar_3.x = 0.0;
+            tmpvar_3.y = (-0.003 * tmpvar_1);
+            blurCoordinates[1] = (inputTextureCoordinate.xy + tmpvar_3);
+            vec2 tmpvar_4;
+            tmpvar_4.x = 0.0;
+            tmpvar_4.y = (0.003 * tmpvar_1);
+            blurCoordinates[2] = (inputTextureCoordinate.xy + tmpvar_4);
+            vec2 tmpvar_5;
+            tmpvar_5.x = 0.0;
+            tmpvar_5.y = (0.006 * tmpvar_1);
+            blurCoordinates[3] = (inputTextureCoordinate.xy + tmpvar_5);
+            vec2 tmpvar_6;
+            tmpvar_6.y = 0.0;
+            tmpvar_6.x = (-0.008 * tmpvar_1);
+            blurCoordinates2[0] = (inputTextureCoordinate.xy + tmpvar_6);
+            vec2 tmpvar_7;
+            tmpvar_7.x = (-0.008 * tmpvar_1);
+            tmpvar_7.y = (0.006 * tmpvar_1);
+            blurCoordinates2[1] = (inputTextureCoordinate.xy + tmpvar_7);
+            vec2 tmpvar_8;
+            tmpvar_8.x = 0.0;
+            tmpvar_8.y = (0.006 * tmpvar_1);
+            blurCoordinates2[2] = (inputTextureCoordinate.xy + tmpvar_8);
+            vec2 tmpvar_9;
+            tmpvar_9.x = (0.008 * tmpvar_1);
+            tmpvar_9.y = (0.006 * tmpvar_1);
+            blurCoordinates2[3] = (inputTextureCoordinate.xy + tmpvar_9);
+            vec2 tmpvar_10;
+            tmpvar_10.y = 0.0;
+            tmpvar_10.x = (0.008 * tmpvar_1);
+            blurCoordinates2[4] = (inputTextureCoordinate.xy + tmpvar_10);
+            vec2 tmpvar_11;
+            tmpvar_11.x = (0.008 * tmpvar_1);
+            tmpvar_11.y = (-0.006 * tmpvar_1);
+            blurCoordinates2[5] = (inputTextureCoordinate.xy + tmpvar_11);
+            vec2 tmpvar_12;
+            tmpvar_12.x = 0.0;
+            tmpvar_12.y = (-0.006 * tmpvar_1);
+            blurCoordinates2[6] = (inputTextureCoordinate.xy + tmpvar_12);
+            vec2 tmpvar_13;
+            tmpvar_13.x = (-0.008 * tmpvar_1);
+            tmpvar_13.y = (-0.006 * tmpvar_1);
+            blurCoordinates2[7] = (inputTextureCoordinate.xy + tmpvar_13);
+        }
+
+
+		  precision highp float;
+        uniform sampler2D inputImageTexture;
+        uniform sampler2D inputImageTexture2;
+        uniform float softenStrength;
+        varying vec2 blurCoordinates[4];
+        varying vec2 blurCoordinates2[8];
+        varying vec2 textureCoordinate;
+        varying vec2 textureCoordinate2;
+        void main ()
+        {
+            lowp float a_1;
+            lowp float var_2;
+            lowp vec4 resultColor_3;
+            resultColor_3 = (texture2D (inputImageTexture2, textureCoordinate2) + texture2D (inputImageTexture2, blurCoordinates[0]));
+            resultColor_3 = (resultColor_3 + texture2D (inputImageTexture2, blurCoordinates[1]));
+            resultColor_3 = (resultColor_3 + texture2D (inputImageTexture2, blurCoordinates[2]));
+            resultColor_3 = (resultColor_3 + texture2D (inputImageTexture2, blurCoordinates[3]));
+            resultColor_3 = (resultColor_3 / 5.0);
+            lowp vec4 tmpvar_4;
+            tmpvar_4 = texture2D (inputImageTexture, textureCoordinate);
+            lowp vec4 tmpvar_5;
+            tmpvar_5 = texture2D (inputImageTexture, blurCoordinates2[0]);
+            var_2 = (((tmpvar_4.y - resultColor_3.y) * (tmpvar_4.y - resultColor_3.y)) + ((tmpvar_5.y - resultColor_3.y) * (tmpvar_5.y - resultColor_3.y)));
+            lowp vec4 tmpvar_6;
+            tmpvar_6 = texture2D (inputImageTexture, blurCoordinates2[1]);
+            var_2 = (var_2 + ((tmpvar_6.y - resultColor_3.y) * (tmpvar_6.y - resultColor_3.y)));
+            lowp vec4 tmpvar_7;
+            tmpvar_7 = texture2D (inputImageTexture, blurCoordinates2[2]);
+            var_2 = (var_2 + ((tmpvar_7.y - resultColor_3.y) * (tmpvar_7.y - resultColor_3.y)));
+            lowp vec4 tmpvar_8;
+            tmpvar_8 = texture2D (inputImageTexture, blurCoordinates2[3]);
+            var_2 = (var_2 + ((tmpvar_8.y - resultColor_3.y) * (tmpvar_8.y - resultColor_3.y)));
+            lowp vec4 tmpvar_9;
+            tmpvar_9 = texture2D (inputImageTexture, blurCoordinates2[4]);
+            var_2 = (var_2 + ((tmpvar_9.y - resultColor_3.y) * (tmpvar_9.y - resultColor_3.y)));
+            lowp vec4 tmpvar_10;
+            tmpvar_10 = texture2D (inputImageTexture, blurCoordinates2[5]);
+            var_2 = (var_2 + ((tmpvar_10.y - resultColor_3.y) * (tmpvar_10.y - resultColor_3.y)));
+            lowp vec4 tmpvar_11;
+            tmpvar_11 = texture2D (inputImageTexture, blurCoordinates2[6]);
+            var_2 = (var_2 + ((tmpvar_11.y - resultColor_3.y) * (tmpvar_11.y - resultColor_3.y)));
+            lowp vec4 tmpvar_12;
+            tmpvar_12 = texture2D (inputImageTexture, blurCoordinates2[7]);
+            var_2 = (var_2 + ((tmpvar_12.y - resultColor_3.y) * (tmpvar_12.y - resultColor_3.y)));
+            var_2 = (var_2 / 9.0);
+            lowp float tmpvar_13;
+            tmpvar_13 = min (max ((var_2 /
+                                   (var_2 + (0.0036 * softenStrength))
+                                   ), 0.0), 1.0);
+            a_1 = tmpvar_13;
+            bool tmpvar_14;
+            if ((((
+                   ((tmpvar_4.x > 0.371) && (tmpvar_4.y > 0.156))
+                   &&
+                   (tmpvar_4.z > 0.078)
+                   ) && (tmpvar_4.x > tmpvar_4.z)) && (tmpvar_4.x > tmpvar_4.y))) {
+                tmpvar_14 = (abs((tmpvar_4.x - tmpvar_4.y)) > 0.059);
+            } else {
+                tmpvar_14 = bool(0);
+            };
+            bool tmpvar_15;
+            if (tmpvar_14) {
+                tmpvar_15 = ((max (
+                                   max (tmpvar_4.x, tmpvar_4.y)
+                                   , tmpvar_4.z) - min (
+                                                        min (tmpvar_4.x, tmpvar_4.y)
+                                                        , tmpvar_4.z)) > 0.059);
+            } else {
+                tmpvar_15 = bool(0);
+            };
+            if (!(tmpvar_15)) {
+                a_1 = (0.5 * (1.0 + tmpvar_13));
+            };
+            lowp vec4 tmpvar_16;
+            tmpvar_16 = texture2D (inputImageTexture, textureCoordinate);
+            gl_FragColor.xyz = ((tmpvar_16.xyz * a_1) + (resultColor_3.xyz * (1.0 - a_1)));
+            gl_FragColor.w = 1.0;
+        }
+
+
+		 attribute vec4 position;
+        attribute vec2 inputTextureCoordinate;
+        varying vec2 textureCoordinate;
+        uniform mat4 uModelViewMatrix;
+        void main()
+        {
+            gl_Position = uModelViewMatrix * position;
+            textureCoordinate = inputTextureCoordinate.xy;
+        }
+
+		 #extension GL_OES_EGL_image_external : require
+            precision mediump float;
+            varying mediump vec2 textureCoordinate;
+            uniform samplerExternalOES videoFrame;
+            void main(void)
+            {
+                vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+                gl_FragColor = vImageColor;
+            }
+
+
+			precision mediump float;
+            varying mediump vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+
+            void main(void)
+            {
+                vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+                gl_FragColor = vImageColor;
+            }
+
+
+			precision lowp float;
+        uniform sampler2D inputImageTexture;
+        varying lowp vec2 textureCoordinate;
+        uniform vec2 imageSize;
+        uniform mediump float softenStrength;
+        void main ()
+        {
+            lowp vec3 smoothColor_1;
+            lowp float gaussianWeight_2;
+            lowp float sample_3;
+            lowp float sum_4;
+            lowp float gaussianWeightTotal_5;
+            float mul_y_6;
+            float mul_x_7;
+            float tmpvar_8;
+            tmpvar_8 = (2.0 / imageSize.x);
+            float tmpvar_9;
+            tmpvar_9 = (2.0 / imageSize.y);
+            vec2 tmpvar_10;
+            tmpvar_10.x = 0.0;
+            tmpvar_10.y = (-10.0 * tmpvar_9);
+            vec2 tmpvar_11;
+            tmpvar_11.x = (5.0 * tmpvar_8);
+            tmpvar_11.y = (-8.0 * tmpvar_9);
+            vec2 tmpvar_12;
+            tmpvar_12.x = (8.0 * tmpvar_8);
+            tmpvar_12.y = (-5.0 * tmpvar_9);
+            vec2 tmpvar_13;
+            tmpvar_13.x = (10.0 * tmpvar_8);
+            tmpvar_13.y = 0.0;
+            vec2 tmpvar_14;
+            tmpvar_14.x = (8.0 * tmpvar_8);
+            tmpvar_14.y = (5.0 * tmpvar_9);
+            vec2 tmpvar_15;
+            tmpvar_15.x = (5.0 * tmpvar_8);
+            tmpvar_15.y = (8.0 * tmpvar_9);
+            vec2 tmpvar_16;
+            tmpvar_16.x = 0.0;
+            tmpvar_16.y = (10.0 * tmpvar_9);
+            vec2 tmpvar_17;
+            tmpvar_17.x = (-5.0 * tmpvar_8);
+            tmpvar_17.y = (8.0 * tmpvar_9);
+            vec2 tmpvar_18;
+            tmpvar_18.x = (-8.0 * tmpvar_8);
+            tmpvar_18.y = (5.0 * tmpvar_9);
+            vec2 tmpvar_19;
+            tmpvar_19.x = (-10.0 * tmpvar_8);
+            tmpvar_19.y = 0.0;
+            vec2 tmpvar_20;
+            tmpvar_20.x = (-8.0 * tmpvar_8);
+            tmpvar_20.y = (-5.0 * tmpvar_9);
+            vec2 tmpvar_21;
+            tmpvar_21.x = (-5.0 * tmpvar_8);
+            tmpvar_21.y = (-8.0 * tmpvar_9);
+            mul_x_7 = (1.6 / imageSize.x);
+            mul_y_6 = (1.6 / imageSize.y);
+            vec2 tmpvar_22;
+            tmpvar_22.x = 0.0;
+            tmpvar_22.y = (-6.0 * mul_y_6);
+            vec2 tmpvar_23;
+            tmpvar_23.x = (-4.0 * mul_x_7);
+            tmpvar_23.y = (-4.0 * mul_y_6);
+            vec2 tmpvar_24;
+            tmpvar_24.x = (-6.0 * mul_x_7);
+            tmpvar_24.y = 0.0;
+            vec2 tmpvar_25;
+            tmpvar_25.x = (-4.0 * mul_x_7);
+            tmpvar_25.y = (4.0 * mul_y_6);
+            vec2 tmpvar_26;
+            tmpvar_26.x = 0.0;
+            tmpvar_26.y = (6.0 * mul_y_6);
+            vec2 tmpvar_27;
+            tmpvar_27.x = (4.0 * mul_x_7);
+            tmpvar_27.y = (4.0 * mul_y_6);
+            vec2 tmpvar_28;
+            tmpvar_28.x = (6.0 * mul_x_7);
+            tmpvar_28.y = 0.0;
+            vec2 tmpvar_29;
+            tmpvar_29.x = (4.0 * mul_x_7);
+            tmpvar_29.y = (-4.0 * mul_y_6);
+            lowp vec4 tmpvar_30;
+            tmpvar_30 = texture2D (inputImageTexture, textureCoordinate);
+            sum_4 = (tmpvar_30.y * 0.2);
+            lowp vec4 tmpvar_31;
+            tmpvar_31 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_10));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_31.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (0.2 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_31.y * gaussianWeight_2));
+            lowp vec4 tmpvar_32;
+            tmpvar_32 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_11));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_32.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_32.y * gaussianWeight_2));
+            lowp vec4 tmpvar_33;
+            tmpvar_33 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_12));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_33.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_33.y * gaussianWeight_2));
+            lowp vec4 tmpvar_34;
+            tmpvar_34 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_13));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_34.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_34.y * gaussianWeight_2));
+            lowp vec4 tmpvar_35;
+            tmpvar_35 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_14));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_35.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_35.y * gaussianWeight_2));
+            lowp vec4 tmpvar_36;
+            tmpvar_36 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_15));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_36.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_36.y * gaussianWeight_2));
+            lowp vec4 tmpvar_37;
+            tmpvar_37 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_16));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_37.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_37.y * gaussianWeight_2));
+            lowp vec4 tmpvar_38;
+            tmpvar_38 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_17));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_38.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_38.y * gaussianWeight_2));
+            lowp vec4 tmpvar_39;
+            tmpvar_39 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_18));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_39.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_39.y * gaussianWeight_2));
+            lowp vec4 tmpvar_40;
+            tmpvar_40 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_19));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_40.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_40.y * gaussianWeight_2));
+            lowp vec4 tmpvar_41;
+            tmpvar_41 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_20));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_41.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_41.y * gaussianWeight_2));
+            lowp vec4 tmpvar_42;
+            tmpvar_42 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_21));
+            gaussianWeight_2 = (0.08 * (1.0 - min (
+                                                   (abs((tmpvar_30.y - tmpvar_42.y)) * 3.6)
+                                                   , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_42.y * gaussianWeight_2));
+            lowp vec4 tmpvar_43;
+            tmpvar_43 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_22));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_43.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_43.y * gaussianWeight_2));
+            lowp vec4 tmpvar_44;
+            tmpvar_44 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_23));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_44.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_44.y * gaussianWeight_2));
+            lowp vec4 tmpvar_45;
+            tmpvar_45 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_24));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_45.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_45.y * gaussianWeight_2));
+            lowp vec4 tmpvar_46;
+            tmpvar_46 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_25));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_46.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_46.y * gaussianWeight_2));
+            lowp vec4 tmpvar_47;
+            tmpvar_47 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_26));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_47.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_47.y * gaussianWeight_2));
+            lowp vec4 tmpvar_48;
+            tmpvar_48 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_27));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_48.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_48.y * gaussianWeight_2));
+            lowp vec4 tmpvar_49;
+            tmpvar_49 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_28));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_49.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_49.y * gaussianWeight_2));
+            lowp vec4 tmpvar_50;
+            tmpvar_50 = texture2D (inputImageTexture, (textureCoordinate + tmpvar_29));
+            gaussianWeight_2 = (0.1 * (1.0 - min (
+                                                  (abs((tmpvar_30.y - tmpvar_50.y)) * 3.6)
+                                                  , 1.0)));
+            gaussianWeightTotal_5 = (gaussianWeightTotal_5 + gaussianWeight_2);
+            sum_4 = (sum_4 + (tmpvar_50.y * gaussianWeight_2));
+            sum_4 = (sum_4 / gaussianWeightTotal_5);
+            sample_3 = ((tmpvar_30.y - sum_4) + 0.5);
+            if ((sample_3 <= 0.5)) {
+                sample_3 = ((sample_3 * sample_3) * 2.0);
+            } else {
+                sample_3 = (1.0 - ((
+                                    (1.0 - sample_3)
+                                    *
+                                    (1.0 - sample_3)
+                                    ) * 2.0));
+            };
+            if ((sample_3 <= 0.5)) {
+                sample_3 = ((sample_3 * sample_3) * 2.0);
+            } else {
+                sample_3 = (1.0 - ((
+                                    (1.0 - sample_3)
+                                    *
+                                    (1.0 - sample_3)
+                                    ) * 2.0));
+            };
+            if ((sample_3 <= 0.5)) {
+                sample_3 = ((sample_3 * sample_3) * 2.0);
+            } else {
+                sample_3 = (1.0 - ((
+                                    (1.0 - sample_3)
+                                    *
+                                    (1.0 - sample_3)
+                                    ) * 2.0));
+            };
+            if ((sample_3 <= 0.5)) {
+                sample_3 = ((sample_3 * sample_3) * 2.0);
+            } else {
+                sample_3 = (1.0 - ((
+                                    (1.0 - sample_3)
+                                    *
+                                    (1.0 - sample_3)
+                                    ) * 2.0));
+            };
+            if ((sample_3 <= 0.5)) {
+                sample_3 = ((sample_3 * sample_3) * 2.0);
+            } else {
+                sample_3 = (1.0 - ((
+                                    (1.0 - sample_3)
+                                    *
+                                    (1.0 - sample_3)
+                                    ) * 2.0));
+            };
+            lowp float tmpvar_51;
+            tmpvar_51 = (1.0 + (pow (sum_4, 0.3) * 0.09));
+            lowp vec3 tmpvar_52;
+            tmpvar_52 = mix (tmpvar_30.xyz, mix (tmpvar_30.xyz, clamp (
+                                                                       ((tmpvar_30.xyz * tmpvar_51) - (vec3(sample_3) * (tmpvar_51 - 1.0)))
+                                                                       , vec3(0.0, 0.0, 0.0), vec3(1.0, 1.0, 1.0)), pow (tmpvar_30.y, 0.33)), pow (tmpvar_30.y, 0.39));
+            mediump vec3 tmpvar_53;
+            tmpvar_53 = mix (tmpvar_30.xyz, tmpvar_52, softenStrength);
+            smoothColor_1 = tmpvar_53;
+            lowp vec4 tmpvar_54;
+            tmpvar_54.w = 1.0;
+            tmpvar_54.xyz = pow (smoothColor_1, vec3(0.96, 0.96, 0.96));
+            gl_FragColor = tmpvar_54;
+        }
+
+
+		 attribute vec4 position;
+            attribute vec2 inputTextureCoordinate;
+            varying vec2 textureCoordinate;
+            void main()
+            {
+                gl_Position = position;
+                textureCoordinate = inputTextureCoordinate.xy;
+            }
+
+			 precision mediump float;
+
+            varying vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+            uniform float Contrast;
+
+            void main()
+            {
+                vec4 rgbaColor = texture2D(videoFrame, textureCoordinate);
+                vec3 colorOutput = rgbaColor.rgb;
+
+                colorOutput = (colorOutput - vec3(0.5)) * ((Contrast / 100.0) + 1.0) + vec3(0.5);
+
+                gl_FragColor=vec4(colorOutput, rgbaColor.a);
+            }
+
+			  precision mediump float;
+        attribute vec4 position;
+        attribute vec4 inputTextureCoordinate;
+        varying mediump vec2 textureCoordinate;
+        void main()
+        {
+            gl_Position = position;
+            textureCoordinate = inputTextureCoordinate.xy;
+        }
+
+		precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        void main()
+        {
+            vec4 vTempColor = texture2D(videoFrame, textureCoordinate);
+            gl_FragColor = vTempColor;
+        }
+
+		 precision mediump float;
+        attribute vec4 inVertex;
+        uniform mat4 MVP;
+        uniform float pointSize;
+        void main()
+        {
+            gl_Position = MVP * inVertex;
+            gl_PointSize = pointSize;
+        }
+
+		   precision mediump float;
+    uniform sampler2D texture;
+    void main()
+    {
+        lowp vec4 tempColor = texture2D(texture, gl_PointCoord);
+        tempColor.rgb = tempColor.rgb * tempColor.a;
+        gl_FragColor = tempColor;
+    }
+
+
+	  precision mediump float;
+        attribute vec4 position;
+        attribute vec4 inputTextureCoordinate;
+        varying vec2 textureCoordinate;
+        void main()
+        {
+            gl_Position = position;
+            textureCoordinate = inputTextureCoordinate.xy;
+        }
+
+	  precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        uniform sampler2D maskFrame;
+
+        #define OverlayBlend(base, blend) ((base) < 0.5) ? (2.0 * (blend) * (base)):(1.0 - 2.0 * (1.0 - (blend)) * (1.0 - (base)))
+
+        vec4 doOverlayBlend(vec4 base,vec4 blend,float fOpacity)
+        {
+            vec4 clE;
+            clE.r = OverlayBlend(base.r, blend.r);
+            clE.g = OverlayBlend(base.g, blend.g);
+            clE.b = OverlayBlend(base.b, blend.b);
+            clE.a = blend.a;
+            clE = clamp(clE, 0.0, 1.0);
+            clE = mix(base, clE, fOpacity * clE.a);
+            return clE;
+        }
+
+
+        #define ScreenBlend(base, blend) (1.0 - (1.0 - (base)) * (1.0 - (blend)))
+
+        vec4 doScreenBlend(vec4 base, vec4 blend, float fOpacity)
+        {
+            vec4 clE;
+            clE.r = ScreenBlend(base.r, blend.r);
+            clE.g = ScreenBlend(base.g, blend.g);
+            clE.b = ScreenBlend(base.b, blend.b);
+            clE.a = blend.a;
+            clE = clamp(clE, 0.0, 1.0);
+            clE = mix(base, clE, fOpacity * clE.a);
+            return clE;
+        }
+
+        void main()
+        {
+            vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+            vec4 vMaskColor = texture2D(maskFrame, textureCoordinate);
+            vec4 vBlendedColor = doScreenBlend(vImageColor, vMaskColor, 0.35);
+            vBlendedColor = doOverlayBlend(vBlendedColor, vMaskColor, 1.0);
+            vBlendedColor = mix(vImageColor, vBlendedColor, 1.0);
+            vBlendedColor.a = 1.0;
+            gl_FragColor = vBlendedColor;
+        }
+
+		 precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        uniform sampler2D maskFrame;
+
+        #define OverlayBlend(base, blend) ((base) < 0.5) ? (2.0 * (blend) * (base) / 1.0):(1.0 - 2.0 * (1.0 - (blend)) * (1.0 - (base)) / 1.0)
+        #define BlendHardLight(base, blend) 	OverlayBlend(blend, base)
+
+        vec4 doOverlayBlend(vec4 base,vec4 blend,float fOpacity)
+        {
+            vec4 clE;
+            clE.r = OverlayBlend(base.r, blend.r);
+            clE.g = OverlayBlend(base.g, blend.g);
+            clE.b = OverlayBlend(base.b, blend.b);
+            clE.a = blend.a;
+            clE = clamp(clE, 0.0, 1.0);
+            clE = mix(base, clE, fOpacity * clE.a);
+            return clE;
+        }
+
+        vec4 doHardLightBlend(vec4 base,vec4 blend,float fOpacity)
+        {
+            vec4 clE;
+            clE.r = BlendHardLight(base.r, blend.r);
+            clE.g = BlendHardLight(base.g, blend.g);
+            clE.b = BlendHardLight(base.b, blend.b);
+            clE.a = blend.a;
+            clE = clamp(clE, 0.0, 1.0);
+            clE = mix(base, clE, fOpacity * clE.a);
+            return clE;
+        }
+
+        #define ScreenBlend(base, blend) (1.0 - (1.0 - (base)) * (1.0 - (blend)))
+        vec4 doScreenBlend(vec4 base, vec4 blend, float fOpacity)
+        {
+            vec4 clE;
+            clE.r = ScreenBlend(base.r, blend.r);
+            clE.g = ScreenBlend(base.g, blend.g);
+            clE.b = ScreenBlend(base.b, blend.b);
+            clE.a = blend.a;
+            clE = clamp(clE, 0.0, 1.0);
+            clE = mix(base, clE, fOpacity * clE.a);
+            return clE;
+        }
+
+        void main()
+        {
+            vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+            vec4 vMaskColor = texture2D(maskFrame, textureCoordinate);
+            //vec4 vBlendedColor = doHardLightBlend(vImageColor, vMaskColor, 0.85);
+            vec4 vBlendedColor = vec4(mix(vImageColor.rgb, vMaskColor.rgb, vMaskColor.a), 1.0);
+            gl_FragColor = vBlendedColor;
+        }
+
+
+		 precision mediump float;
+    uniform sampler2D texture;
+    void main()
+    {
+        lowp vec4 tempColor = texture2D(texture, gl_PointCoord);
+        tempColor.rgb = tempColor.rgb * tempColor.a;
+        gl_FragColor = tempColor * 0.7;
+    }
+
+
+	 precision mediump float;
+    varying mediump vec2 textureCoordinate;
+    uniform sampler2D videoFrame;
+    uniform sampler2D eraserFrame;
+    uniform sampler2D maskFrame;
+
+    const mediump vec3 lumCoeff = vec3(0.2125,0.7154,0.0721);
+
+    void main()
+    {
+        vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+        vec4 vEraserColor = texture2D(eraserFrame, textureCoordinate);
+        vec4 vMaskColor = texture2D(maskFrame, textureCoordinate);
+        float fGray = dot(vMaskColor.rgb, lumCoeff);
+        vec4 vBlendedColor = mix(vImageColor, vEraserColor, fGray);
+        vBlendedColor.a = 1.0;
+        gl_FragColor = vBlendedColor;
+    }
+
+	 precision mediump float;
+    varying mediump vec2 textureCoordinate;
+    uniform sampler2D videoFrame;
+    uniform sampler2D eraserFrame;
+    uniform sampler2D maskFrame;
+    uniform vec2 videoFrameSize;
+    uniform vec2 eraserFrameSize;
+
+    const mediump vec3 lumCoeff = vec3(0.2125,0.7154,0.0721);
+
+    void main()
+    {
+        vec2 vCurrCoord = textureCoordinate * videoFrameSize;
+        vec2 vTileCoord = mod(vCurrCoord, eraserFrameSize) / eraserFrameSize;
+        vec4 vEraserColor = texture2D(eraserFrame, vTileCoord);
+        vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+        vec4 vMaskColor = texture2D(maskFrame, textureCoordinate);
+        float fGray = dot(vMaskColor.rgb, lumCoeff);
+        vec4 vBlendedColor = mix(vImageColor, vEraserColor, fGray);
+        vBlendedColor.a = 1.0;
+        gl_FragColor = vBlendedColor;
+    }
+
+	precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        uniform float formatCode;
+        void main(void)
+        {
+            vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+
+            // 1 : BGRA
+            if(formatCode > 0.5 && formatCode < 1.5)
+            {
+                gl_FragColor = vImageColor.bgra;
+            }
+            else if(formatCode > 1.5 && formatCode < 5.5) // 2 : YUV444
+            {
+//                float y = vImageColor.r * 0.299 + vImageColor.g * 0.587 + vImageColor.b * 0.114;
+//                float cb = vImageColor.r * -0.169 + vImageColor.g * -0.331 + vImageColor.b * 0.5 + 0.5;
+//                float cr = vImageColor.r * 0.5 + vImageColor.g * -0.419 + vImageColor.b * -0.081 + 0.5;
+//                gl_FragColor = vec4(y, cb, cr, 1.0);
+
+//                // BT.601
+//                vec3 yuv = mat3( 0.257, -0.148,  0.439,
+//                                 0.504, -0.291, -0.368,
+//                                 0.098,  0.439, -0.071) * vImageColor.rgb + vec3(0.0625, 0.5, 0.5);
+
+                  // full-range YCbCr
+                  vec3 yuv = mat3( 0.299, -0.169,  0.500,
+                                   0.587, -0.331, -0.419,
+                                   0.114,  0.500, -0.081) * vImageColor.rgb + vec3(0.0, 0.5, 0.5);
+
+//                // BT.709
+//                vec3 yuv = mat3( 0.183, -0.101,  0.439,
+//                                 0.614, -0.339, -0.399,
+//                                 0.062,  0.439, -0.040) * vImageColor.rgb + vec3(0.0625, 0.5, 0.5);
+
+                gl_FragColor = vec4(yuv, 1.0);
+
+            }
+            else // 0 : RGBA
+            {
+                gl_FragColor = vImageColor;
+            }
+
+        }
+
+		precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D s_texture_y;
+        uniform sampler2D s_texture_u;
+        uniform sampler2D s_texture_v;
+
+        void main()
+        {
+            mediump vec3 yuv;
+            lowp vec3 rgb;
+            yuv.x = texture2D(s_texture_y, textureCoordinate).r;
+            yuv.y = texture2D(s_texture_u, textureCoordinate).r - 0.5;
+            yuv.z = texture2D(s_texture_v, textureCoordinate).r - 0.5;
+
+            rgb = mat3( 1,         1,       1,
+                        -0.00093, -0.3437,  1.77216,
+                        1.401687, -0.71417, 0.00099) * yuv;
+
+            gl_FragColor = vec4(rgb, 1.0);
+
+        }
+
+
+		precision mediump float;
+        varying vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        uniform float faceStrong;
+        uniform float eyeStrong;
+        uniform vec2 imgSize;
+        uniform vec2 leftEye;
+        uniform vec2 rightEye;
+        uniform vec2 mouthTop;
+        uniform vec2 mouthBottom;
+        uniform vec2 leftEdge2;
+        uniform vec2 rightEdge2;
+        uniform vec2 leftEdge3;
+        uniform vec2 rightEdge3;
+        uniform vec2 leftEdge4;
+        uniform vec2 rightEdge4;
+        uniform vec2 chin;
+        void main ()
+        {
+            vec2 textureCoord_new_1;
+            float radius_2;
+            vec2 targetRight_3;
+            vec2 targetLeft_4;
+            vec2 tmpvar_5;
+            tmpvar_5 = (textureCoordinate * imgSize);
+            vec2 tmpvar_6;
+            float tmpvar_7;
+            tmpvar_7 = (leftEye.x * imgSize.x);
+            tmpvar_6.x = tmpvar_7;
+            float tmpvar_8;
+            tmpvar_8 = (leftEye.y * imgSize.y);
+            tmpvar_6.y = tmpvar_8;
+            vec2 tmpvar_9;
+            float tmpvar_10;
+            tmpvar_10 = (rightEye.x * imgSize.x);
+            tmpvar_9.x = tmpvar_10;
+            float tmpvar_11;
+            tmpvar_11 = (rightEye.y * imgSize.y);
+            tmpvar_9.y = tmpvar_11;
+            float tmpvar_12;
+            vec2 tmpvar_13;
+            tmpvar_13 = (tmpvar_6 - tmpvar_9);
+            tmpvar_12 = sqrt(dot (tmpvar_13, tmpvar_13));
+            vec2 tmpvar_14;
+            tmpvar_14 = (mouthBottom * imgSize);
+            vec2 tmpvar_15;
+            tmpvar_15 = (mouthTop * imgSize);
+            radius_2 = (tmpvar_12 * 1.5);
+            vec2 tmpvar_16;
+            tmpvar_16 = (leftEdge3 * imgSize);
+            targetLeft_4 = (tmpvar_14 + ((tmpvar_16 - tmpvar_14) * 0.8));
+            vec2 tmpvar_17;
+            vec2 tmpvar_18;
+            tmpvar_18 = (targetLeft_4 - tmpvar_16);
+            float tmpvar_19;
+            tmpvar_19 = sqrt(dot (tmpvar_18, tmpvar_18));
+            vec2 tmpvar_20;
+            tmpvar_20 = (tmpvar_5 - tmpvar_16);
+            float tmpvar_21;
+            tmpvar_21 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_20, tmpvar_20))
+                                       / radius_2)), 0.0, 1.0);
+            tmpvar_17 = ((tmpvar_18 * (
+                                       (faceStrong * min (tmpvar_19, radius_2))
+                                       / tmpvar_19)) * (tmpvar_21 * tmpvar_21));
+            vec2 tmpvar_22;
+            tmpvar_22 = (rightEdge3 * imgSize);
+            targetRight_3 = (tmpvar_14 + ((tmpvar_22 - tmpvar_14) * 0.8));
+            vec2 tmpvar_23;
+            vec2 tmpvar_24;
+            tmpvar_24 = (targetRight_3 - tmpvar_22);
+            float tmpvar_25;
+            tmpvar_25 = sqrt(dot (tmpvar_24, tmpvar_24));
+            vec2 tmpvar_26;
+            tmpvar_26 = (tmpvar_5 - tmpvar_22);
+            float tmpvar_27;
+            tmpvar_27 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_26, tmpvar_26))
+                                       / radius_2)), 0.0, 1.0);
+            tmpvar_23 = ((tmpvar_24 * (
+                                       (faceStrong * min (tmpvar_25, radius_2))
+                                       / tmpvar_25)) * (tmpvar_27 * tmpvar_27));
+            vec2 tmpvar_28;
+            tmpvar_28 = (leftEdge2 * imgSize);
+            targetLeft_4 = (tmpvar_14 + ((tmpvar_28 - tmpvar_14) * 0.93));
+            vec2 tmpvar_29;
+            vec2 tmpvar_30;
+            tmpvar_30 = (targetLeft_4 - tmpvar_28);
+            float tmpvar_31;
+            tmpvar_31 = sqrt(dot (tmpvar_30, tmpvar_30));
+            vec2 tmpvar_32;
+            tmpvar_32 = (tmpvar_5 - tmpvar_28);
+            float tmpvar_33;
+            tmpvar_33 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_32, tmpvar_32))
+                                       / radius_2)), 0.0, 1.0);
+            tmpvar_29 = ((tmpvar_30 * (
+                                       (faceStrong * min (tmpvar_31, radius_2))
+                                       / tmpvar_31)) * (tmpvar_33 * tmpvar_33));
+            vec2 tmpvar_34;
+            tmpvar_34 = (rightEdge2 * imgSize);
+            targetRight_3 = (tmpvar_14 + ((tmpvar_34 - tmpvar_14) * 0.93));
+            vec2 tmpvar_35;
+            vec2 tmpvar_36;
+            tmpvar_36 = (targetRight_3 - tmpvar_34);
+            float tmpvar_37;
+            tmpvar_37 = sqrt(dot (tmpvar_36, tmpvar_36));
+            vec2 tmpvar_38;
+            tmpvar_38 = (tmpvar_5 - tmpvar_34);
+            float tmpvar_39;
+            tmpvar_39 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_38, tmpvar_38))
+                                       / radius_2)), 0.0, 1.0);
+            tmpvar_35 = ((tmpvar_36 * (
+                                       (faceStrong * min (tmpvar_37, radius_2))
+                                       / tmpvar_37)) * (tmpvar_39 * tmpvar_39));
+            vec2 tmpvar_40;
+            tmpvar_40 = (chin * imgSize);
+            vec2 tmpvar_41;
+            tmpvar_41 = ((tmpvar_14 + (
+                                       (tmpvar_40 - tmpvar_14)
+                                       * 1.1)) - tmpvar_40);
+            float tmpvar_42;
+            tmpvar_42 = sqrt(dot (tmpvar_41, tmpvar_41));
+            vec2 tmpvar_43;
+            tmpvar_43 = (tmpvar_5 - tmpvar_40);
+            float tmpvar_44;
+            tmpvar_44 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_43, tmpvar_43))
+                                       / tmpvar_12)), 0.0, 1.0);
+            radius_2 = (tmpvar_12 * 1.3);
+            vec2 tmpvar_45;
+            tmpvar_45 = (leftEdge4 * imgSize);
+            targetLeft_4 = (tmpvar_14 + ((tmpvar_45 - tmpvar_14) * 0.9));
+            vec2 tmpvar_46;
+            vec2 tmpvar_47;
+            tmpvar_47 = (targetLeft_4 - tmpvar_45);
+            float tmpvar_48;
+            tmpvar_48 = sqrt(dot (tmpvar_47, tmpvar_47));
+            vec2 tmpvar_49;
+            tmpvar_49 = (tmpvar_5 - tmpvar_45);
+            float tmpvar_50;
+            tmpvar_50 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_49, tmpvar_49))
+                                       / radius_2)), 0.0, 1.0);
+            tmpvar_46 = ((tmpvar_47 * (
+                                       (faceStrong * min (tmpvar_48, radius_2))
+                                       / tmpvar_48)) * (tmpvar_50 * tmpvar_50));
+            vec2 tmpvar_51;
+            tmpvar_51 = (rightEdge4 * imgSize);
+            targetRight_3 = (tmpvar_14 + ((tmpvar_51 - tmpvar_14) * 0.9));
+            vec2 tmpvar_52;
+            vec2 tmpvar_53;
+            tmpvar_53 = (targetRight_3 - tmpvar_51);
+            float tmpvar_54;
+            tmpvar_54 = sqrt(dot (tmpvar_53, tmpvar_53));
+            vec2 tmpvar_55;
+            tmpvar_55 = (tmpvar_5 - tmpvar_51);
+            float tmpvar_56;
+            tmpvar_56 = clamp ((1.0 - (
+                                       sqrt(dot (tmpvar_55, tmpvar_55))
+                                       / radius_2)), 0.0, 1.0);
+            tmpvar_52 = ((tmpvar_53 * (
+                                       (faceStrong * min (tmpvar_54, radius_2))
+                                       / tmpvar_54)) * (tmpvar_56 * tmpvar_56));
+            vec2 tmpvar_57;
+            tmpvar_57.x = tmpvar_10;
+            tmpvar_57.y = tmpvar_11;
+            targetLeft_4 = (tmpvar_15 + ((tmpvar_57 - tmpvar_15) * 2.4));
+            vec2 tmpvar_58;
+            tmpvar_58.x = tmpvar_7;
+            tmpvar_58.y = tmpvar_8;
+            targetRight_3 = (tmpvar_15 + ((tmpvar_58 - tmpvar_15) * 2.4));
+            radius_2 = (tmpvar_12 * 0.23);
+            vec2 tmpvar_59;
+            tmpvar_59.x = tmpvar_7;
+            tmpvar_59.y = tmpvar_8;
+            vec2 tmpvar_60;
+            tmpvar_60 = (tmpvar_5 - tmpvar_59);
+            float tmpvar_61;
+            tmpvar_61 = clamp ((sqrt(
+                                     dot (tmpvar_60, tmpvar_60)
+                                     ) / radius_2), 0.0, 1.0);
+            vec2 tmpvar_62;
+            tmpvar_62.x = tmpvar_10;
+            tmpvar_62.y = tmpvar_11;
+            vec2 tmpvar_63;
+            tmpvar_63 = (tmpvar_5 - tmpvar_62);
+            float tmpvar_64;
+            tmpvar_64 = clamp ((sqrt(
+                                     dot (tmpvar_63, tmpvar_63)
+                                     ) / radius_2), 0.0, 1.0);
+            textureCoord_new_1 = ((tmpvar_5 - tmpvar_17) - tmpvar_23);
+            textureCoord_new_1 = (textureCoord_new_1 - ((tmpvar_41 *
+                                                         ((faceStrong * min (tmpvar_42, tmpvar_12)) / tmpvar_42)
+                                                         ) * (tmpvar_44 * tmpvar_44)));
+            textureCoord_new_1 = (textureCoord_new_1 - tmpvar_29);
+            textureCoord_new_1 = (textureCoord_new_1 - tmpvar_35);
+            textureCoord_new_1 = (textureCoord_new_1 - tmpvar_46);
+            textureCoord_new_1 = (textureCoord_new_1 - tmpvar_52);
+            textureCoord_new_1 = (tmpvar_59 + ((textureCoord_new_1 - tmpvar_59) * (
+                                                                                   ((eyeStrong * tmpvar_61) * (tmpvar_61 - 1.0))
+                                                                                   + 1.0)));
+            textureCoord_new_1 = (tmpvar_62 + ((textureCoord_new_1 - tmpvar_62) * (
+                                                                                   ((eyeStrong * tmpvar_64) * (tmpvar_64 - 1.0))
+                                                                                   + 1.0)));
+            lowp vec4 tmpvar_65;
+            tmpvar_65 = texture2D (videoFrame, (textureCoord_new_1 / imgSize));
+            gl_FragColor = tmpvar_65;
+        }
+
+
+		attribute vec4 vVertex;
+
+attribute vec2 vTexCoord0;
+varying vec2 vTex;
+void main(void)
+{
+    vTex = vTexCoord0;
+
+    gl_Position = vVertex;
+}
+
+precision mediump float;
+varying mediump vec2 vTex;
+uniform sampler2D textureUnit0;
+void main(void)
+{
+    gl_FragColor = texture2D(textureUnit0, vTex);
+}
+
+     attribute vec4 position;
+        attribute vec4 inputTextureCoordinate;
+        uniform float dis;
+        varying vec2 textureCoordinate;
+        varying vec2 blurCoordinates[4];
+        void main ()
+        {
+            gl_Position = position;
+            textureCoordinate = inputTextureCoordinate.xy;
+            float tmpvar_1;
+            tmpvar_1 = (dis * 4.0);
+            vec2 tmpvar_2;
+            tmpvar_2.y = 0.0;
+            tmpvar_2.x = (-0.008 * tmpvar_1);
+            blurCoordinates[0] = (inputTextureCoordinate.xy + tmpvar_2);
+            vec2 tmpvar_3;
+            tmpvar_3.y = 0.0;
+            tmpvar_3.x = (-0.004 * tmpvar_1);
+            blurCoordinates[1] = (inputTextureCoordinate.xy + tmpvar_3);
+            vec2 tmpvar_4;
+            tmpvar_4.y = 0.0;
+            tmpvar_4.x = (0.004 * tmpvar_1);
+            blurCoordinates[2] = (inputTextureCoordinate.xy + tmpvar_4);
+            vec2 tmpvar_5;
+            tmpvar_5.y = 0.0;
+            tmpvar_5.x = (0.008 * tmpvar_1);
+            blurCoordinates[3] = (inputTextureCoordinate.xy + tmpvar_5);
+        }
+
+		precision highp float;
+            uniform sampler2D inputImageTexture;
+            varying vec2 blurCoordinates[4];
+            varying vec2 textureCoordinate;
+            void main ()
+            {
+                lowp vec4 resultColor_1;
+                resultColor_1 = (texture2D (inputImageTexture, textureCoordinate) + texture2D (inputImageTexture, blurCoordinates[0]));
+                resultColor_1 = (resultColor_1 + texture2D (inputImageTexture, blurCoordinates[1]));
+                resultColor_1 = (resultColor_1 + texture2D (inputImageTexture, blurCoordinates[2]));
+                resultColor_1 = (resultColor_1 + texture2D (inputImageTexture, blurCoordinates[3]));
+                resultColor_1 = (resultColor_1 / 5.0);
+                gl_FragColor = resultColor_1;
+            }
+
+
+			 precision mediump float;
+            varying mediump vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+            uniform sampler2D gaussFrame;
+            uniform sampler2D curveFrame;
+            uniform float sharpness;
+            void main ()
+            {
+              lowp vec4 vCurveAdjustColor_1;
+              lowp vec4 tmpvar_2;
+              tmpvar_2 = texture2D (videoFrame, textureCoordinate);
+              lowp vec4 tmpvar_3;
+              tmpvar_3 = texture2D (gaussFrame, textureCoordinate);
+              vCurveAdjustColor_1.w = 1.0;
+              lowp vec2 tmpvar_4;
+              tmpvar_4.y = 0.0;
+              tmpvar_4.x = tmpvar_2.x;
+              vCurveAdjustColor_1.x = texture2D (curveFrame, tmpvar_4).w;
+              lowp vec2 tmpvar_5;
+              tmpvar_5.y = 0.0;
+              tmpvar_5.x = tmpvar_2.y;
+              vCurveAdjustColor_1.y = texture2D (curveFrame, tmpvar_5).w;
+              lowp vec2 tmpvar_6;
+              tmpvar_6.y = 0.0;
+              tmpvar_6.x = tmpvar_2.z;
+              vCurveAdjustColor_1.z = texture2D (curveFrame, tmpvar_6).w;
+              lowp float tmpvar_7;
+              tmpvar_7 = mix (tmpvar_2.y, min (max (
+                ((tmpvar_2.y + (2.0 * (1.0 - tmpvar_3.w))) - 1.0)
+              , 0.0), 1.0), 0.5);
+              lowp float tmpvar_8;
+              if ((tmpvar_7 <= 0.5)) {
+                tmpvar_8 = ((tmpvar_7 * tmpvar_7) / 0.5);
+              } else {
+                tmpvar_8 = (1.0 - ((
+                  (1.0 - tmpvar_7)
+                 *
+                  (1.0 - tmpvar_7)
+                ) / 0.5));
+              };
+              lowp float tmpvar_9;
+              if ((tmpvar_8 <= 0.5)) {
+                tmpvar_9 = ((tmpvar_8 * tmpvar_8) / 0.5);
+              } else {
+                tmpvar_9 = (1.0 - ((
+                  (1.0 - tmpvar_8)
+                 *
+                  (1.0 - tmpvar_8)
+                ) / 0.5));
+              };
+              lowp float tmpvar_10;
+              if ((tmpvar_9 <= 0.5)) {
+                tmpvar_10 = ((tmpvar_9 * tmpvar_9) / 0.5);
+              } else {
+                tmpvar_10 = (1.0 - ((
+                  (1.0 - tmpvar_9)
+                 *
+                  (1.0 - tmpvar_9)
+                ) / 0.5));
+              };
+              lowp vec4 tmpvar_11;
+              tmpvar_11 = mix (vCurveAdjustColor_1, ((
+                (tmpvar_2 - tmpvar_3)
+               * sharpness) + tmpvar_3), tmpvar_10);
+              gl_FragColor = tmpvar_11;
+            }
+
+
+			 attribute vec4 position;
+            attribute vec2 inputTextureCoordinate;
+            varying vec2 textureCoordinate;
+            uniform mat4 uModelViewMatrix;
+            void main()
+            {
+                gl_Position = uModelViewMatrix * position;
+                textureCoordinate = inputTextureCoordinate.xy;
+            }
+
+			precision mediump float;
+            varying mediump vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+            uniform float mirrored;
+            uniform float fliped;
+            uniform float isBGRA;
+            void main(void)
+            {
+                vec2 finalCoordinate = vec2(abs(mirrored - textureCoordinate.x), abs(fliped - textureCoordinate.y));
+
+                if(isBGRA > 0.5 && isBGRA < 1.5)
+                {
+                    gl_FragColor = texture2D(videoFrame, finalCoordinate).bgra;
+                }
+                else if(isBGRA > 1.5 && isBGRA < 5.5)
+                {
+                    vec4 xyz = texture2D(videoFrame, finalCoordinate);
+
+                    float y = xyz.x - 0.0625;
+                    float cr = xyz.y - 0.5;
+                    float cb = xyz.z - 0.5;
+
+//                    vec3 rgb = (mat3(1.0, 1.0, 1.0, 0.0, -0.343, 1.765, 1.4, -0.711, 0.0) * vec3(y,cr,cb));
+
+                    vec2 uv = vec2(cr, cb);
+
+                    vec3 rgb = vec3(y + 1.403 * uv.y, y - 0.344 * uv.x - 0.714 * uv.y, y + 1.770 * uv.x);
+
+                    gl_FragColor = vec4(rgb.bgr, 1.0);
+                }
+                else
+                {
+                    gl_FragColor = texture2D(videoFrame, finalCoordinate);
+                }
+            }
+
+			  precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        uniform sampler2D gaussFrame;
+        uniform float softenStrength;
+        void main ()
+        {
+            lowp vec4 tmpvar_1;
+            tmpvar_1 = texture2D (videoFrame, textureCoordinate);
+            lowp float tmpvar_2;
+            tmpvar_2 = mix (tmpvar_1.y, min (max (
+                                                  ((tmpvar_1.y + (2.0 * (1.0 - texture2D (gaussFrame, textureCoordinate).y))) - 1.0)
+                                                  , 0.0), 1.0), 0.5);
+            lowp float tmpvar_3;
+            if ((tmpvar_2 <= 0.5)) {
+                tmpvar_3 = ((tmpvar_2 * tmpvar_2) / 0.5);
+            } else {
+                tmpvar_3 = (1.0 - ((
+                                    (1.0 - tmpvar_2)
+                                    *
+                                    (1.0 - tmpvar_2)
+                                    ) / 0.5));
+            };
+            lowp float tmpvar_4;
+            if ((tmpvar_3 <= 0.5)) {
+                tmpvar_4 = ((tmpvar_3 * tmpvar_3) / 0.5);
+            } else {
+                tmpvar_4 = (1.0 - ((
+                                    (1.0 - tmpvar_3)
+                                    *
+                                    (1.0 - tmpvar_3)
+                                    ) / 0.5));
+            };
+            lowp float tmpvar_5;
+            if ((tmpvar_4 <= 0.5)) {
+                tmpvar_5 = ((tmpvar_4 * tmpvar_4) / 0.5);
+            } else {
+                tmpvar_5 = (1.0 - ((
+                                    (1.0 - tmpvar_4)
+                                    *
+                                    (1.0 - tmpvar_4)
+                                    ) / 0.5));
+            };
+            lowp float tmpvar_6;
+            tmpvar_6 = pow (dot (tmpvar_1.xyz, vec3(0.299, 0.587, 0.114)), 0.2);
+            lowp vec4 tmpvar_7;
+            tmpvar_7.w = 1.0;
+            tmpvar_7.xyz = mix (tmpvar_1.xyz, (tmpvar_1.xyz + (
+                                                               ((tmpvar_1.xyz - vec3(tmpvar_5)) * tmpvar_6)
+                                                               * 0.1)), tmpvar_6);
+            lowp vec4 tmpvar_8;
+            tmpvar_8 = mix (tmpvar_1, tmpvar_7, softenStrength);
+            lowp vec4 tmpvar_9;
+            tmpvar_9 = (((tmpvar_1 - tmpvar_8) * 0.4) + tmpvar_8);
+            gl_FragColor = tmpvar_9;
+        }
+
+		precision highp float;
+        precision highp int;
+        precision highp sampler2D;
+
+        attribute highp vec2 aPos;
+        attribute highp vec2 aTexCoord;
+
+        varying highp vec2 vTexCoord;
+
+        void main(void) {
+            gl_Position = vec4(aPos, 0, 1);
+            vTexCoord = aTexCoord;
+        }
+
+
+
+
+
+		 precision highp float;
+        precision highp int;
+        precision highp sampler2D;
+
+        const float LOOP_MAX = 100.0;
+        #define EPSILON 0.0000001;
+
+        uniform highp vec3 uOutputDim;
+        uniform highp vec2 uTexSize;
+
+        varying highp vec2 vTexCoord;
+
+        vec4 round(vec4 x) {
+            return floor(x + 0.5);
+        }
+
+        highp float round(highp float x) {
+            return floor(x + 0.5);
+        }
+
+        vec2 integerMod(vec2 x, float y) {
+            vec2 res = floor(mod(x, y));
+            return res * step(1.0 - floor(y), -res);
+        }
+
+        vec3 integerMod(vec3 x, float y) {
+            vec3 res = floor(mod(x, y));
+            return res * step(1.0 - floor(y), -res);
+        }
+
+        vec4 integerMod(vec4 x, vec4 y) {
+            vec4 res = floor(mod(x, y));
+            return res * step(1.0 - floor(y), -res);
+        }
+
+        highp float integerMod(highp float x, highp float y) {
+            highp float res = floor(mod(x, y));
+            return res * (res > floor(y) - 1.0 ? 0.0 : 1.0);
+        }
+
+        highp int integerMod(highp int x, highp int y) {
+            return int(integerMod(float(x), float(y)));
+        }
+
+        // Here be dragons!
+        // DO NOT OPTIMIZE THIS CODE
+        // YOU WILL BREAK SOMETHING ON SOMEBODY'S MACHINE
+        // LEAVE IT AS IT IS, LEST YOU WASTE YOUR OWN TIME
+        const vec2 MAGIC_VEC = vec2(1.0, -256.0);
+        const vec4 SCALE_FACTOR = vec4(1.0, 256.0, 65536.0, 0.0);
+        const vec4 SCALE_FACTOR_INV = vec4(1.0, 0.00390625, 0.0000152587890625, 0.0); // 1, 1/256, 1/65536
+        highp float decode32(highp vec4 rgba) {
+            rgba *= 255.0;
+            vec2 gte128;
+            gte128.x = rgba.b >= 128.0 ? 1.0 : 0.0;
+            gte128.y = rgba.a >= 128.0 ? 1.0 : 0.0;
+            float exponent = 2.0 * rgba.a - 127.0 + dot(gte128, MAGIC_VEC);
+            float res = exp2(round(exponent));
+            rgba.b = rgba.b - 128.0 * gte128.x;
+            res = dot(rgba, SCALE_FACTOR) * exp2(round(exponent-23.0)) + res;
+            res *= gte128.y * -2.0 + 1.0;
+            return res;
+        }
+
+        highp vec4 encode32(highp float f) {
+            highp float F = abs(f);
+            highp float sign = f < 0.0 ? 1.0 : 0.0;
+            highp float exponent = floor(log2(F));
+            highp float mantissa = (exp2(-exponent) * F);
+            // exponent += floor(log2(mantissa));
+            vec4 rgba = vec4(F * exp2(23.0-exponent)) * SCALE_FACTOR_INV;
+            rgba.rg = integerMod(rgba.rg, 256.0);
+            rgba.b = integerMod(rgba.b, 128.0);
+            rgba.a = exponent*0.5 + 63.5;
+            rgba.ba += vec2(integerMod(exponent+127.0, 2.0), sign) * 128.0;
+            rgba = floor(rgba);
+            rgba *= 0.003921569; // 1/255
+            return rgba;
+        }
+        // Dragons end here
+
+        highp float index;
+        highp vec3 threadId;
+
+        highp vec3 indexTo3D(highp float idx, highp vec3 texDim) {
+            highp float z = floor(idx / (texDim.x * texDim.y));
+            idx -= z * texDim.x * texDim.y;
+            highp float y = floor(idx / texDim.x);
+            highp float x = integerMod(idx, texDim.x);
+            return vec3(x, y, z);
+        }
+
+        highp float get(highp sampler2D tex, highp vec2 texSize, highp vec3 texDim, highp float z, highp float y, highp float x) {
+            highp vec3 xyz = vec3(x, y, z);
+            xyz = floor(xyz + 0.5);
+            highp float index = round(xyz.x + texDim.x * (xyz.y + texDim.y * xyz.z));
+            highp float w = round(texSize.x);
+            vec2 st = vec2(integerMod(index, w), float(int(index) / int(w))) + 0.5;
+            highp vec4 texel = texture2D(tex, st / texSize);
+            return decode32(texel);
+        }
+
+        highp float get(highp sampler2D tex, highp vec2 texSize, highp vec3 texDim, highp float y, highp float x) {
+            return get(tex, texSize, texDim, 0.0, y, x);
+        }
+
+        highp float get(highp sampler2D tex, highp vec2 texSize, highp vec3 texDim, highp float x) {
+            return get(tex, texSize, texDim, 0.0, 0.0, x);
+        }
+
+        highp vec4 actualColor;
+        void color(float r, float g, float b, float a) {
+            actualColor = vec4(r,g,b,a);
+        }
+
+        void color(float r, float g, float b) {
+            color(r,g,b,1.0);
+        }
+
+        uniform highp sampler2D user_a;
+        uniform highp vec2 user_aSize;
+        uniform highp vec3 user_aDim;
+        uniform highp sampler2D user_b;
+        uniform highp vec2 user_bSize;
+        uniform highp vec3 user_bDim;
+
+        highp float kernelResult = 0.0;
+        void kernel() {
+            kernelResult = (get(user_a, vec2(user_aSize[0],user_aSize[1]), vec3(user_aDim[0],user_aDim[1],user_aDim[2]), threadId.x)+get(user_b, vec2(user_bSize[0],user_bSize[1]), vec3(user_bDim[0],user_bDim[1],user_bDim[2]), threadId.x));return;
+        }
+        void main(void) {
+            index = floor(vTexCoord.s * float(uTexSize.x)) + floor(vTexCoord.t * float(uTexSize.y)) * uTexSize.x;
+            threadId = indexTo3D(index, uOutputDim);
+            kernel();
+            gl_FragColor = encode32(kernelResult);
+        }
+
+
+		attribute vec4 position;
+    attribute vec4 inputTextureCoordinate;
+    varying vec2 textureCoordinate;
+    uniform mat4 transformMatrix;
+    uniform mat4 proMatrix;
+    void main()
+    {
+        gl_Position =proMatrix * transformMatrix * vec4(position.xyz,1.0);
+        textureCoordinate = inputTextureCoordinate.xy;
+    }
+
+
+	 precision mediump float;
+    varying vec2 textureCoordinate;
+    uniform sampler2D videoFrame;
+    void main()
+    {
+        vec4 color = texture2D(videoFrame, textureCoordinate).rgba;
+        gl_FragColor = color.rgba;
+    }
+
+
+
+	  precision mediump float;
+    uniform sampler2D inputImageTexture;
+    uniform vec2 Offset;
+    uniform vec2 inputImageSize;
+    varying vec2 blurCoordinates[%d];
+    void main()
+    {
+        lowp vec4 sum = vec4(0.0);
+        sum += texture2D(inputImageTexture, blurCoordinates[0]) * %f;
+        sum += texture2D(inputImageTexture, blurCoordinates[%lu]) * %f;
+        sum += texture2D(inputImageTexture, blurCoordinates[%lu]) * %f;
+        sum += texture2D(inputImageTexture, blurCoordinates[0] + singleStepOffset * %f) * %f;
+        sum += texture2D(inputImageTexture, blurCoordinates[0] - singleStepOffset * %f) * %f;
+        attribute vec4 position;
+        attribute vec2 inputTextureCoordinate;
+        uniform mediump vec2 Offset;
+        uniform mediump vec2 inputImageSize;
+        varying vec2 blurCoordinates[%lu];
+        void main()
+        {
+            gl_Position = position;
+            vec2 singleStepOffset = Offset / inputImageSize;
+            blurCoordinates[0] = inputTextureCoordinate.xy;
+            blurCoordinates[%lu] = inputTextureCoordinate.xy + singleStepOffset * %f;
+            blurCoordinates[%lu] = inputTextureCoordinate.xy - singleStepOffset * %f; PGHelix::GAUSSSHADER optimizedWeight < 0
+		vec2 singleStepOffset = Offset / inputImageSize;
+
+        gl_FragColor = sum;
+        }
+
+	}
+
+
+
+	 attribute vec4 position;
+            attribute vec2 inputTextureCoordinate;
+            uniform mediump vec2 Offset;
+            uniform mediump vec2 inputImageSize;
+            varying vec2 blurCoordinates[7];
+            void main()
+            {
+                gl_Position = position;
+                vec2 singleStepOffset = Offset / inputImageSize;
+                blurCoordinates[0] = inputTextureCoordinate.xy;
+                blurCoordinates[1] = inputTextureCoordinate.xy + singleStepOffset * 1.485004;
+                blurCoordinates[2] = inputTextureCoordinate.xy - singleStepOffset * 1.485004;
+                blurCoordinates[3] = inputTextureCoordinate.xy + singleStepOffset * 3.465057;
+                blurCoordinates[4] = inputTextureCoordinate.xy - singleStepOffset * 3.465057;
+                blurCoordinates[5] = inputTextureCoordinate.xy + singleStepOffset * 5.000000;
+                blurCoordinates[6] = inputTextureCoordinate.xy - singleStepOffset * 5.000000;
+
+//                blurCoordinates[7] = inputTextureCoordinate.xy + singleStepOffset * 1.407333;
+//                blurCoordinates[8] = inputTextureCoordinate.xy - singleStepOffset * 1.407333;
+            }
+
+
+
+
+
+ precision mediump float;
+            uniform sampler2D inputImageTexture;
+            varying vec2 blurCoordinates[7];
+            void main ()
+            {
+              lowp float fChannelG_1;
+              fChannelG_1 = (texture2D (inputImageTexture, blurCoordinates[0]).y * 0.109379);
+              fChannelG_1 = (fChannelG_1 + (texture2D (inputImageTexture, blurCoordinates[1]).y * 0.208183));
+              fChannelG_1 = (fChannelG_1 + (texture2D (inputImageTexture, blurCoordinates[2]).y * 0.208183));
+              fChannelG_1 = (fChannelG_1 + (texture2D (inputImageTexture, blurCoordinates[3]).y * 0.170786));
+              fChannelG_1 = (fChannelG_1 + (texture2D (inputImageTexture, blurCoordinates[4]).y * 0.170786));
+              fChannelG_1 = (fChannelG_1 + (texture2D (inputImageTexture, blurCoordinates[5]).y * 0.066342));
+              fChannelG_1 = (fChannelG_1 + (texture2D (inputImageTexture, blurCoordinates[6]).y * 0.066342));
+              lowp vec4 tmpvar_2;
+              tmpvar_2 = vec4(fChannelG_1);
+              gl_FragColor = tmpvar_2;
+            }
+
+
+			   precision mediump float;
+        varying mediump vec2 textureCoordinate;
+        uniform sampler2D videoFrame;
+        uniform vec4 watermarkRect;
+        uniform float flipped;
+        uniform float mirrored;
+
+        void main(void)
+        {
+            float left = watermarkRect.x;
+            float top = watermarkRect.y;
+            float width = watermarkRect.z;
+            float height = watermarkRect.w;
+            float bottom = 1.0 - top - height;
+            vec4 vImageColor = vec4(0.0);
+            if(textureCoordinate.x > left &&
+                textureCoordinate.x < (left + width) &&
+                textureCoordinate.y < (bottom + height) &&
+                textureCoordinate.y > bottom
+            )
+            {
+                float coordX = abs(mirrored - (textureCoordinate.x - left) / width);
+                float coordY = abs(flipped - (textureCoordinate.y - bottom) / height);
+
+                vImageColor = texture2D(videoFrame, vec2(coordX, coordY));
+            }
+            gl_FragColor = vImageColor;
+        }
+
+
+		  precision highp float;
+            precision highp sampler2D;
+            varying mediump vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+
+            uniform float redden;
+            uniform float whitening;
+            uniform float pinking;
+            const vec3 lumCoeff = vec3(0.2125, 0.7154, 0.0721);
+            const vec3 rggCoeff = vec3(0.299, 0.587, 0.114);
+
+            #define BlendSoftLightf(base, blend) ((blend < 0.5) ? (2.0 * base * blend + base * base * (1.0 - 2.0 * blend)) : (sqrt(base) * (2.0 * blend - 1.0) + 2.0 * base * (1.0 - blend)))
+            #define BlendScreenf(base, blend) (1.0 - ((1.0 - base) * (1.0 - blend)))
+            #define Blend(base, blend, funcf) vec3(funcf(base.r, blend.r), funcf(base.g, blend.g), funcf(base.b, blend.b))
+            #define BlendSoftLight(base, blend) Blend(base, blend, BlendSoftLightf)
+            #define BlendScreen(base, blend) Blend(base, blend, BlendScreenf)
+
+            vec3 SkinWhitening(vec3 inputColor, float fWhite)
+            {
+                vec3 outputColor = inputColor.rgb;
+                vec3 minus = vec3(1.0) - outputColor;
+                outputColor = vec3(1.0) - minus * minus;
+                //outputColor = BlendScreen(outputColor, inputColor.rgb);
+                float fAlpha = dot(rggCoeff, inputColor.rgb);
+                outputColor = mix(inputColor.rgb, outputColor, fWhite * fAlpha);
+                return outputColor;
+            }
+
+            vec3 SkinPinking(vec3 inputColor, float fPink)
+            {
+                vec3 pinkColor = vec3(0.705, 0.784, 0.882);
+                vec3 outputColor = inputColor.rgb;
+                outputColor = BlendSoftLight(outputColor, pinkColor);
+                float fAlpha = dot(rggCoeff, inputColor.rgb);
+                outputColor = mix(inputColor.rgb, outputColor, fPink * fAlpha);
+                return outputColor;
+            }
+
+            vec3 SkinRedden(vec3 inputColor, float fRed)
+            {
+                vec3 outputColor;
+                outputColor = BlendScreen(inputColor, inputColor.rgb);
+                outputColor = mix(inputColor, outputColor, 0.2 * fRed);
+                float gray = dot(outputColor, rggCoeff);
+                outputColor = mix(vec3(gray), outputColor, 1.0 + fRed);
+
+                inputColor = outputColor;
+
+                vec3 clearColor = mix(inputColor.rgg, inputColor, 0.5);
+                float fAlpha = dot(clearColor, rggCoeff);
+                outputColor = BlendSoftLight(clearColor, vec3(1.0));
+                outputColor = mix(clearColor, outputColor, fAlpha);
+                outputColor = mix(inputColor.rgb, outputColor, fRed * fAlpha);
+                return outputColor;
+            }
+
+
+			 void main(void)
+            {
+
+                vec4 vImageColor = texture2D(videoFrame, textureCoordinate);
+
+                vec4 vSoftColor = vImageColor;
+                vSoftColor.a = 1.0;
+
+                if(whitening != 0.0)
+                {
+                    vSoftColor.rgb = SkinWhitening(vSoftColor.rgb, whitening);
+                    vSoftColor.rgb = clamp(vSoftColor.rgb, 0.0, 1.0);
+                }
+
+                if (redden != 0.0)
+                {
+                    vSoftColor.rgb = SkinRedden(vSoftColor.rgb, redden);
+                    vSoftColor.rgb = clamp(vSoftColor.rgb, 0.0, 1.0);
+                }
+
+                if (pinking != 0.0)
+                {
+                    vSoftColor.rgb = SkinPinking(vSoftColor.rgb, pinking);
+                    vSoftColor.rgb = clamp(vSoftColor.rgb, 0.0, 1.0);
+                }
+
+                gl_FragColor = vSoftColor;
+            }
+
+
+			varying mediump vec2 textureCoordinate;
+			uniform sampler2D videoFrame;
+			uniform sampler2D ColorBalance0;
+			uniform sampler2D vignettingFrame;
+			uniform mediump vec2 ImageSize;
+			void main()
+			{
+			mediump vec3 clA=texture2D(videoFrame, textureCoordinate).rgb;
+			clA.r=0.0;
+			clA.g=0.5;
+			clA.b=1.0;
+			gl_FragColor=vec4(clA.bgr,1.0);
+			}
+
+
+
+			attribute vec4 position;
+			attribute vec4 inputTextureCoordinate;
+			varying vec2 textureCoordinate;
+			void main()
+			{
+			gl_Position = position;
+			textureCoordinate = inputTextureCoordinate.xy;
+			}
+
+			precision mediump float;
+uniform sampler2D inputImageTexture;
+uniform vec2 Offset;
+uniform vec2 inputImageSize;
+varying vec2 blurCoordinates[%d];
+void main()
+{
+    lowp vec4 sum = vec4(0.0);
+    sum += texture2D(inputImageTexture, blurCoordinates[0]) * %f;
+    sum += texture2D(inputImageTexture, blurCoordinates[%lu]) * %f;
+    sum += texture2D(inputImageTexture, blurCoordinates[%lu]) * %f;
+    sum += texture2D(inputImageTexture, blurCoordinates[0] + singleStepOffset * %f) * %f;
+    sum += texture2D(inputImageTexture, blurCoordinates[0] - singleStepOffset * %f) * %f;
+attribute vec4 position;
+attribute vec4 inputTextureCoordinate;
+uniform mediump vec2 Offset;
+uniform mediump vec2 inputImageSize;
+varying vec2 blurCoordinates[%lu];
+void main()
+{
+    gl_Position = position;
+    vec2 singleStepOffset = Offset / inputImageSize;
+    blurCoordinates[0] = inputTextureCoordinate.xy;
+    blurCoordinates[%lu] = inputTextureCoordinate.xy + singleStepOffset * %f;
+    blurCoordinates[%lu] = inputTextureCoordinate.xy - singleStepOffset * %f;
+    gl_FragColor = sum;
+    }
+
+
+
+
+
+	           precision mediump float;
+            varying mediump vec2 textureCoordinate;
+            uniform sampler2D videoFrame;
+            uniform sampler2D blendTexture;
+            uniform float blendOpacity;
+            uniform highp int blendMode;
+            void main ()
+            {
+              lowp vec3 resultColor_1;
+              lowp vec4 tmpvar_2;
+              tmpvar_2 = texture2D (blendTexture, textureCoordinate);
+              lowp vec4 tmpvar_3;
+              tmpvar_3 = texture2D (videoFrame, textureCoordinate);
+              resultColor_1 = vec3(0.0, 0.0, 0.0);
+
+
+              if ((blendMode == 1)) {
+                resultColor_1 = mix (tmpvar_3.xyz, tmpvar_2.xyz, (blendOpacity * tmpvar_2.w));
+              } else {
+                if ((blendMode == 2)) {
+                  resultColor_1 = mix (tmpvar_3.xyz, (vec3(1.0, 1.0, 1.0) - (
+                    (vec3(1.0, 1.0, 1.0) - tmpvar_3.xyz)
+                   *
+                    (vec3(1.0, 1.0, 1.0) - tmpvar_2.xyz)
+                  )), (blendOpacity * tmpvar_2.w));
+                } else {
+                  if ((blendMode == 3)) {
+                    resultColor_1 = mix (tmpvar_3.xyz, abs((tmpvar_3.xyz - tmpvar_2.xyz)), (blendOpacity * tmpvar_2.w));
+                  } else {
+                    if ((blendMode == 4)) {
+                      resultColor_1 = mix (tmpvar_3.xyz, (tmpvar_3.xyz * tmpvar_2.xyz), (blendOpacity * tmpvar_2.w));
+                    } else {
+                      if ((blendMode == 5)) {
+                        lowp float tmpvar_4;
+                        if ((tmpvar_3.x < 0.5)) {
+                          tmpvar_4 = ((2.0 * tmpvar_3.x) * tmpvar_2.x);
+                        } else {
+                          tmpvar_4 = (1.0 - ((2.0 *
+                            (1.0 - tmpvar_3.x)
+                          ) * (1.0 - tmpvar_2.x)));
+                        };
+                        lowp float tmpvar_5;
+                        if ((tmpvar_3.y < 0.5)) {
+                          tmpvar_5 = ((2.0 * tmpvar_3.y) * tmpvar_2.y);
+                        } else {
+                          tmpvar_5 = (1.0 - ((2.0 *
+                            (1.0 - tmpvar_3.y)
+                          ) * (1.0 - tmpvar_2.y)));
+                        };
+                        lowp float tmpvar_6;
+                        if ((tmpvar_3.z < 0.5)) {
+                          tmpvar_6 = ((2.0 * tmpvar_3.z) * tmpvar_2.z);
+                        } else {
+                          tmpvar_6 = (1.0 - ((2.0 *
+                            (1.0 - tmpvar_3.z)
+                          ) * (1.0 - tmpvar_2.z)));
+                        };
+                        lowp vec3 tmpvar_7;
+                        tmpvar_7.x = tmpvar_4;
+                        tmpvar_7.y = tmpvar_5;
+                        tmpvar_7.z = tmpvar_6;
+                        resultColor_1 = mix (tmpvar_3.xyz, tmpvar_7, (blendOpacity * tmpvar_2.w));
+                      };
+                    };
+                  };
+                };
+              };
+
+
+              lowp vec4 tmpvar_8;
+              tmpvar_8.w = 1.0;
+              tmpvar_8.xyz = resultColor_1;
+              gl_FragColor = tmpvar_8;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

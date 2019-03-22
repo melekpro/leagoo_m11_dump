@@ -1,0 +1,9 @@
+md1dsp.img md1dsp
+tee.img tee1 tee2
+lk.img bootloader bootloader2
+loader_ext.img loader_ext1 loader_ext2
+mcupmfw.img mcupmfw
+odmdtbo.img odmdtbo
+md1img.img md1img
+spmfw.img spmfw
+preloader.img preloader preloader2
